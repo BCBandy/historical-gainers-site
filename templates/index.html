@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Stock Gainers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Top Stock Gainers</h1>
+    <table id="gainers-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Symbol</th>
+                <th>Percent Gain</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script>
+        // Fetch data from the API
+        window.onload = function() {
+        fetch('/api/top-gainers')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);  // Check if data is being received correctly
+                const tableBody = document.getElementById('gainers-table').querySelector('tbody');
+                data.forEach(stock => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td>`;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+        };
+
+    </script>
+</body>
+</html>

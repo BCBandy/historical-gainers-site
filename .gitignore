@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+.pytest_cache
+*.log
+*.csv
+*.json
+*.ssms_suo
+*.ssmssqlproj
+*.ssmssln
+*cnsfails*
+*.xlsx

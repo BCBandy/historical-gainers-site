@@ -1,0 +1,5 @@
+add filter by
+    pct gain
+    stock symbol
+    price?, issues with splits
+    date range
