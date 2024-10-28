@@ -7,35 +7,135 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Top Stock Gainers</h1>
-    <table id="gainers-table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Symbol</th>
-                <th>Percent Gain</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <main>
+        <h1>Top Stock Gainers</h1>
+        
+        <table id="gainers-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Symbol</th>
+                    <th>Percent Gain</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <div class="pagination-container">
+        <div id="rows-per-page-div">
+            <label for="rows-per-page">Rows per page:</label>
+                <select id="rows-per-page">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20" selected>20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+        </div>
+        <!-- Pagination Controls -->
+        <div id="pagination-controls">
+            <button onclick="prevPage()" id="prev-btn" disabled>Previous</button>
+            <span id="page-info"></span>
+            <button onclick="nextPage()" id="next-btn">Next</button>
+        </div>  
+    </div>
+    
+
+    <button id="jump-to-top">Jump to Top</button>
 
     <script>
-        // Fetch data from the API
-        window.onload = function() {
-        fetch('/api/top-gainers')
-            .then(response => response.json())
-            .then(data => {
-                console.log(data);  // Check if data is being received correctly
+        let rowsPerPage = 20; // Number of rows per page
+        let allStocks = []; // Array to hold all stock data
+        let currentPage = 1; // Current page number
+
+        // Fetch all stocks initially
+        function fetchStocks() {
+            fetch('static/top_gainers.json') // Data source
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data)
+                    allStocks = data; // Store all stocks
+                    displayPage(currentPage); // Display the first page
+                    updatePaginationControls(); // Update pagination controls
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        }
+
+        // Function to display the stocks for the current page
+        function displayPage(page) {
+            const container = document.getElementById('gainers-table').querySelector('tbody');
+            container.innerHTML = ''; // Clear previous stocks
+
+            // Calculate start and end index based on page and rows per page
+            const start = (page - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const stocksToShow = allStocks.slice(start, end);
+
+            // Display the stocks for the current page
+            stocksToShow.forEach(stock => {
                 const tableBody = document.getElementById('gainers-table').querySelector('tbody');
-                data.forEach(stock => {
-                    const row = document.createElement('tr');
-                    row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td>`;
-                    tableBody.appendChild(row);
-                });
-            })
-            .catch(error => console.error('Error loading data:', error));
-        };
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td>`;
+                tableBody.appendChild(row);
+                
+            });
+
+            // Update page info
+            document.getElementById('page-info').textContent = `Page ${page} of ${Math.ceil(allStocks.length / rowsPerPage)}`;
+        }
+
+        // Function to update pagination controls
+        function updatePaginationControls() {
+            document.getElementById('prev-btn').disabled = currentPage === 1;
+            document.getElementById('next-btn').disabled = currentPage === Math.ceil(allStocks.length / rowsPerPage);
+        }
+
+        // Go to the previous page
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                displayPage(currentPage);
+                updatePaginationControls();
+            }
+        }
+
+        // Go to the next page
+        function nextPage() {
+            if (currentPage < Math.ceil(allStocks.length / rowsPerPage)) {
+                currentPage++;
+                displayPage(currentPage);
+                updatePaginationControls();
+            }
+        }
+
+        // Fetch data on page load
+        fetchStocks();
+
+        // Jump to Top button functionality
+        const jumpToTopButton = document.getElementById('jump-to-top');
+        jumpToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+        });
+
+        // Show/Hide Jump to Top button based on scroll position
+        window.addEventListener('scroll', () => {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                jumpToTopButton.style.display = 'block'; // Show button
+            } else {
+                jumpToTopButton.style.display = 'none'; // Hide button
+            }
+        });
+
+        // Event listener for rows per page selection
+        document.getElementById('rows-per-page').addEventListener('change', (event) => {
+            rowsPerPage = parseInt(event.target.value); // Update items per page
+            currentPage = 1; // Reset to first page
+            displayPage(currentPage); // Display the first page
+            updatePaginationControls(); // Update pagination controls
+        });
 
     </script>
+ 
 </body>
 </html>

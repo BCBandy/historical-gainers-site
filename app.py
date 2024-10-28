@@ -32,13 +32,9 @@ def top_gainers():
         ).order_by(Daily.date.desc()).limit(100).all()
     # Convert data to JSON format for the front end
     data = [{"Date": stock.date, "symbol": stock.symbol, "percent_gain": stock.percent_gain} for stock in gainers]
+    
     return jsonify(data)
 
-
-
-    # Convert query result to JSON format for the frontend
-    data = [{"symbol": g.symbol, "percent_gain": round(g.percent_gain, 2)} for g in gainers]
-    return jsonify(data)
 
 
 @app.route('/')
