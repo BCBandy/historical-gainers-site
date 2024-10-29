@@ -7,46 +7,79 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <main>
+    <header>
         <h1>Top Stock Gainers</h1>
-        
-        <table id="gainers-table">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Symbol</th>
-                    <th>Percent Gain</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </main>
+    </header>
 
-    <div class="pagination-container">
-        <div id="rows-per-page-div">
-            <label for="rows-per-page">Rows per page:</label>
-                <select id="rows-per-page">
-                    <option value="5">5</option>
-                    <option value="10">10</option>
-                    <option value="20" selected>20</option>
-                    <option value="50">50</option>
-                    <option value="100">100</option>
-                </select>
+    <main>
+        <div class="gainers-container">
+            <!-- Sidebar for filters -->
+            <aside class="sidebar">
+                <h2>Filters</h2>
+                <div class="form-group">
+                    <label for="symbol-filter">Symbol:</label>
+                    <input type="text" id="symbol-filter" placeholder="e.g., GME" />
+                </div>
+                <div class="form-group">
+                    <label for="pct-gain-filter">Min %:</label>
+                    <input type="number" id="pct-gain-filter" placeholder="e.g., 50" />
+                </div>
+                <div class="form-group">
+                    <label for="min-date-filter">Min Date:</label>
+                    <input type="date" id="min-date-filter" placeholder="e.g., 1-1-2020" />
+                </div>
+                <div class="form-group">
+                    <label for="max-date-filter">Max Date:</label>
+                    <input type="date" id="max-date-filter" placeholder="e.g., 1-1-2021" />
+                </div>
+                <div class="filter-buttons">
+                    <button id="clear-filter">X</button>
+                    <button id="apply-filter">Apply Filter</button>
+                </div>
+                
+            </aside>
+
+            <div class="gainers-table-group">
+                <table id="gainers-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Symbol</th>
+                            <th>Percent Gain</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <div class="pagination-container">
+                    <div id="rows-per-page-div">
+                        <label for="rows-per-page">Rows per page:</label>
+                            <select id="rows-per-page">
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                                <option value="20" selected>20</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                            </select>
+                    </div>
+
+                    <!-- Pagination Controls -->
+                    <div id="pagination-controls">
+                        <button onclick="prevPage()" id="prev-btn" disabled>Previous</button>
+                        <span id="page-info"></span>
+                        <button onclick="nextPage()" id="next-btn">Next</button>
+                    </div>  
+                </div>
+            </div>
         </div>
-        <!-- Pagination Controls -->
-        <div id="pagination-controls">
-            <button onclick="prevPage()" id="prev-btn" disabled>Previous</button>
-            <span id="page-info"></span>
-            <button onclick="nextPage()" id="next-btn">Next</button>
-        </div>  
-    </div>
-    
+    </main>
 
     <button id="jump-to-top">Jump to Top</button>
 
     <script>
         let rowsPerPage = 20; // Number of rows per page
         let allStocks = []; // Array to hold all stock data
+        let filteredStocks = []; // Array to hold all filtered stock data
         let currentPage = 1; // Current page number
 
         // Fetch all stocks initially
@@ -54,8 +87,8 @@
             fetch('static/top_gainers.json') // Data source
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data)
                     allStocks = data; // Store all stocks
+                    filteredStocks = data;
                     displayPage(currentPage); // Display the first page
                     updatePaginationControls(); // Update pagination controls
                 })
@@ -70,7 +103,7 @@
             // Calculate start and end index based on page and rows per page
             const start = (page - 1) * rowsPerPage;
             const end = start + rowsPerPage;
-            const stocksToShow = allStocks.slice(start, end);
+            const stocksToShow = filteredStocks.slice(start, end);
 
             // Display the stocks for the current page
             stocksToShow.forEach(stock => {
@@ -82,13 +115,16 @@
             });
 
             // Update page info
-            document.getElementById('page-info').textContent = `Page ${page} of ${Math.ceil(allStocks.length / rowsPerPage)}`;
+            document.getElementById('page-info').textContent = `Page ${page} of ${Math.ceil(filteredStocks.length / rowsPerPage)}`;
         }
+
+        // Fetch data on page load
+        fetchStocks();
 
         // Function to update pagination controls
         function updatePaginationControls() {
             document.getElementById('prev-btn').disabled = currentPage === 1;
-            document.getElementById('next-btn').disabled = currentPage === Math.ceil(allStocks.length / rowsPerPage);
+            document.getElementById('next-btn').disabled = currentPage === Math.ceil(filteredStocks.length / rowsPerPage);
         }
 
         // Go to the previous page
@@ -102,15 +138,36 @@
 
         // Go to the next page
         function nextPage() {
-            if (currentPage < Math.ceil(allStocks.length / rowsPerPage)) {
+            if (currentPage < Math.ceil(filteredStocks.length / rowsPerPage)) {
                 currentPage++;
                 displayPage(currentPage);
                 updatePaginationControls();
             }
         }
 
-        // Fetch data on page load
-        fetchStocks();
+        function applyFilter(){
+            const symbol = document.getElementById('symbol-filter').value;
+            const minPctGain = parseFloat(document.getElementById('pct-gain-filter').value) || 0;
+            const minDate = document.getElementById('min-date-filter').value;
+            const maxDate = document.getElementById('max-date-filter').value;
+            const minDateDate = minDate ? new Date(minDate) : null;
+            const maxDateDate = maxDate ? new Date(maxDate) : null;
+ 
+            filteredStocks = allStocks.filter(stock => {
+                // Check each filter condition only if the input has a value
+                const symbolCondition = symbol ? stock.symbol == symbol : true;
+                const pctGainCondition = minPctGain ? stock.percent_gain >= minPctGain : true;
+                const minDateCondition = minDateDate ? new Date(stock.Date) >= minDateDate : true;
+                const maxDateCondition = maxDateDate ? new Date(stock.Date) <= maxDateDate : true;
+
+                // Only stocks meeting all active conditions are included
+                return symbolCondition && pctGainCondition && minDateCondition && maxDateCondition;
+            });
+            console.log(maxDate)
+            currentPage = 1; // Reset to the first page after applying filter
+            displayPage(currentPage); 
+            updatePaginationControls(); 
+        }
 
         // Jump to Top button functionality
         const jumpToTopButton = document.getElementById('jump-to-top');
@@ -133,6 +190,28 @@
             currentPage = 1; // Reset to first page
             displayPage(currentPage); // Display the first page
             updatePaginationControls(); // Update pagination controls
+        });
+
+        // Filter by percentage gain
+        document.getElementById('apply-filter').addEventListener('click', () => {
+            applyFilter()
+        });
+
+        // Filter by percentage gain
+        document.getElementById('clear-filter').addEventListener('click', () => {
+            const symbolFilter = document.getElementById('symbol-filter');
+            const pctGainFilter = document.getElementById('pct-gain-filter');
+            const minDateFilter = document.getElementById('min-date-filter');
+            const maxDateFilter = document.getElementById('max-date-filter');
+
+            // Reset all filter input fields
+            symbolFilter.value = null;
+            pctGainFilter.value = null;
+            minDateFilter.value = null;
+            maxDateFilter.value = null;
+
+            // Display the unfiltered stock list
+            applyFilter()
         });
 
     </script>

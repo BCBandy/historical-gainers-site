@@ -34,7 +34,7 @@ def top_gainers():
         Daily.volume > 20 * 1000000,
         Daily.open > 0,
         (Daily.high + Daily.low) / 2 * Daily.volume > 5 * 1000000
-    ).order_by(Daily.date.desc()).limit(100).all()
+    ).order_by(Daily.date.desc()).limit(500).all()
 
     # Convert data to JSON format for the front end
     data = [{"Date": stock.date, "symbol": stock.symbol, "percent_gain": stock.percent_gain} for stock in gainers]
