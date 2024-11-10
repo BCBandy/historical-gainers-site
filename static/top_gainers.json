@@ -1,5 +1,5420 @@
 [
     {
+        "symbol": "NMHI",
+        "Date": "2024-11-07",
+        "percent_gain": 319.85
+    },
+    {
+        "symbol": "CELU",
+        "Date": "2024-11-07",
+        "percent_gain": 47.04
+    },
+    {
+        "symbol": "WBUY",
+        "Date": "2024-11-07",
+        "percent_gain": 140.54
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-11-07",
+        "percent_gain": 73.91
+    },
+    {
+        "symbol": "ATCH",
+        "Date": "2024-11-07",
+        "percent_gain": 81.34
+    },
+    {
+        "symbol": "ENSC",
+        "Date": "2024-11-07",
+        "percent_gain": 33.97
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-11-07",
+        "percent_gain": 60.2
+    },
+    {
+        "symbol": "DBGI",
+        "Date": "2024-11-07",
+        "percent_gain": 27.19
+    },
+    {
+        "symbol": "UAA",
+        "Date": "2024-11-07",
+        "percent_gain": 22.83
+    },
+    {
+        "symbol": "NOVA",
+        "Date": "2024-11-07",
+        "percent_gain": 25.8
+    },
+    {
+        "symbol": "TIGR",
+        "Date": "2024-11-07",
+        "percent_gain": 22.35
+    },
+    {
+        "symbol": "CYN",
+        "Date": "2024-11-07",
+        "percent_gain": 26.52
+    },
+    {
+        "symbol": "APPS",
+        "Date": "2024-11-07",
+        "percent_gain": 34.93
+    },
+    {
+        "symbol": "COMM",
+        "Date": "2024-11-07",
+        "percent_gain": 29.36
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-11-07",
+        "percent_gain": 25.47
+    },
+    {
+        "symbol": "MDJH",
+        "Date": "2024-11-07",
+        "percent_gain": 31.22
+    },
+    {
+        "symbol": "TRNR",
+        "Date": "2024-11-07",
+        "percent_gain": 43.21
+    },
+    {
+        "symbol": "FOXO",
+        "Date": "2024-11-06",
+        "percent_gain": 187.5
+    },
+    {
+        "symbol": "CDIO",
+        "Date": "2024-11-06",
+        "percent_gain": 22.22
+    },
+    {
+        "symbol": "SGBX",
+        "Date": "2024-11-06",
+        "percent_gain": 110.53
+    },
+    {
+        "symbol": "TMQ",
+        "Date": "2024-11-06",
+        "percent_gain": 26.47
+    },
+    {
+        "symbol": "ARBB",
+        "Date": "2024-11-06",
+        "percent_gain": 23.89
+    },
+    {
+        "symbol": "EFSH",
+        "Date": "2024-11-06",
+        "percent_gain": 40.53
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-11-06",
+        "percent_gain": 21.79
+    },
+    {
+        "symbol": "NOVA",
+        "Date": "2024-11-06",
+        "percent_gain": 48.77
+    },
+    {
+        "symbol": "DATS",
+        "Date": "2024-11-06",
+        "percent_gain": 79.1
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-11-06",
+        "percent_gain": 65.26
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-11-06",
+        "percent_gain": 22.74
+    },
+    {
+        "symbol": "AREB",
+        "Date": "2024-11-06",
+        "percent_gain": 30.27
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-11-06",
+        "percent_gain": 21.72
+    },
+    {
+        "symbol": "RUN",
+        "Date": "2024-11-06",
+        "percent_gain": 24.14
+    },
+    {
+        "symbol": "SONN",
+        "Date": "2024-11-06",
+        "percent_gain": 171.54
+    },
+    {
+        "symbol": "ZCAR",
+        "Date": "2024-11-05",
+        "percent_gain": 112.45
+    },
+    {
+        "symbol": "BJDX",
+        "Date": "2024-11-05",
+        "percent_gain": 170.95
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-11-05",
+        "percent_gain": 86.14
+    },
+    {
+        "symbol": "LUXH",
+        "Date": "2024-11-05",
+        "percent_gain": 26.98
+    },
+    {
+        "symbol": "ZVSA",
+        "Date": "2024-11-05",
+        "percent_gain": 118.83
+    },
+    {
+        "symbol": "BNOX",
+        "Date": "2024-11-05",
+        "percent_gain": 121.87
+    },
+    {
+        "symbol": "SPPL",
+        "Date": "2024-11-05",
+        "percent_gain": 36.76
+    },
+    {
+        "symbol": "ALBT",
+        "Date": "2024-11-05",
+        "percent_gain": 54.28
+    },
+    {
+        "symbol": "PLUG",
+        "Date": "2024-11-05",
+        "percent_gain": 32.99
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-11-05",
+        "percent_gain": 23.35
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-11-05",
+        "percent_gain": 46.07
+    },
+    {
+        "symbol": "AGFY",
+        "Date": "2024-11-05",
+        "percent_gain": 30.86
+    },
+    {
+        "symbol": "NUWE",
+        "Date": "2024-11-04",
+        "percent_gain": 127.72
+    },
+    {
+        "symbol": "HRYU",
+        "Date": "2024-11-04",
+        "percent_gain": 24.96
+    },
+    {
+        "symbol": "IDAI",
+        "Date": "2024-11-04",
+        "percent_gain": 54.83
+    },
+    {
+        "symbol": "TNYA",
+        "Date": "2024-11-04",
+        "percent_gain": 29.11
+    },
+    {
+        "symbol": "STAF",
+        "Date": "2024-11-04",
+        "percent_gain": 30.69
+    },
+    {
+        "symbol": "CTM",
+        "Date": "2024-11-04",
+        "percent_gain": 36.51
+    },
+    {
+        "symbol": "ADN",
+        "Date": "2024-11-04",
+        "percent_gain": 21.35
+    },
+    {
+        "symbol": "GOEV",
+        "Date": "2024-11-04",
+        "percent_gain": 32.72
+    },
+    {
+        "symbol": "VSTE",
+        "Date": "2024-11-04",
+        "percent_gain": 43.28
+    },
+    {
+        "symbol": "VKTX",
+        "Date": "2024-11-04",
+        "percent_gain": 22.39
+    },
+    {
+        "symbol": "ICCT",
+        "Date": "2024-11-01",
+        "percent_gain": 122.34
+    },
+    {
+        "symbol": "DBGI",
+        "Date": "2024-11-01",
+        "percent_gain": 57.6
+    },
+    {
+        "symbol": "GRI",
+        "Date": "2024-11-01",
+        "percent_gain": 29.81
+    },
+    {
+        "symbol": "HOLO",
+        "Date": "2024-11-01",
+        "percent_gain": 31.32
+    },
+    {
+        "symbol": "ENSC",
+        "Date": "2024-11-01",
+        "percent_gain": 50.41
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-11-01",
+        "percent_gain": 27.9
+    },
+    {
+        "symbol": "TOVX",
+        "Date": "2024-11-01",
+        "percent_gain": 27.54
+    },
+    {
+        "symbol": "ASPI",
+        "Date": "2024-11-01",
+        "percent_gain": 35.89
+    },
+    {
+        "symbol": "APLD",
+        "Date": "2024-11-01",
+        "percent_gain": 21.36
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-11-01",
+        "percent_gain": 98.51
+    },
+    {
+        "symbol": "FUBO",
+        "Date": "2024-11-01",
+        "percent_gain": 20.69
+    },
+    {
+        "symbol": "BFRI",
+        "Date": "2024-10-31",
+        "percent_gain": 103.67
+    },
+    {
+        "symbol": "STEC",
+        "Date": "2024-10-31",
+        "percent_gain": 42.11
+    },
+    {
+        "symbol": "PTON",
+        "Date": "2024-10-31",
+        "percent_gain": 23.03
+    },
+    {
+        "symbol": "LUXH",
+        "Date": "2024-10-31",
+        "percent_gain": 30.96
+    },
+    {
+        "symbol": "EFSH",
+        "Date": "2024-10-31",
+        "percent_gain": 54.04
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-10-31",
+        "percent_gain": 43.52
+    },
+    {
+        "symbol": "VSTE",
+        "Date": "2024-10-30",
+        "percent_gain": 38.0
+    },
+    {
+        "symbol": "MAXN",
+        "Date": "2024-10-30",
+        "percent_gain": 21.3
+    },
+    {
+        "symbol": "VERO",
+        "Date": "2024-10-30",
+        "percent_gain": 52.2
+    },
+    {
+        "symbol": "ENSC",
+        "Date": "2024-10-30",
+        "percent_gain": 35.42
+    },
+    {
+        "symbol": "GLYC",
+        "Date": "2024-10-30",
+        "percent_gain": 31.73
+    },
+    {
+        "symbol": "JFBR",
+        "Date": "2024-10-30",
+        "percent_gain": 24.31
+    },
+    {
+        "symbol": "THAR",
+        "Date": "2024-10-30",
+        "percent_gain": 124.21
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-10-30",
+        "percent_gain": 30.54
+    },
+    {
+        "symbol": "ASPI",
+        "Date": "2024-10-30",
+        "percent_gain": 32.05
+    },
+    {
+        "symbol": "OKLO",
+        "Date": "2024-10-30",
+        "percent_gain": 25.2
+    },
+    {
+        "symbol": "HAO",
+        "Date": "2024-10-30",
+        "percent_gain": 28.3
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-10-30",
+        "percent_gain": 41.11
+    },
+    {
+        "symbol": "STI",
+        "Date": "2024-10-30",
+        "percent_gain": 42.86
+    },
+    {
+        "symbol": "HOOD",
+        "Date": "2024-10-30",
+        "percent_gain": 21.65
+    },
+    {
+        "symbol": "GLYC",
+        "Date": "2024-10-29",
+        "percent_gain": 38.01
+    },
+    {
+        "symbol": "BKYI",
+        "Date": "2024-10-29",
+        "percent_gain": 56.0
+    },
+    {
+        "symbol": "SHPH",
+        "Date": "2024-10-29",
+        "percent_gain": 25.0
+    },
+    {
+        "symbol": "CETX",
+        "Date": "2024-10-29",
+        "percent_gain": 20.37
+    },
+    {
+        "symbol": "LAC",
+        "Date": "2024-10-29",
+        "percent_gain": 26.52
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-10-29",
+        "percent_gain": 50.29
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-10-29",
+        "percent_gain": 36.6
+    },
+    {
+        "symbol": "JBLU",
+        "Date": "2024-10-29",
+        "percent_gain": 20.52
+    },
+    {
+        "symbol": "HRYU",
+        "Date": "2024-10-28",
+        "percent_gain": 196.79
+    },
+    {
+        "symbol": "GNLN",
+        "Date": "2024-10-28",
+        "percent_gain": 44.02
+    },
+    {
+        "symbol": "GLUE",
+        "Date": "2024-10-28",
+        "percent_gain": 32.34
+    },
+    {
+        "symbol": "HCTI",
+        "Date": "2024-10-28",
+        "percent_gain": 57.02
+    },
+    {
+        "symbol": "GMM",
+        "Date": "2024-10-28",
+        "percent_gain": 91.26
+    },
+    {
+        "symbol": "TWG",
+        "Date": "2024-10-28",
+        "percent_gain": 36.04
+    },
+    {
+        "symbol": "IBRX",
+        "Date": "2024-10-28",
+        "percent_gain": 21.57
+    },
+    {
+        "symbol": "EVOK",
+        "Date": "2024-10-28",
+        "percent_gain": 95.55
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-10-28",
+        "percent_gain": 40.55
+    },
+    {
+        "symbol": "ARBB",
+        "Date": "2024-10-25",
+        "percent_gain": 33.83
+    },
+    {
+        "symbol": "ITRM",
+        "Date": "2024-10-25",
+        "percent_gain": 62.24
+    },
+    {
+        "symbol": "UPXI",
+        "Date": "2024-10-25",
+        "percent_gain": 136.4
+    },
+    {
+        "symbol": "MRNS",
+        "Date": "2024-10-25",
+        "percent_gain": 23.16
+    },
+    {
+        "symbol": "IBRX",
+        "Date": "2024-10-25",
+        "percent_gain": 21.23
+    },
+    {
+        "symbol": "EDBL",
+        "Date": "2024-10-25",
+        "percent_gain": 66.91
+    },
+    {
+        "symbol": "XPON",
+        "Date": "2024-10-25",
+        "percent_gain": 30.17
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-10-25",
+        "percent_gain": 85.86
+    },
+    {
+        "symbol": "TWG",
+        "Date": "2024-10-25",
+        "percent_gain": 986.9
+    },
+    {
+        "symbol": "SGBX",
+        "Date": "2024-10-25",
+        "percent_gain": 22.02
+    },
+    {
+        "symbol": "TC",
+        "Date": "2024-10-24",
+        "percent_gain": 200.7
+    },
+    {
+        "symbol": "EFSH",
+        "Date": "2024-10-24",
+        "percent_gain": 146.24
+    },
+    {
+        "symbol": "LGCB",
+        "Date": "2024-10-24",
+        "percent_gain": 69.8
+    },
+    {
+        "symbol": "NXU",
+        "Date": "2024-10-24",
+        "percent_gain": 52.4
+    },
+    {
+        "symbol": "CCTG",
+        "Date": "2024-10-24",
+        "percent_gain": 32.08
+    },
+    {
+        "symbol": "MRNS",
+        "Date": "2024-10-24",
+        "percent_gain": 28.31
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-10-24",
+        "percent_gain": 21.7
+    },
+    {
+        "symbol": "ZENA",
+        "Date": "2024-10-24",
+        "percent_gain": 32.58
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-10-24",
+        "percent_gain": 39.94
+    },
+    {
+        "symbol": "UAVS",
+        "Date": "2024-10-23",
+        "percent_gain": 130.81
+    },
+    {
+        "symbol": "LRHC",
+        "Date": "2024-10-23",
+        "percent_gain": 71.15
+    },
+    {
+        "symbol": "LGMK",
+        "Date": "2024-10-23",
+        "percent_gain": 51.21
+    },
+    {
+        "symbol": "SAVE",
+        "Date": "2024-10-23",
+        "percent_gain": 32.02
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-10-23",
+        "percent_gain": 154.05
+    },
+    {
+        "symbol": "OKLO",
+        "Date": "2024-10-23",
+        "percent_gain": 24.03
+    },
+    {
+        "symbol": "BIVI",
+        "Date": "2024-10-23",
+        "percent_gain": 65.31
+    },
+    {
+        "symbol": "VRAX",
+        "Date": "2024-10-23",
+        "percent_gain": 40.86
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-10-23",
+        "percent_gain": 27.44
+    },
+    {
+        "symbol": "DBVT",
+        "Date": "2024-10-23",
+        "percent_gain": 30.15
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-10-23",
+        "percent_gain": 72.17
+    },
+    {
+        "symbol": "XXII",
+        "Date": "2024-10-23",
+        "percent_gain": 30.84
+    },
+    {
+        "symbol": "NCNC",
+        "Date": "2024-10-22",
+        "percent_gain": 176.72
+    },
+    {
+        "symbol": "DBGI",
+        "Date": "2024-10-22",
+        "percent_gain": 139.27
+    },
+    {
+        "symbol": "APVO",
+        "Date": "2024-10-22",
+        "percent_gain": 87.07
+    },
+    {
+        "symbol": "CYCC",
+        "Date": "2024-10-22",
+        "percent_gain": 134.91
+    },
+    {
+        "symbol": "ENSC",
+        "Date": "2024-10-22",
+        "percent_gain": 104.79
+    },
+    {
+        "symbol": "TRNR",
+        "Date": "2024-10-22",
+        "percent_gain": 38.53
+    },
+    {
+        "symbol": "EDBL",
+        "Date": "2024-10-22",
+        "percent_gain": 32.66
+    },
+    {
+        "symbol": "BIVI",
+        "Date": "2024-10-22",
+        "percent_gain": 42.02
+    },
+    {
+        "symbol": "GNPX",
+        "Date": "2024-10-22",
+        "percent_gain": 49.81
+    },
+    {
+        "symbol": "IVP",
+        "Date": "2024-10-22",
+        "percent_gain": 40.93
+    },
+    {
+        "symbol": "HYZN",
+        "Date": "2024-10-22",
+        "percent_gain": 55.35
+    },
+    {
+        "symbol": "OKLO",
+        "Date": "2024-10-22",
+        "percent_gain": 22.95
+    },
+    {
+        "symbol": "IVP",
+        "Date": "2024-10-21",
+        "percent_gain": 160.95
+    },
+    {
+        "symbol": "NITO",
+        "Date": "2024-10-21",
+        "percent_gain": 82.14
+    },
+    {
+        "symbol": "INAB",
+        "Date": "2024-10-21",
+        "percent_gain": 69.7
+    },
+    {
+        "symbol": "APVO",
+        "Date": "2024-10-21",
+        "percent_gain": 27.43
+    },
+    {
+        "symbol": "BIVI",
+        "Date": "2024-10-21",
+        "percent_gain": 123.21
+    },
+    {
+        "symbol": "NCI",
+        "Date": "2024-10-21",
+        "percent_gain": 103.62
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-10-21",
+        "percent_gain": 30.43
+    },
+    {
+        "symbol": "LGMK",
+        "Date": "2024-10-21",
+        "percent_gain": 41.11
+    },
+    {
+        "symbol": "SAVE",
+        "Date": "2024-10-21",
+        "percent_gain": 20.38
+    },
+    {
+        "symbol": "SYTA",
+        "Date": "2024-10-21",
+        "percent_gain": 133.6
+    },
+    {
+        "symbol": "GRI",
+        "Date": "2024-10-21",
+        "percent_gain": 84.54
+    },
+    {
+        "symbol": "LUMN",
+        "Date": "2024-10-21",
+        "percent_gain": 26.92
+    },
+    {
+        "symbol": "EFSH",
+        "Date": "2024-10-18",
+        "percent_gain": 258.57
+    },
+    {
+        "symbol": "DRUG",
+        "Date": "2024-10-18",
+        "percent_gain": 64.56
+    },
+    {
+        "symbol": "QNRX",
+        "Date": "2024-10-18",
+        "percent_gain": 50.36
+    },
+    {
+        "symbol": "LGHL",
+        "Date": "2024-10-18",
+        "percent_gain": 101.55
+    },
+    {
+        "symbol": "PEGY",
+        "Date": "2024-10-18",
+        "percent_gain": 87.67
+    },
+    {
+        "symbol": "TVGN",
+        "Date": "2024-10-18",
+        "percent_gain": 21.67
+    },
+    {
+        "symbol": "IMG",
+        "Date": "2024-10-18",
+        "percent_gain": 36.53
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-10-18",
+        "percent_gain": 64.65
+    },
+    {
+        "symbol": "VTAK",
+        "Date": "2024-10-18",
+        "percent_gain": 90.16
+    },
+    {
+        "symbol": "JDZG",
+        "Date": "2024-10-18",
+        "percent_gain": 72.73
+    },
+    {
+        "symbol": "AKAN",
+        "Date": "2024-10-18",
+        "percent_gain": 29.91
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-10-18",
+        "percent_gain": 28.15
+    },
+    {
+        "symbol": "IMG",
+        "Date": "2024-10-17",
+        "percent_gain": 97.74
+    },
+    {
+        "symbol": "NKGN",
+        "Date": "2024-10-17",
+        "percent_gain": 117.53
+    },
+    {
+        "symbol": "MTEM",
+        "Date": "2024-10-17",
+        "percent_gain": 78.67
+    },
+    {
+        "symbol": "TVGN",
+        "Date": "2024-10-17",
+        "percent_gain": 43.6
+    },
+    {
+        "symbol": "STAF",
+        "Date": "2024-10-17",
+        "percent_gain": 132.24
+    },
+    {
+        "symbol": "BREA",
+        "Date": "2024-10-17",
+        "percent_gain": 52.21
+    },
+    {
+        "symbol": "NIXX",
+        "Date": "2024-10-17",
+        "percent_gain": 202.49
+    },
+    {
+        "symbol": "VSME",
+        "Date": "2024-10-17",
+        "percent_gain": 57.02
+    },
+    {
+        "symbol": "SAIH",
+        "Date": "2024-10-16",
+        "percent_gain": 112.14
+    },
+    {
+        "symbol": "VS",
+        "Date": "2024-10-16",
+        "percent_gain": 216.5
+    },
+    {
+        "symbol": "CTCX",
+        "Date": "2024-10-16",
+        "percent_gain": 164.58
+    },
+    {
+        "symbol": "VSME",
+        "Date": "2024-10-16",
+        "percent_gain": 20.0
+    },
+    {
+        "symbol": "QNRX",
+        "Date": "2024-10-16",
+        "percent_gain": 137.88
+    },
+    {
+        "symbol": "UPC",
+        "Date": "2024-10-16",
+        "percent_gain": 144.8
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-10-16",
+        "percent_gain": 134.26
+    },
+    {
+        "symbol": "STEC",
+        "Date": "2024-10-16",
+        "percent_gain": 104.4
+    },
+    {
+        "symbol": "CETX",
+        "Date": "2024-10-16",
+        "percent_gain": 26.76
+    },
+    {
+        "symbol": "ATNF",
+        "Date": "2024-10-16",
+        "percent_gain": 309.93
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-10-16",
+        "percent_gain": 45.37
+    },
+    {
+        "symbol": "TPST",
+        "Date": "2024-10-16",
+        "percent_gain": 38.26
+    },
+    {
+        "symbol": "LCID",
+        "Date": "2024-10-16",
+        "percent_gain": 23.79
+    },
+    {
+        "symbol": "DRUG",
+        "Date": "2024-10-15",
+        "percent_gain": 33.65
+    },
+    {
+        "symbol": "NIVF",
+        "Date": "2024-10-15",
+        "percent_gain": 168.85
+    },
+    {
+        "symbol": "JDZG",
+        "Date": "2024-10-15",
+        "percent_gain": 143.06
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-10-15",
+        "percent_gain": 26.03
+    },
+    {
+        "symbol": "TVGN",
+        "Date": "2024-10-15",
+        "percent_gain": 39.42
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-15",
+        "percent_gain": 24.57
+    },
+    {
+        "symbol": "DBGI",
+        "Date": "2024-10-15",
+        "percent_gain": 52.4
+    },
+    {
+        "symbol": "RANI",
+        "Date": "2024-10-15",
+        "percent_gain": 44.23
+    },
+    {
+        "symbol": "NAYA",
+        "Date": "2024-10-14",
+        "percent_gain": 39.22
+    },
+    {
+        "symbol": "RANI",
+        "Date": "2024-10-14",
+        "percent_gain": 57.55
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-14",
+        "percent_gain": 20.77
+    },
+    {
+        "symbol": "VERB",
+        "Date": "2024-10-14",
+        "percent_gain": 61.3
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-10-14",
+        "percent_gain": 36.6
+    },
+    {
+        "symbol": "XPON",
+        "Date": "2024-10-14",
+        "percent_gain": 39.34
+    },
+    {
+        "symbol": "TWG",
+        "Date": "2024-10-11",
+        "percent_gain": 86.95
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-10-11",
+        "percent_gain": 44.12
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-10-11",
+        "percent_gain": 44.8
+    },
+    {
+        "symbol": "TIGR",
+        "Date": "2024-10-11",
+        "percent_gain": 31.6
+    },
+    {
+        "symbol": "NIVF",
+        "Date": "2024-10-11",
+        "percent_gain": 43.14
+    },
+    {
+        "symbol": "ZENA",
+        "Date": "2024-10-11",
+        "percent_gain": 39.91
+    },
+    {
+        "symbol": "CETX",
+        "Date": "2024-10-11",
+        "percent_gain": 35.09
+    },
+    {
+        "symbol": "LUXH",
+        "Date": "2024-10-11",
+        "percent_gain": 27.32
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-10-10",
+        "percent_gain": 151.58
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-10",
+        "percent_gain": 28.72
+    },
+    {
+        "symbol": "SRFM",
+        "Date": "2024-10-10",
+        "percent_gain": 75.12
+    },
+    {
+        "symbol": "CRKN",
+        "Date": "2024-10-10",
+        "percent_gain": 38.52
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-10-10",
+        "percent_gain": 60.16
+    },
+    {
+        "symbol": "TPST",
+        "Date": "2024-10-10",
+        "percent_gain": 55.11
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-10-10",
+        "percent_gain": 31.98
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-10-09",
+        "percent_gain": 67.3
+    },
+    {
+        "symbol": "HOLO",
+        "Date": "2024-10-09",
+        "percent_gain": 42.43
+    },
+    {
+        "symbol": "BNZI",
+        "Date": "2024-10-09",
+        "percent_gain": 35.36
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-10-09",
+        "percent_gain": 30.1
+    },
+    {
+        "symbol": "LASE",
+        "Date": "2024-10-09",
+        "percent_gain": 22.29
+    },
+    {
+        "symbol": "RIME",
+        "Date": "2024-10-09",
+        "percent_gain": 21.99
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-10-08",
+        "percent_gain": 66.67
+    },
+    {
+        "symbol": "OTRK",
+        "Date": "2024-10-08",
+        "percent_gain": 135.32
+    },
+    {
+        "symbol": "PDYN",
+        "Date": "2024-10-08",
+        "percent_gain": 27.62
+    },
+    {
+        "symbol": "BPTH",
+        "Date": "2024-10-08",
+        "percent_gain": 30.91
+    },
+    {
+        "symbol": "TIGR",
+        "Date": "2024-10-08",
+        "percent_gain": 24.64
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-10-08",
+        "percent_gain": 23.47
+    },
+    {
+        "symbol": "NMHI",
+        "Date": "2024-10-08",
+        "percent_gain": 23.69
+    },
+    {
+        "symbol": "PEV",
+        "Date": "2024-10-07",
+        "percent_gain": 98.29
+    },
+    {
+        "symbol": "RIME",
+        "Date": "2024-10-07",
+        "percent_gain": 44.9
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-10-07",
+        "percent_gain": 20.32
+    },
+    {
+        "symbol": "LGMK",
+        "Date": "2024-10-07",
+        "percent_gain": 63.04
+    },
+    {
+        "symbol": "TIGR",
+        "Date": "2024-10-07",
+        "percent_gain": 50.52
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-07",
+        "percent_gain": 34.04
+    },
+    {
+        "symbol": "ADTX",
+        "Date": "2024-10-04",
+        "percent_gain": 108.05
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-04",
+        "percent_gain": 22.28
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-10-04",
+        "percent_gain": 84.33
+    },
+    {
+        "symbol": "BENF",
+        "Date": "2024-10-04",
+        "percent_gain": 32.92
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-10-04",
+        "percent_gain": 20.6
+    },
+    {
+        "symbol": "NCNC",
+        "Date": "2024-10-04",
+        "percent_gain": 52.28
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-10-03",
+        "percent_gain": 31.54
+    },
+    {
+        "symbol": "HKD",
+        "Date": "2024-10-03",
+        "percent_gain": 33.03
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-10-03",
+        "percent_gain": 60.08
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-10-03",
+        "percent_gain": 66.3
+    },
+    {
+        "symbol": "IVP",
+        "Date": "2024-10-02",
+        "percent_gain": 39.29
+    },
+    {
+        "symbol": "EONR",
+        "Date": "2024-10-02",
+        "percent_gain": 51.12
+    },
+    {
+        "symbol": "TOP",
+        "Date": "2024-10-02",
+        "percent_gain": 28.8
+    },
+    {
+        "symbol": "LX",
+        "Date": "2024-10-02",
+        "percent_gain": 38.24
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-10-02",
+        "percent_gain": 23.87
+    },
+    {
+        "symbol": "ICCT",
+        "Date": "2024-10-02",
+        "percent_gain": 20.02
+    },
+    {
+        "symbol": "API",
+        "Date": "2024-10-02",
+        "percent_gain": 29.9
+    },
+    {
+        "symbol": "NFE",
+        "Date": "2024-10-01",
+        "percent_gain": 26.61
+    },
+    {
+        "symbol": "BCTX",
+        "Date": "2024-10-01",
+        "percent_gain": 41.58
+    },
+    {
+        "symbol": "SISI",
+        "Date": "2024-10-01",
+        "percent_gain": 21.67
+    },
+    {
+        "symbol": "SLXN",
+        "Date": "2024-10-01",
+        "percent_gain": 33.03
+    },
+    {
+        "symbol": "UXIN",
+        "Date": "2024-09-30",
+        "percent_gain": 30.23
+    },
+    {
+        "symbol": "PRME",
+        "Date": "2024-09-30",
+        "percent_gain": 45.51
+    },
+    {
+        "symbol": "IONQ",
+        "Date": "2024-09-30",
+        "percent_gain": 23.75
+    },
+    {
+        "symbol": "CNEY",
+        "Date": "2024-09-27",
+        "percent_gain": 51.17
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-09-27",
+        "percent_gain": 43.03
+    },
+    {
+        "symbol": "ONCO",
+        "Date": "2024-09-27",
+        "percent_gain": 24.81
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-09-26",
+        "percent_gain": 29.5
+    },
+    {
+        "symbol": "KTTA",
+        "Date": "2024-09-26",
+        "percent_gain": 23.15
+    },
+    {
+        "symbol": "CAPR",
+        "Date": "2024-09-25",
+        "percent_gain": 28.83
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-09-25",
+        "percent_gain": 90.88
+    },
+    {
+        "symbol": "TNON",
+        "Date": "2024-09-25",
+        "percent_gain": 21.68
+    },
+    {
+        "symbol": "OCTO",
+        "Date": "2024-09-25",
+        "percent_gain": 65.31
+    },
+    {
+        "symbol": "ATCH",
+        "Date": "2024-09-25",
+        "percent_gain": 46.76
+    },
+    {
+        "symbol": "BNZI",
+        "Date": "2024-09-24",
+        "percent_gain": 86.67
+    },
+    {
+        "symbol": "MSS",
+        "Date": "2024-09-24",
+        "percent_gain": 46.51
+    },
+    {
+        "symbol": "JBDI",
+        "Date": "2024-09-24",
+        "percent_gain": 23.62
+    },
+    {
+        "symbol": "TRNR",
+        "Date": "2024-09-24",
+        "percent_gain": 50.75
+    },
+    {
+        "symbol": "SLXN",
+        "Date": "2024-09-24",
+        "percent_gain": 34.47
+    },
+    {
+        "symbol": "TGL",
+        "Date": "2024-09-23",
+        "percent_gain": 37.04
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-09-23",
+        "percent_gain": 25.91
+    },
+    {
+        "symbol": "KAVL",
+        "Date": "2024-09-23",
+        "percent_gain": 66.67
+    },
+    {
+        "symbol": "NVVE",
+        "Date": "2024-09-23",
+        "percent_gain": 34.36
+    },
+    {
+        "symbol": "SGN",
+        "Date": "2024-09-23",
+        "percent_gain": 30.0
+    },
+    {
+        "symbol": "BDTX",
+        "Date": "2024-09-23",
+        "percent_gain": 24.24
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-09-20",
+        "percent_gain": 95.61
+    },
+    {
+        "symbol": "GXAI",
+        "Date": "2024-09-20",
+        "percent_gain": 147.22
+    },
+    {
+        "symbol": "IMRX",
+        "Date": "2024-09-20",
+        "percent_gain": 22.3
+    },
+    {
+        "symbol": "BNZI",
+        "Date": "2024-09-20",
+        "percent_gain": 78.57
+    },
+    {
+        "symbol": "NBY",
+        "Date": "2024-09-20",
+        "percent_gain": 35.19
+    },
+    {
+        "symbol": "LUNR",
+        "Date": "2024-09-20",
+        "percent_gain": 22.67
+    },
+    {
+        "symbol": "LFLY",
+        "Date": "2024-09-20",
+        "percent_gain": 43.78
+    },
+    {
+        "symbol": "SVMH",
+        "Date": "2024-09-20",
+        "percent_gain": 71.53
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-09-20",
+        "percent_gain": 36.99
+    },
+    {
+        "symbol": "SGN",
+        "Date": "2024-09-20",
+        "percent_gain": 41.46
+    },
+    {
+        "symbol": "SGN",
+        "Date": "2024-09-19",
+        "percent_gain": 194.04
+    },
+    {
+        "symbol": "GLMD",
+        "Date": "2024-09-19",
+        "percent_gain": 45.24
+    },
+    {
+        "symbol": "ZEO",
+        "Date": "2024-09-19",
+        "percent_gain": 43.37
+    },
+    {
+        "symbol": "OMEX",
+        "Date": "2024-09-19",
+        "percent_gain": 63.6
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-09-19",
+        "percent_gain": 20.43
+    },
+    {
+        "symbol": "OMEX",
+        "Date": "2024-09-18",
+        "percent_gain": 62.45
+    },
+    {
+        "symbol": "PRTG",
+        "Date": "2024-09-18",
+        "percent_gain": 125.37
+    },
+    {
+        "symbol": "VVOS",
+        "Date": "2024-09-18",
+        "percent_gain": 84.78
+    },
+    {
+        "symbol": "WBUY",
+        "Date": "2024-09-18",
+        "percent_gain": 70.03
+    },
+    {
+        "symbol": "GLMD",
+        "Date": "2024-09-17",
+        "percent_gain": 244.93
+    },
+    {
+        "symbol": "HCTI",
+        "Date": "2024-09-17",
+        "percent_gain": 32.99
+    },
+    {
+        "symbol": "DTSS",
+        "Date": "2024-09-17",
+        "percent_gain": 77.5
+    },
+    {
+        "symbol": "SENS",
+        "Date": "2024-09-17",
+        "percent_gain": 38.5
+    },
+    {
+        "symbol": "IMRX",
+        "Date": "2024-09-17",
+        "percent_gain": 46.93
+    },
+    {
+        "symbol": "GEVO",
+        "Date": "2024-09-17",
+        "percent_gain": 21.99
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-09-17",
+        "percent_gain": 49.74
+    },
+    {
+        "symbol": "TALK",
+        "Date": "2024-09-17",
+        "percent_gain": 22.55
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-09-17",
+        "percent_gain": 27.53
+    },
+    {
+        "symbol": "OMEX",
+        "Date": "2024-09-17",
+        "percent_gain": 262.86
+    },
+    {
+        "symbol": "SES",
+        "Date": "2024-09-17",
+        "percent_gain": 53.21
+    },
+    {
+        "symbol": "IMRX",
+        "Date": "2024-09-16",
+        "percent_gain": 37.77
+    },
+    {
+        "symbol": "CNEY",
+        "Date": "2024-09-16",
+        "percent_gain": 86.77
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-09-16",
+        "percent_gain": 56.55
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-09-16",
+        "percent_gain": 48.58
+    },
+    {
+        "symbol": "NCNA",
+        "Date": "2024-09-16",
+        "percent_gain": 122.97
+    },
+    {
+        "symbol": "ZNTL",
+        "Date": "2024-09-16",
+        "percent_gain": 32.68
+    },
+    {
+        "symbol": "DRMA",
+        "Date": "2024-09-16",
+        "percent_gain": 20.87
+    },
+    {
+        "symbol": "APVO",
+        "Date": "2024-09-16",
+        "percent_gain": 87.34
+    },
+    {
+        "symbol": "SMX",
+        "Date": "2024-09-13",
+        "percent_gain": 41.18
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-09-13",
+        "percent_gain": 20.72
+    },
+    {
+        "symbol": "TNON",
+        "Date": "2024-09-13",
+        "percent_gain": 104.78
+    },
+    {
+        "symbol": "ATPC",
+        "Date": "2024-09-13",
+        "percent_gain": 31.11
+    },
+    {
+        "symbol": "UPC",
+        "Date": "2024-09-13",
+        "percent_gain": 173.91
+    },
+    {
+        "symbol": "XXII",
+        "Date": "2024-09-13",
+        "percent_gain": 58.12
+    },
+    {
+        "symbol": "GV",
+        "Date": "2024-09-12",
+        "percent_gain": 66.0
+    },
+    {
+        "symbol": "OBLG",
+        "Date": "2024-09-12",
+        "percent_gain": 35.35
+    },
+    {
+        "symbol": "TNON",
+        "Date": "2024-09-12",
+        "percent_gain": 27.42
+    },
+    {
+        "symbol": "NITO",
+        "Date": "2024-09-12",
+        "percent_gain": 27.94
+    },
+    {
+        "symbol": "MNPR",
+        "Date": "2024-09-12",
+        "percent_gain": 40.95
+    },
+    {
+        "symbol": "RYDE",
+        "Date": "2024-09-12",
+        "percent_gain": 201.04
+    },
+    {
+        "symbol": "UPC",
+        "Date": "2024-09-12",
+        "percent_gain": 469.85
+    },
+    {
+        "symbol": "CNEY",
+        "Date": "2024-09-11",
+        "percent_gain": 131.88
+    },
+    {
+        "symbol": "FTCI",
+        "Date": "2024-09-11",
+        "percent_gain": 62.2
+    },
+    {
+        "symbol": "QH",
+        "Date": "2024-09-11",
+        "percent_gain": 86.06
+    },
+    {
+        "symbol": "AILE",
+        "Date": "2024-09-11",
+        "percent_gain": 39.1
+    },
+    {
+        "symbol": "TANH",
+        "Date": "2024-09-11",
+        "percent_gain": 54.26
+    },
+    {
+        "symbol": "APDN",
+        "Date": "2024-09-11",
+        "percent_gain": 25.33
+    },
+    {
+        "symbol": "BCTX",
+        "Date": "2024-09-11",
+        "percent_gain": 211.11
+    },
+    {
+        "symbol": "AILE",
+        "Date": "2024-09-10",
+        "percent_gain": 27.4
+    },
+    {
+        "symbol": "BKYI",
+        "Date": "2024-09-10",
+        "percent_gain": 36.36
+    },
+    {
+        "symbol": "BLMZ",
+        "Date": "2024-09-10",
+        "percent_gain": 89.83
+    },
+    {
+        "symbol": "SMX",
+        "Date": "2024-09-10",
+        "percent_gain": 44.13
+    },
+    {
+        "symbol": "QNRX",
+        "Date": "2024-09-10",
+        "percent_gain": 59.43
+    },
+    {
+        "symbol": "BNRG",
+        "Date": "2024-09-09",
+        "percent_gain": 32.14
+    },
+    {
+        "symbol": "BLMZ",
+        "Date": "2024-09-09",
+        "percent_gain": 21.72
+    },
+    {
+        "symbol": "SINT",
+        "Date": "2024-09-09",
+        "percent_gain": 89.67
+    },
+    {
+        "symbol": "INBS",
+        "Date": "2024-09-09",
+        "percent_gain": 52.28
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-09-09",
+        "percent_gain": 51.42
+    },
+    {
+        "symbol": "BLMZ",
+        "Date": "2024-09-06",
+        "percent_gain": 21.74
+    },
+    {
+        "symbol": "MCRB",
+        "Date": "2024-09-06",
+        "percent_gain": 28.16
+    },
+    {
+        "symbol": "WHLR",
+        "Date": "2024-09-06",
+        "percent_gain": 87.22
+    },
+    {
+        "symbol": "BENF",
+        "Date": "2024-09-06",
+        "percent_gain": 86.03
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-09-06",
+        "percent_gain": 45.54
+    },
+    {
+        "symbol": "IVP",
+        "Date": "2024-09-05",
+        "percent_gain": 68.48
+    },
+    {
+        "symbol": "HOTH",
+        "Date": "2024-09-05",
+        "percent_gain": 41.51
+    },
+    {
+        "symbol": "EAST",
+        "Date": "2024-09-05",
+        "percent_gain": 109.86
+    },
+    {
+        "symbol": "APLD",
+        "Date": "2024-09-05",
+        "percent_gain": 25.49
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-09-05",
+        "percent_gain": 34.58
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-09-05",
+        "percent_gain": 22.5
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-09-04",
+        "percent_gain": 24.38
+    },
+    {
+        "symbol": "BNRG",
+        "Date": "2024-09-04",
+        "percent_gain": 66.96
+    },
+    {
+        "symbol": "ASST",
+        "Date": "2024-09-04",
+        "percent_gain": 44.03
+    },
+    {
+        "symbol": "WISA",
+        "Date": "2024-09-04",
+        "percent_gain": 26.95
+    },
+    {
+        "symbol": "TANH",
+        "Date": "2024-09-04",
+        "percent_gain": 29.55
+    },
+    {
+        "symbol": "LGMK",
+        "Date": "2024-09-04",
+        "percent_gain": 71.06
+    },
+    {
+        "symbol": "ASTS",
+        "Date": "2024-09-04",
+        "percent_gain": 28.44
+    },
+    {
+        "symbol": "X",
+        "Date": "2024-09-04",
+        "percent_gain": 23.66
+    },
+    {
+        "symbol": "BOF",
+        "Date": "2024-09-03",
+        "percent_gain": 43.21
+    },
+    {
+        "symbol": "SIFY",
+        "Date": "2024-09-03",
+        "percent_gain": 40.0
+    },
+    {
+        "symbol": "AUUD",
+        "Date": "2024-09-03",
+        "percent_gain": 71.24
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-09-03",
+        "percent_gain": 27.58
+    },
+    {
+        "symbol": "BNRG",
+        "Date": "2024-08-30",
+        "percent_gain": 104.07
+    },
+    {
+        "symbol": "ATPC",
+        "Date": "2024-08-30",
+        "percent_gain": 114.11
+    },
+    {
+        "symbol": "FCUV",
+        "Date": "2024-08-30",
+        "percent_gain": 50.4
+    },
+    {
+        "symbol": "TOVX",
+        "Date": "2024-08-30",
+        "percent_gain": 73.97
+    },
+    {
+        "symbol": "XRTX",
+        "Date": "2024-08-29",
+        "percent_gain": 41.9
+    },
+    {
+        "symbol": "WTO",
+        "Date": "2024-08-29",
+        "percent_gain": 82.96
+    },
+    {
+        "symbol": "BOF",
+        "Date": "2024-08-29",
+        "percent_gain": 33.5
+    },
+    {
+        "symbol": "LUCY",
+        "Date": "2024-08-29",
+        "percent_gain": 39.17
+    },
+    {
+        "symbol": "BCDA",
+        "Date": "2024-08-29",
+        "percent_gain": 52.79
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-29",
+        "percent_gain": 33.19
+    },
+    {
+        "symbol": "ASST",
+        "Date": "2024-08-28",
+        "percent_gain": 102.05
+    },
+    {
+        "symbol": "VRAX",
+        "Date": "2024-08-28",
+        "percent_gain": 50.79
+    },
+    {
+        "symbol": "WTO",
+        "Date": "2024-08-28",
+        "percent_gain": 2648.34
+    },
+    {
+        "symbol": "BSLK",
+        "Date": "2024-08-28",
+        "percent_gain": 156.02
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-08-28",
+        "percent_gain": 22.43
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-28",
+        "percent_gain": 37.47
+    },
+    {
+        "symbol": "NITO",
+        "Date": "2024-08-27",
+        "percent_gain": 84.73
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-08-27",
+        "percent_gain": 61.4
+    },
+    {
+        "symbol": "TRIB",
+        "Date": "2024-08-27",
+        "percent_gain": 56.22
+    },
+    {
+        "symbol": "TANH",
+        "Date": "2024-08-27",
+        "percent_gain": 72.1
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-08-27",
+        "percent_gain": 25.59
+    },
+    {
+        "symbol": "ENSC",
+        "Date": "2024-08-27",
+        "percent_gain": 30.07
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-27",
+        "percent_gain": 29.91
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-08-26",
+        "percent_gain": 46.67
+    },
+    {
+        "symbol": "ASST",
+        "Date": "2024-08-26",
+        "percent_gain": 20.62
+    },
+    {
+        "symbol": "MRM",
+        "Date": "2024-08-26",
+        "percent_gain": 42.93
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-08-26",
+        "percent_gain": 29.11
+    },
+    {
+        "symbol": "PWM",
+        "Date": "2024-08-26",
+        "percent_gain": 23.24
+    },
+    {
+        "symbol": "WAI",
+        "Date": "2024-08-26",
+        "percent_gain": 37.25
+    },
+    {
+        "symbol": "UBXG",
+        "Date": "2024-08-26",
+        "percent_gain": 63.18
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-26",
+        "percent_gain": 26.62
+    },
+    {
+        "symbol": "ELAB",
+        "Date": "2024-08-26",
+        "percent_gain": 20.0
+    },
+    {
+        "symbol": "MIRA",
+        "Date": "2024-08-26",
+        "percent_gain": 37.76
+    },
+    {
+        "symbol": "NCNC",
+        "Date": "2024-08-26",
+        "percent_gain": 38.02
+    },
+    {
+        "symbol": "UBXG",
+        "Date": "2024-08-23",
+        "percent_gain": 457.02
+    },
+    {
+        "symbol": "PRTG",
+        "Date": "2024-08-23",
+        "percent_gain": 28.97
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-08-23",
+        "percent_gain": 92.45
+    },
+    {
+        "symbol": "APDN",
+        "Date": "2024-08-23",
+        "percent_gain": 60.91
+    },
+    {
+        "symbol": "GDC",
+        "Date": "2024-08-23",
+        "percent_gain": 111.83
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-08-23",
+        "percent_gain": 50.4
+    },
+    {
+        "symbol": "SQNS",
+        "Date": "2024-08-23",
+        "percent_gain": 44.92
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-08-23",
+        "percent_gain": 28.98
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-08-22",
+        "percent_gain": 22.96
+    },
+    {
+        "symbol": "STAF",
+        "Date": "2024-08-22",
+        "percent_gain": 55.7
+    },
+    {
+        "symbol": "AIRI",
+        "Date": "2024-08-22",
+        "percent_gain": 48.19
+    },
+    {
+        "symbol": "GDC",
+        "Date": "2024-08-22",
+        "percent_gain": 46.79
+    },
+    {
+        "symbol": "SVMH",
+        "Date": "2024-08-22",
+        "percent_gain": 59.74
+    },
+    {
+        "symbol": "IQ",
+        "Date": "2024-08-22",
+        "percent_gain": 28.21
+    },
+    {
+        "symbol": "APDN",
+        "Date": "2024-08-21",
+        "percent_gain": 21.86
+    },
+    {
+        "symbol": "VRAX",
+        "Date": "2024-08-21",
+        "percent_gain": 23.55
+    },
+    {
+        "symbol": "REVB",
+        "Date": "2024-08-21",
+        "percent_gain": 180.0
+    },
+    {
+        "symbol": "RILY",
+        "Date": "2024-08-21",
+        "percent_gain": 48.85
+    },
+    {
+        "symbol": "BBAI",
+        "Date": "2024-08-21",
+        "percent_gain": 20.99
+    },
+    {
+        "symbol": "STEC",
+        "Date": "2024-08-20",
+        "percent_gain": 113.71
+    },
+    {
+        "symbol": "TTNP",
+        "Date": "2024-08-20",
+        "percent_gain": 82.72
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-08-20",
+        "percent_gain": 28.68
+    },
+    {
+        "symbol": "TGL",
+        "Date": "2024-08-20",
+        "percent_gain": 107.14
+    },
+    {
+        "symbol": "STI",
+        "Date": "2024-08-20",
+        "percent_gain": 21.09
+    },
+    {
+        "symbol": "PITA",
+        "Date": "2024-08-20",
+        "percent_gain": 57.08
+    },
+    {
+        "symbol": "AUUD",
+        "Date": "2024-08-20",
+        "percent_gain": 58.97
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-08-20",
+        "percent_gain": 52.08
+    },
+    {
+        "symbol": "INM",
+        "Date": "2024-08-20",
+        "percent_gain": 86.86
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-20",
+        "percent_gain": 34.72
+    },
+    {
+        "symbol": "ALZN",
+        "Date": "2024-08-19",
+        "percent_gain": 243.05
+    },
+    {
+        "symbol": "APDN",
+        "Date": "2024-08-19",
+        "percent_gain": 85.06
+    },
+    {
+        "symbol": "VRAX",
+        "Date": "2024-08-19",
+        "percent_gain": 152.81
+    },
+    {
+        "symbol": "AEMD",
+        "Date": "2024-08-19",
+        "percent_gain": 45.36
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-19",
+        "percent_gain": 122.53
+    },
+    {
+        "symbol": "GOVX",
+        "Date": "2024-08-19",
+        "percent_gain": 96.83
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-08-19",
+        "percent_gain": 28.62
+    },
+    {
+        "symbol": "CING",
+        "Date": "2024-08-16",
+        "percent_gain": 62.73
+    },
+    {
+        "symbol": "TNXP",
+        "Date": "2024-08-16",
+        "percent_gain": 23.03
+    },
+    {
+        "symbol": "RILY",
+        "Date": "2024-08-16",
+        "percent_gain": 23.41
+    },
+    {
+        "symbol": "TPST",
+        "Date": "2024-08-15",
+        "percent_gain": 51.39
+    },
+    {
+        "symbol": "SPRC",
+        "Date": "2024-08-15",
+        "percent_gain": 45.92
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-08-14",
+        "percent_gain": 40.39
+    },
+    {
+        "symbol": "DGLY",
+        "Date": "2024-08-14",
+        "percent_gain": 25.34
+    },
+    {
+        "symbol": "EDBL",
+        "Date": "2024-08-14",
+        "percent_gain": 22.48
+    },
+    {
+        "symbol": "VIRX",
+        "Date": "2024-08-14",
+        "percent_gain": 60.69
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-08-14",
+        "percent_gain": 28.87
+    },
+    {
+        "symbol": "SERV",
+        "Date": "2024-08-14",
+        "percent_gain": 26.22
+    },
+    {
+        "symbol": "BLUE",
+        "Date": "2024-08-14",
+        "percent_gain": 36.84
+    },
+    {
+        "symbol": "ELWS",
+        "Date": "2024-08-13",
+        "percent_gain": 22.35
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-08-13",
+        "percent_gain": 67.86
+    },
+    {
+        "symbol": "AKTS",
+        "Date": "2024-08-13",
+        "percent_gain": 39.58
+    },
+    {
+        "symbol": "APLM",
+        "Date": "2024-08-13",
+        "percent_gain": 111.86
+    },
+    {
+        "symbol": "GNLN",
+        "Date": "2024-08-12",
+        "percent_gain": 114.79
+    },
+    {
+        "symbol": "ENTO",
+        "Date": "2024-08-12",
+        "percent_gain": 78.72
+    },
+    {
+        "symbol": "INDO",
+        "Date": "2024-08-12",
+        "percent_gain": 30.4
+    },
+    {
+        "symbol": "LODE",
+        "Date": "2024-08-12",
+        "percent_gain": 37.34
+    },
+    {
+        "symbol": "TRNR",
+        "Date": "2024-08-12",
+        "percent_gain": 38.49
+    },
+    {
+        "symbol": "LGMK",
+        "Date": "2024-08-12",
+        "percent_gain": 42.69
+    },
+    {
+        "symbol": "AZTR",
+        "Date": "2024-08-09",
+        "percent_gain": 43.82
+    },
+    {
+        "symbol": "BYND",
+        "Date": "2024-08-09",
+        "percent_gain": 56.61
+    },
+    {
+        "symbol": "MGOL",
+        "Date": "2024-08-09",
+        "percent_gain": 27.55
+    },
+    {
+        "symbol": "LUMN",
+        "Date": "2024-08-09",
+        "percent_gain": 26.08
+    },
+    {
+        "symbol": "WBUY",
+        "Date": "2024-08-09",
+        "percent_gain": 68.67
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-08-09",
+        "percent_gain": 26.47
+    },
+    {
+        "symbol": "NRDY",
+        "Date": "2024-08-09",
+        "percent_gain": 50.67
+    },
+    {
+        "symbol": "LODE",
+        "Date": "2024-08-08",
+        "percent_gain": 75.73
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-08-08",
+        "percent_gain": 118.42
+    },
+    {
+        "symbol": "KLTO",
+        "Date": "2024-08-08",
+        "percent_gain": 27.2
+    },
+    {
+        "symbol": "OM",
+        "Date": "2024-08-08",
+        "percent_gain": 114.87
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-08-07",
+        "percent_gain": 25.52
+    },
+    {
+        "symbol": "LUMN",
+        "Date": "2024-08-07",
+        "percent_gain": 45.54
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-08-07",
+        "percent_gain": 22.41
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-08-06",
+        "percent_gain": 45.87
+    },
+    {
+        "symbol": "SERV",
+        "Date": "2024-08-06",
+        "percent_gain": 24.32
+    },
+    {
+        "symbol": "LYT",
+        "Date": "2024-08-06",
+        "percent_gain": 22.57
+    },
+    {
+        "symbol": "JMIA",
+        "Date": "2024-08-06",
+        "percent_gain": 47.25
+    },
+    {
+        "symbol": "TENX",
+        "Date": "2024-08-06",
+        "percent_gain": 26.54
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-08-06",
+        "percent_gain": 27.62
+    },
+    {
+        "symbol": "LYFT",
+        "Date": "2024-08-06",
+        "percent_gain": 22.97
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-08-06",
+        "percent_gain": 121.54
+    },
+    {
+        "symbol": "INDO",
+        "Date": "2024-08-05",
+        "percent_gain": 31.0
+    },
+    {
+        "symbol": "MGOL",
+        "Date": "2024-08-05",
+        "percent_gain": 38.48
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-08-05",
+        "percent_gain": 63.36
+    },
+    {
+        "symbol": "DRMA",
+        "Date": "2024-08-02",
+        "percent_gain": 44.11
+    },
+    {
+        "symbol": "BJDX",
+        "Date": "2024-08-02",
+        "percent_gain": 65.78
+    },
+    {
+        "symbol": "AKAN",
+        "Date": "2024-08-02",
+        "percent_gain": 42.36
+    },
+    {
+        "symbol": "LUMN",
+        "Date": "2024-08-02",
+        "percent_gain": 28.19
+    },
+    {
+        "symbol": "BITF",
+        "Date": "2024-08-02",
+        "percent_gain": 22.42
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-08-02",
+        "percent_gain": 25.02
+    },
+    {
+        "symbol": "VSEE",
+        "Date": "2024-08-02",
+        "percent_gain": 137.38
+    },
+    {
+        "symbol": "LUMN",
+        "Date": "2024-08-01",
+        "percent_gain": 36.81
+    },
+    {
+        "symbol": "IMRX",
+        "Date": "2024-08-01",
+        "percent_gain": 33.08
+    },
+    {
+        "symbol": "HIMS",
+        "Date": "2024-08-01",
+        "percent_gain": 26.56
+    },
+    {
+        "symbol": "BITF",
+        "Date": "2024-08-01",
+        "percent_gain": 22.94
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-08-01",
+        "percent_gain": 20.62
+    },
+    {
+        "symbol": "BBLG",
+        "Date": "2024-08-01",
+        "percent_gain": 36.03
+    },
+    {
+        "symbol": "SNAP",
+        "Date": "2024-08-01",
+        "percent_gain": 49.04
+    },
+    {
+        "symbol": "INTC",
+        "Date": "2024-08-01",
+        "percent_gain": 42.97
+    },
+    {
+        "symbol": "GT",
+        "Date": "2024-08-01",
+        "percent_gain": 20.97
+    },
+    {
+        "symbol": "DNN",
+        "Date": "2024-08-01",
+        "percent_gain": 22.5
+    },
+    {
+        "symbol": "OPEN",
+        "Date": "2024-08-01",
+        "percent_gain": 25.27
+    },
+    {
+        "symbol": "PMEC",
+        "Date": "2024-07-31",
+        "percent_gain": 23.81
+    },
+    {
+        "symbol": "NCNC",
+        "Date": "2024-07-31",
+        "percent_gain": 61.55
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-07-31",
+        "percent_gain": 83.97
+    },
+    {
+        "symbol": "IMG",
+        "Date": "2024-07-31",
+        "percent_gain": 51.23
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-07-31",
+        "percent_gain": 21.85
+    },
+    {
+        "symbol": "MHUA",
+        "Date": "2024-07-31",
+        "percent_gain": 59.78
+    },
+    {
+        "symbol": "BNOX",
+        "Date": "2024-07-31",
+        "percent_gain": 43.66
+    },
+    {
+        "symbol": "ISPO",
+        "Date": "2024-07-30",
+        "percent_gain": 29.31
+    },
+    {
+        "symbol": "ENVB",
+        "Date": "2024-07-30",
+        "percent_gain": 63.86
+    },
+    {
+        "symbol": "TIVC",
+        "Date": "2024-07-30",
+        "percent_gain": 70.37
+    },
+    {
+        "symbol": "SERV",
+        "Date": "2024-07-30",
+        "percent_gain": 37.5
+    },
+    {
+        "symbol": "IMNN",
+        "Date": "2024-07-30",
+        "percent_gain": 170.37
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-07-30",
+        "percent_gain": 190.4
+    },
+    {
+        "symbol": "PCSA",
+        "Date": "2024-07-30",
+        "percent_gain": 47.62
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-07-30",
+        "percent_gain": 47.55
+    },
+    {
+        "symbol": "YIBO",
+        "Date": "2024-07-29",
+        "percent_gain": 66.59
+    },
+    {
+        "symbol": "SERV",
+        "Date": "2024-07-29",
+        "percent_gain": 30.77
+    },
+    {
+        "symbol": "TIVC",
+        "Date": "2024-07-29",
+        "percent_gain": 40.07
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-07-29",
+        "percent_gain": 72.14
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-07-29",
+        "percent_gain": 31.19
+    },
+    {
+        "symbol": "LIPO",
+        "Date": "2024-07-29",
+        "percent_gain": 67.27
+    },
+    {
+        "symbol": "CGTX",
+        "Date": "2024-07-29",
+        "percent_gain": 86.36
+    },
+    {
+        "symbol": "TIVC",
+        "Date": "2024-07-26",
+        "percent_gain": 21.08
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-07-26",
+        "percent_gain": 24.36
+    },
+    {
+        "symbol": "CVM",
+        "Date": "2024-07-26",
+        "percent_gain": 79.02
+    },
+    {
+        "symbol": "CMAX",
+        "Date": "2024-07-26",
+        "percent_gain": 34.98
+    },
+    {
+        "symbol": "COUR",
+        "Date": "2024-07-26",
+        "percent_gain": 25.7
+    },
+    {
+        "symbol": "WINT",
+        "Date": "2024-07-26",
+        "percent_gain": 28.77
+    },
+    {
+        "symbol": "SLRX",
+        "Date": "2024-07-25",
+        "percent_gain": 37.62
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-07-25",
+        "percent_gain": 40.83
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-07-25",
+        "percent_gain": 21.87
+    },
+    {
+        "symbol": "POAI",
+        "Date": "2024-07-25",
+        "percent_gain": 116.67
+    },
+    {
+        "symbol": "MIRA",
+        "Date": "2024-07-25",
+        "percent_gain": 37.64
+    },
+    {
+        "symbol": "PBM",
+        "Date": "2024-07-25",
+        "percent_gain": 101.29
+    },
+    {
+        "symbol": "BBLG",
+        "Date": "2024-07-24",
+        "percent_gain": 103.35
+    },
+    {
+        "symbol": "DRMA",
+        "Date": "2024-07-24",
+        "percent_gain": 93.8
+    },
+    {
+        "symbol": "TIRX",
+        "Date": "2024-07-24",
+        "percent_gain": 90.37
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-07-24",
+        "percent_gain": 33.93
+    },
+    {
+        "symbol": "IMG",
+        "Date": "2024-07-24",
+        "percent_gain": 74.5
+    },
+    {
+        "symbol": "F",
+        "Date": "2024-07-24",
+        "percent_gain": 24.35
+    },
+    {
+        "symbol": "BHC",
+        "Date": "2024-07-24",
+        "percent_gain": 28.91
+    },
+    {
+        "symbol": "HOTH",
+        "Date": "2024-07-24",
+        "percent_gain": 56.79
+    },
+    {
+        "symbol": "SLRX",
+        "Date": "2024-07-23",
+        "percent_gain": 236.45
+    },
+    {
+        "symbol": "AZTR",
+        "Date": "2024-07-23",
+        "percent_gain": 925.64
+    },
+    {
+        "symbol": "ADIL",
+        "Date": "2024-07-23",
+        "percent_gain": 152.1
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-07-23",
+        "percent_gain": 53.6
+    },
+    {
+        "symbol": "SOAR",
+        "Date": "2024-07-23",
+        "percent_gain": 45.71
+    },
+    {
+        "symbol": "MIRA",
+        "Date": "2024-07-23",
+        "percent_gain": 74.58
+    },
+    {
+        "symbol": "FLYE",
+        "Date": "2024-07-23",
+        "percent_gain": 428.93
+    },
+    {
+        "symbol": "CMAX",
+        "Date": "2024-07-22",
+        "percent_gain": 70.69
+    },
+    {
+        "symbol": "MIRA",
+        "Date": "2024-07-22",
+        "percent_gain": 95.7
+    },
+    {
+        "symbol": "RR",
+        "Date": "2024-07-22",
+        "percent_gain": 121.37
+    },
+    {
+        "symbol": "SERV",
+        "Date": "2024-07-22",
+        "percent_gain": 47.77
+    },
+    {
+        "symbol": "CTM",
+        "Date": "2024-07-22",
+        "percent_gain": 81.05
+    },
+    {
+        "symbol": "PSNL",
+        "Date": "2024-07-19",
+        "percent_gain": 51.68
+    },
+    {
+        "symbol": "VRPX",
+        "Date": "2024-07-19",
+        "percent_gain": 51.57
+    },
+    {
+        "symbol": "NAAS",
+        "Date": "2024-07-19",
+        "percent_gain": 68.55
+    },
+    {
+        "symbol": "CRWD",
+        "Date": "2024-07-19",
+        "percent_gain": 20.02
+    },
+    {
+        "symbol": "HE",
+        "Date": "2024-07-19",
+        "percent_gain": 21.19
+    },
+    {
+        "symbol": "SILO",
+        "Date": "2024-07-18",
+        "percent_gain": 82.93
+    },
+    {
+        "symbol": "SLRX",
+        "Date": "2024-07-18",
+        "percent_gain": 59.56
+    },
+    {
+        "symbol": "NAAS",
+        "Date": "2024-07-18",
+        "percent_gain": 42.93
+    },
+    {
+        "symbol": "TKLF",
+        "Date": "2024-07-18",
+        "percent_gain": 42.6
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-07-18",
+        "percent_gain": 34.45
+    },
+    {
+        "symbol": "LESL",
+        "Date": "2024-07-18",
+        "percent_gain": 28.86
+    },
+    {
+        "symbol": "PLUG",
+        "Date": "2024-07-18",
+        "percent_gain": 28.23
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-07-18",
+        "percent_gain": 23.95
+    },
+    {
+        "symbol": "COMM",
+        "Date": "2024-07-18",
+        "percent_gain": 39.88
+    },
+    {
+        "symbol": "APVO",
+        "Date": "2024-07-17",
+        "percent_gain": 39.26
+    },
+    {
+        "symbol": "CIFR",
+        "Date": "2024-07-17",
+        "percent_gain": 33.17
+    },
+    {
+        "symbol": "LCFY",
+        "Date": "2024-07-17",
+        "percent_gain": 36.95
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-07-17",
+        "percent_gain": 50.15
+    },
+    {
+        "symbol": "OPEN",
+        "Date": "2024-07-17",
+        "percent_gain": 20.23
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-07-17",
+        "percent_gain": 21.2
+    },
+    {
+        "symbol": "IREN",
+        "Date": "2024-07-17",
+        "percent_gain": 26.3
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-07-17",
+        "percent_gain": 20.04
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-07-17",
+        "percent_gain": 21.59
+    },
+    {
+        "symbol": "FCEL",
+        "Date": "2024-07-17",
+        "percent_gain": 21.06
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-07-17",
+        "percent_gain": 42.44
+    },
+    {
+        "symbol": "TKLF",
+        "Date": "2024-07-16",
+        "percent_gain": 38.92
+    },
+    {
+        "symbol": "SPRC",
+        "Date": "2024-07-16",
+        "percent_gain": 84.9
+    },
+    {
+        "symbol": "AEON",
+        "Date": "2024-07-16",
+        "percent_gain": 26.14
+    },
+    {
+        "symbol": "CDT",
+        "Date": "2024-07-16",
+        "percent_gain": 54.16
+    },
+    {
+        "symbol": "AUR",
+        "Date": "2024-07-16",
+        "percent_gain": 21.41
+    },
+    {
+        "symbol": "AEON",
+        "Date": "2024-07-15",
+        "percent_gain": 30.77
+    },
+    {
+        "symbol": "SCNI",
+        "Date": "2024-07-15",
+        "percent_gain": 67.98
+    },
+    {
+        "symbol": "MIRA",
+        "Date": "2024-07-15",
+        "percent_gain": 20.79
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-07-15",
+        "percent_gain": 25.43
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-07-12",
+        "percent_gain": 31.26
+    },
+    {
+        "symbol": "LCFY",
+        "Date": "2024-07-11",
+        "percent_gain": 100.89
+    },
+    {
+        "symbol": "KZIA",
+        "Date": "2024-07-11",
+        "percent_gain": 76.38
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-07-11",
+        "percent_gain": 70.35
+    },
+    {
+        "symbol": "VLCN",
+        "Date": "2024-07-11",
+        "percent_gain": 89.7
+    },
+    {
+        "symbol": "IVP",
+        "Date": "2024-07-10",
+        "percent_gain": 69.23
+    },
+    {
+        "symbol": "QURE",
+        "Date": "2024-07-10",
+        "percent_gain": 27.38
+    },
+    {
+        "symbol": "VRPX",
+        "Date": "2024-07-10",
+        "percent_gain": 102.99
+    },
+    {
+        "symbol": "NAAS",
+        "Date": "2024-07-10",
+        "percent_gain": 32.24
+    },
+    {
+        "symbol": "RGTI",
+        "Date": "2024-07-10",
+        "percent_gain": 37.25
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-07-10",
+        "percent_gain": 64.52
+    },
+    {
+        "symbol": "VVPR",
+        "Date": "2024-07-10",
+        "percent_gain": 51.97
+    },
+    {
+        "symbol": "ATNF",
+        "Date": "2024-07-09",
+        "percent_gain": 104.26
+    },
+    {
+        "symbol": "SNGX",
+        "Date": "2024-07-09",
+        "percent_gain": 91.85
+    },
+    {
+        "symbol": "ZAPP",
+        "Date": "2024-07-09",
+        "percent_gain": 104.28
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-07-09",
+        "percent_gain": 26.26
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-07-09",
+        "percent_gain": 23.98
+    },
+    {
+        "symbol": "AKTS",
+        "Date": "2024-07-09",
+        "percent_gain": 33.36
+    },
+    {
+        "symbol": "HLVX",
+        "Date": "2024-07-08",
+        "percent_gain": 39.05
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-07-08",
+        "percent_gain": 77.85
+    },
+    {
+        "symbol": "SVMH",
+        "Date": "2024-07-08",
+        "percent_gain": 58.11
+    },
+    {
+        "symbol": "IREN",
+        "Date": "2024-07-08",
+        "percent_gain": 22.85
+    },
+    {
+        "symbol": "BENF",
+        "Date": "2024-07-05",
+        "percent_gain": 59.54
+    },
+    {
+        "symbol": "KOSS",
+        "Date": "2024-07-05",
+        "percent_gain": 76.36
+    },
+    {
+        "symbol": "SIRI",
+        "Date": "2024-07-05",
+        "percent_gain": 27.99
+    },
+    {
+        "symbol": "KOSS",
+        "Date": "2024-07-03",
+        "percent_gain": 40.3
+    },
+    {
+        "symbol": "CNSP",
+        "Date": "2024-07-03",
+        "percent_gain": 142.62
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-07-03",
+        "percent_gain": 39.85
+    },
+    {
+        "symbol": "VVPR",
+        "Date": "2024-07-03",
+        "percent_gain": 31.85
+    },
+    {
+        "symbol": "ANVS",
+        "Date": "2024-07-02",
+        "percent_gain": 54.83
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-07-02",
+        "percent_gain": 43.36
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-07-02",
+        "percent_gain": 27.44
+    },
+    {
+        "symbol": "GMM",
+        "Date": "2024-07-02",
+        "percent_gain": 58.27
+    },
+    {
+        "symbol": "VS",
+        "Date": "2024-07-02",
+        "percent_gain": 20.19
+    },
+    {
+        "symbol": "ARDX",
+        "Date": "2024-07-02",
+        "percent_gain": 21.61
+    },
+    {
+        "symbol": "SNTI",
+        "Date": "2024-07-01",
+        "percent_gain": 56.41
+    },
+    {
+        "symbol": "CSLR",
+        "Date": "2024-07-01",
+        "percent_gain": 66.67
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-07-01",
+        "percent_gain": 89.01
+    },
+    {
+        "symbol": "CHWY",
+        "Date": "2024-07-01",
+        "percent_gain": 20.63
+    },
+    {
+        "symbol": "ASNS",
+        "Date": "2024-06-28",
+        "percent_gain": 35.15
+    },
+    {
+        "symbol": "CMND",
+        "Date": "2024-06-28",
+        "percent_gain": 34.34
+    },
+    {
+        "symbol": "COSM",
+        "Date": "2024-06-28",
+        "percent_gain": 26.36
+    },
+    {
+        "symbol": "SGMO",
+        "Date": "2024-06-28",
+        "percent_gain": 27.24
+    },
+    {
+        "symbol": "MVST",
+        "Date": "2024-06-28",
+        "percent_gain": 51.52
+    },
+    {
+        "symbol": "RUN",
+        "Date": "2024-06-28",
+        "percent_gain": 22.31
+    },
+    {
+        "symbol": "DJT",
+        "Date": "2024-06-28",
+        "percent_gain": 20.74
+    },
+    {
+        "symbol": "GOVX",
+        "Date": "2024-06-27",
+        "percent_gain": 53.85
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-06-27",
+        "percent_gain": 56.22
+    },
+    {
+        "symbol": "CHWY",
+        "Date": "2024-06-27",
+        "percent_gain": 43.54
+    },
+    {
+        "symbol": "BSFC",
+        "Date": "2024-06-27",
+        "percent_gain": 86.0
+    },
+    {
+        "symbol": "NKE",
+        "Date": "2024-06-27",
+        "percent_gain": 25.7
+    },
+    {
+        "symbol": "NXL",
+        "Date": "2024-06-26",
+        "percent_gain": 36.82
+    },
+    {
+        "symbol": "AIEV",
+        "Date": "2024-06-26",
+        "percent_gain": 136.9
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-06-26",
+        "percent_gain": 68.75
+    },
+    {
+        "symbol": "OPTX",
+        "Date": "2024-06-26",
+        "percent_gain": 149.7
+    },
+    {
+        "symbol": "KLTO",
+        "Date": "2024-06-26",
+        "percent_gain": 70.33
+    },
+    {
+        "symbol": "VLCN",
+        "Date": "2024-06-25",
+        "percent_gain": 91.97
+    },
+    {
+        "symbol": "CPOP",
+        "Date": "2024-06-25",
+        "percent_gain": 52.94
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-06-25",
+        "percent_gain": 29.79
+    },
+    {
+        "symbol": "RGS",
+        "Date": "2024-06-25",
+        "percent_gain": 22.21
+    },
+    {
+        "symbol": "LRHC",
+        "Date": "2024-06-25",
+        "percent_gain": 56.28
+    },
+    {
+        "symbol": "GLYC",
+        "Date": "2024-06-25",
+        "percent_gain": 50.05
+    },
+    {
+        "symbol": "NXL",
+        "Date": "2024-06-24",
+        "percent_gain": 38.5
+    },
+    {
+        "symbol": "REVB",
+        "Date": "2024-06-24",
+        "percent_gain": 76.74
+    },
+    {
+        "symbol": "AREB",
+        "Date": "2024-06-21",
+        "percent_gain": 78.29
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-06-21",
+        "percent_gain": 50.59
+    },
+    {
+        "symbol": "ALUR",
+        "Date": "2024-06-20",
+        "percent_gain": 55.7
+    },
+    {
+        "symbol": "ZAPP",
+        "Date": "2024-06-20",
+        "percent_gain": 74.21
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-06-20",
+        "percent_gain": 33.26
+    },
+    {
+        "symbol": "CIFR",
+        "Date": "2024-06-20",
+        "percent_gain": 29.16
+    },
+    {
+        "symbol": "TPST",
+        "Date": "2024-06-20",
+        "percent_gain": 33.5
+    },
+    {
+        "symbol": "LRHC",
+        "Date": "2024-06-18",
+        "percent_gain": 84.81
+    },
+    {
+        "symbol": "GOVX",
+        "Date": "2024-06-18",
+        "percent_gain": 25.39
+    },
+    {
+        "symbol": "RELI",
+        "Date": "2024-06-18",
+        "percent_gain": 80.43
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-06-18",
+        "percent_gain": 131.94
+    },
+    {
+        "symbol": "ASNS",
+        "Date": "2024-06-18",
+        "percent_gain": 43.25
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-06-18",
+        "percent_gain": 28.01
+    },
+    {
+        "symbol": "ZNTL",
+        "Date": "2024-06-18",
+        "percent_gain": 21.9
+    },
+    {
+        "symbol": "PSNY",
+        "Date": "2024-06-18",
+        "percent_gain": 20.26
+    },
+    {
+        "symbol": "TRNR",
+        "Date": "2024-06-17",
+        "percent_gain": 163.16
+    },
+    {
+        "symbol": "PSNY",
+        "Date": "2024-06-17",
+        "percent_gain": 28.93
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-06-17",
+        "percent_gain": 31.88
+    },
+    {
+        "symbol": "SCNI",
+        "Date": "2024-06-17",
+        "percent_gain": 60.97
+    },
+    {
+        "symbol": "OVID",
+        "Date": "2024-06-17",
+        "percent_gain": 48.5
+    },
+    {
+        "symbol": "AVTE",
+        "Date": "2024-06-17",
+        "percent_gain": 78.01
+    },
+    {
+        "symbol": "LRHC",
+        "Date": "2024-06-14",
+        "percent_gain": 74.04
+    },
+    {
+        "symbol": "KAVL",
+        "Date": "2024-06-14",
+        "percent_gain": 100.24
+    },
+    {
+        "symbol": "SVMH",
+        "Date": "2024-06-14",
+        "percent_gain": 91.67
+    },
+    {
+        "symbol": "JFBR",
+        "Date": "2024-06-14",
+        "percent_gain": 33.3
+    },
+    {
+        "symbol": "GOEV",
+        "Date": "2024-06-14",
+        "percent_gain": 33.84
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-06-14",
+        "percent_gain": 70.83
+    },
+    {
+        "symbol": "AIMD",
+        "Date": "2024-06-14",
+        "percent_gain": 37.68
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-06-14",
+        "percent_gain": 21.57
+    },
+    {
+        "symbol": "VXRT",
+        "Date": "2024-06-14",
+        "percent_gain": 48.51
+    },
+    {
+        "symbol": "FOXO",
+        "Date": "2024-06-14",
+        "percent_gain": 46.27
+    },
+    {
+        "symbol": "ZAPP",
+        "Date": "2024-06-13",
+        "percent_gain": 41.47
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-06-13",
+        "percent_gain": 22.57
+    },
+    {
+        "symbol": "BRTX",
+        "Date": "2024-06-13",
+        "percent_gain": 25.41
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-06-13",
+        "percent_gain": 159.49
+    },
+    {
+        "symbol": "DDC",
+        "Date": "2024-06-12",
+        "percent_gain": 121.93
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-06-12",
+        "percent_gain": 67.64
+    },
+    {
+        "symbol": "BMR",
+        "Date": "2024-06-12",
+        "percent_gain": 42.46
+    },
+    {
+        "symbol": "OPEN",
+        "Date": "2024-06-12",
+        "percent_gain": 20.85
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-06-12",
+        "percent_gain": 77.81
+    },
+    {
+        "symbol": "AISP",
+        "Date": "2024-06-11",
+        "percent_gain": 22.83
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-06-11",
+        "percent_gain": 21.45
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-06-11",
+        "percent_gain": 57.53
+    },
+    {
+        "symbol": "TPET",
+        "Date": "2024-06-11",
+        "percent_gain": 64.5
+    },
+    {
+        "symbol": "NVDA",
+        "Date": "2024-06-10",
+        "percent_gain": 62.05
+    },
+    {
+        "symbol": "DSY",
+        "Date": "2024-06-10",
+        "percent_gain": 84.89
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-06-10",
+        "percent_gain": 31.09
+    },
+    {
+        "symbol": "HOVR",
+        "Date": "2024-06-10",
+        "percent_gain": 37.89
+    },
+    {
+        "symbol": "LFLY",
+        "Date": "2024-06-07",
+        "percent_gain": 45.02
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-06-07",
+        "percent_gain": 93.31
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-06-07",
+        "percent_gain": 26.11
+    },
+    {
+        "symbol": "VERO",
+        "Date": "2024-06-07",
+        "percent_gain": 33.61
+    },
+    {
+        "symbol": "NVAX",
+        "Date": "2024-06-07",
+        "percent_gain": 21.84
+    },
+    {
+        "symbol": "WISA",
+        "Date": "2024-06-06",
+        "percent_gain": 43.18
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-06-06",
+        "percent_gain": 68.32
+    },
+    {
+        "symbol": "AEMD",
+        "Date": "2024-06-06",
+        "percent_gain": 41.58
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-06-06",
+        "percent_gain": 21.38
+    },
+    {
+        "symbol": "VRAX",
+        "Date": "2024-06-06",
+        "percent_gain": 42.13
+    },
+    {
+        "symbol": "NVAX",
+        "Date": "2024-06-06",
+        "percent_gain": 31.31
+    },
+    {
+        "symbol": "ASNS",
+        "Date": "2024-06-05",
+        "percent_gain": 133.5
+    },
+    {
+        "symbol": "MITQ",
+        "Date": "2024-06-05",
+        "percent_gain": 114.93
+    },
+    {
+        "symbol": "MFI",
+        "Date": "2024-06-05",
+        "percent_gain": 82.17
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-06-05",
+        "percent_gain": 151.3
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-06-04",
+        "percent_gain": 115.21
+    },
+    {
+        "symbol": "WIMI",
+        "Date": "2024-06-04",
+        "percent_gain": 37.19
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-06-04",
+        "percent_gain": 22.77
+    },
+    {
+        "symbol": "MBOT",
+        "Date": "2024-06-03",
+        "percent_gain": 106.13
+    },
+    {
+        "symbol": "AFMD",
+        "Date": "2024-06-03",
+        "percent_gain": 32.04
+    },
+    {
+        "symbol": "SCPX",
+        "Date": "2024-06-03",
+        "percent_gain": 20.79
+    },
+    {
+        "symbol": "BPTH",
+        "Date": "2024-06-03",
+        "percent_gain": 43.53
+    },
+    {
+        "symbol": "SMMT",
+        "Date": "2024-06-03",
+        "percent_gain": 36.07
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-06-03",
+        "percent_gain": 52.83
+    },
+    {
+        "symbol": "BNAI",
+        "Date": "2024-05-31",
+        "percent_gain": 79.74
+    },
+    {
+        "symbol": "FOXO",
+        "Date": "2024-05-31",
+        "percent_gain": 52.54
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-05-31",
+        "percent_gain": 59.72
+    },
+    {
+        "symbol": "WBUY",
+        "Date": "2024-05-31",
+        "percent_gain": 219.8
+    },
+    {
+        "symbol": "SMMT",
+        "Date": "2024-05-30",
+        "percent_gain": 29.53
+    },
+    {
+        "symbol": "JCSE",
+        "Date": "2024-05-30",
+        "percent_gain": 59.29
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-05-30",
+        "percent_gain": 27.38
+    },
+    {
+        "symbol": "ONMD",
+        "Date": "2024-05-30",
+        "percent_gain": 39.26
+    },
+    {
+        "symbol": "DELL",
+        "Date": "2024-05-30",
+        "percent_gain": 28.14
+    },
+    {
+        "symbol": "LUCY",
+        "Date": "2024-05-29",
+        "percent_gain": 72.15
+    },
+    {
+        "symbol": "BNAI",
+        "Date": "2024-05-29",
+        "percent_gain": 22.48
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-05-29",
+        "percent_gain": 41.44
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-05-29",
+        "percent_gain": 31.25
+    },
+    {
+        "symbol": "GVH",
+        "Date": "2024-05-29",
+        "percent_gain": 91.79
+    },
+    {
+        "symbol": "SCPX",
+        "Date": "2024-05-29",
+        "percent_gain": 37.61
+    },
+    {
+        "symbol": "PATH",
+        "Date": "2024-05-29",
+        "percent_gain": 54.31
+    },
+    {
+        "symbol": "CCG",
+        "Date": "2024-05-29",
+        "percent_gain": 58.87
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-05-28",
+        "percent_gain": 25.52
+    },
+    {
+        "symbol": "POAI",
+        "Date": "2024-05-28",
+        "percent_gain": 34.2
+    },
+    {
+        "symbol": "OPTT",
+        "Date": "2024-05-28",
+        "percent_gain": 27.08
+    },
+    {
+        "symbol": "TKLF",
+        "Date": "2024-05-28",
+        "percent_gain": 55.86
+    },
+    {
+        "symbol": "LUCY",
+        "Date": "2024-05-24",
+        "percent_gain": 175.61
+    },
+    {
+        "symbol": "TKLF",
+        "Date": "2024-05-24",
+        "percent_gain": 74.5
+    },
+    {
+        "symbol": "ONMD",
+        "Date": "2024-05-24",
+        "percent_gain": 60.2
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-05-24",
+        "percent_gain": 71.82
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-24",
+        "percent_gain": 40.76
+    },
+    {
+        "symbol": "AKAN",
+        "Date": "2024-05-24",
+        "percent_gain": 60.8
+    },
+    {
+        "symbol": "CYTO",
+        "Date": "2024-05-23",
+        "percent_gain": 38.76
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-05-23",
+        "percent_gain": 41.96
+    },
+    {
+        "symbol": "SWIN",
+        "Date": "2024-05-23",
+        "percent_gain": 849.89
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-23",
+        "percent_gain": 31.35
+    },
+    {
+        "symbol": "PSNY",
+        "Date": "2024-05-23",
+        "percent_gain": 20.51
+    },
+    {
+        "symbol": "AKTS",
+        "Date": "2024-05-22",
+        "percent_gain": 166.92
+    },
+    {
+        "symbol": "BZFD",
+        "Date": "2024-05-22",
+        "percent_gain": 72.73
+    },
+    {
+        "symbol": "MBIO",
+        "Date": "2024-05-22",
+        "percent_gain": 102.21
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-22",
+        "percent_gain": 64.96
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-05-22",
+        "percent_gain": 21.45
+    },
+    {
+        "symbol": "MGOL",
+        "Date": "2024-05-21",
+        "percent_gain": 28.45
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-05-21",
+        "percent_gain": 55.44
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-05-21",
+        "percent_gain": 46.77
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-21",
+        "percent_gain": 110.19
+    },
+    {
+        "symbol": "MMV",
+        "Date": "2024-05-20",
+        "percent_gain": 122.83
+    },
+    {
+        "symbol": "TANH",
+        "Date": "2024-05-20",
+        "percent_gain": 89.11
+    },
+    {
+        "symbol": "NKGN",
+        "Date": "2024-05-20",
+        "percent_gain": 21.59
+    },
+    {
+        "symbol": "GTBP",
+        "Date": "2024-05-20",
+        "percent_gain": 90.36
+    },
+    {
+        "symbol": "ASTS",
+        "Date": "2024-05-20",
+        "percent_gain": 22.51
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-20",
+        "percent_gain": 1246.07
+    },
+    {
+        "symbol": "SCPX",
+        "Date": "2024-05-20",
+        "percent_gain": 69.53
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-05-20",
+        "percent_gain": 74.3
+    },
+    {
+        "symbol": "JFBR",
+        "Date": "2024-05-17",
+        "percent_gain": 89.91
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-05-17",
+        "percent_gain": 116.67
+    },
+    {
+        "symbol": "BURU",
+        "Date": "2024-05-17",
+        "percent_gain": 129.28
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-05-17",
+        "percent_gain": 81.03
+    },
+    {
+        "symbol": "CRKN",
+        "Date": "2024-05-16",
+        "percent_gain": 209.94
+    },
+    {
+        "symbol": "FFIE",
+        "Date": "2024-05-16",
+        "percent_gain": 128.16
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-05-16",
+        "percent_gain": 20.45
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-05-16",
+        "percent_gain": 58.67
+    },
+    {
+        "symbol": "LIDR",
+        "Date": "2024-05-15",
+        "percent_gain": 43.13
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-05-15",
+        "percent_gain": 42.24
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-05-15",
+        "percent_gain": 53.05
+    },
+    {
+        "symbol": "PACB",
+        "Date": "2024-05-14",
+        "percent_gain": 24.48
+    },
+    {
+        "symbol": "HTZ",
+        "Date": "2024-05-14",
+        "percent_gain": 20.53
+    },
+    {
+        "symbol": "CLOV",
+        "Date": "2024-05-14",
+        "percent_gain": 20.41
+    },
+    {
+        "symbol": "BYND",
+        "Date": "2024-05-14",
+        "percent_gain": 34.24
+    },
+    {
+        "symbol": "PLUG",
+        "Date": "2024-05-14",
+        "percent_gain": 43.7
+    },
+    {
+        "symbol": "GME",
+        "Date": "2024-05-14",
+        "percent_gain": 63.92
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-05-14",
+        "percent_gain": 116.79
+    },
+    {
+        "symbol": "CCLD",
+        "Date": "2024-05-13",
+        "percent_gain": 42.08
+    },
+    {
+        "symbol": "TVGN",
+        "Date": "2024-05-13",
+        "percent_gain": 60.87
+    },
+    {
+        "symbol": "LIDR",
+        "Date": "2024-05-10",
+        "percent_gain": 29.72
+    },
+    {
+        "symbol": "OKLO",
+        "Date": "2024-05-10",
+        "percent_gain": 60.7
+    },
+    {
+        "symbol": "CPOP",
+        "Date": "2024-05-09",
+        "percent_gain": 50.35
+    },
+    {
+        "symbol": "MARA",
+        "Date": "2024-05-09",
+        "percent_gain": 20.4
+    },
+    {
+        "symbol": "CTMX",
+        "Date": "2024-05-09",
+        "percent_gain": 41.91
+    },
+    {
+        "symbol": "NIVF",
+        "Date": "2024-05-08",
+        "percent_gain": 36.36
+    },
+    {
+        "symbol": "REBN",
+        "Date": "2024-05-08",
+        "percent_gain": 40.37
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-05-08",
+        "percent_gain": 37.28
+    },
+    {
+        "symbol": "TIVC",
+        "Date": "2024-05-08",
+        "percent_gain": 213.56
+    },
+    {
+        "symbol": "CTMX",
+        "Date": "2024-05-08",
+        "percent_gain": 106.13
+    },
+    {
+        "symbol": "GSUN",
+        "Date": "2024-05-07",
+        "percent_gain": 56.25
+    },
+    {
+        "symbol": "IMG",
+        "Date": "2024-05-07",
+        "percent_gain": 32.42
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-05-07",
+        "percent_gain": 38.51
+    },
+    {
+        "symbol": "FGEN",
+        "Date": "2024-05-07",
+        "percent_gain": 53.98
+    },
+    {
+        "symbol": "ESPR",
+        "Date": "2024-05-07",
+        "percent_gain": 23.79
+    },
+    {
+        "symbol": "CMND",
+        "Date": "2024-05-07",
+        "percent_gain": 22.45
+    },
+    {
+        "symbol": "NUVO",
+        "Date": "2024-05-06",
+        "percent_gain": 189.47
+    },
+    {
+        "symbol": "LYRA",
+        "Date": "2024-05-06",
+        "percent_gain": 52.38
+    },
+    {
+        "symbol": "GLYC",
+        "Date": "2024-05-06",
+        "percent_gain": 37.52
+    },
+    {
+        "symbol": "XBP",
+        "Date": "2024-05-06",
+        "percent_gain": 31.21
+    },
+    {
+        "symbol": "BENF",
+        "Date": "2024-05-03",
+        "percent_gain": 116.67
+    },
+    {
+        "symbol": "SGBX",
+        "Date": "2024-05-03",
+        "percent_gain": 91.75
+    },
+    {
+        "symbol": "HCTI",
+        "Date": "2024-05-03",
+        "percent_gain": 39.06
+    },
+    {
+        "symbol": "UNIT",
+        "Date": "2024-05-03",
+        "percent_gain": 52.4
+    },
+    {
+        "symbol": "EBS",
+        "Date": "2024-05-02",
+        "percent_gain": 22.37
+    },
+    {
+        "symbol": "APVO",
+        "Date": "2024-05-02",
+        "percent_gain": 39.53
+    },
+    {
+        "symbol": "CGC",
+        "Date": "2024-05-02",
+        "percent_gain": 26.66
+    },
+    {
+        "symbol": "VSTS",
+        "Date": "2024-05-02",
+        "percent_gain": 38.89
+    },
+    {
+        "symbol": "CTMX",
+        "Date": "2024-05-01",
+        "percent_gain": 30.0
+    },
+    {
+        "symbol": "CGC",
+        "Date": "2024-05-01",
+        "percent_gain": 36.36
+    },
+    {
+        "symbol": "CGC",
+        "Date": "2024-04-30",
+        "percent_gain": 30.42
+    },
+    {
+        "symbol": "ILLR",
+        "Date": "2024-04-30",
+        "percent_gain": 37.49
+    },
+    {
+        "symbol": "ACB",
+        "Date": "2024-04-30",
+        "percent_gain": 27.04
+    },
+    {
+        "symbol": "TLRY",
+        "Date": "2024-04-30",
+        "percent_gain": 24.5
+    },
+    {
+        "symbol": "GMM",
+        "Date": "2024-04-30",
+        "percent_gain": 44.62
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-04-30",
+        "percent_gain": 23.36
+    },
+    {
+        "symbol": "CSLR",
+        "Date": "2024-04-29",
+        "percent_gain": 20.32
+    },
+    {
+        "symbol": "HWH",
+        "Date": "2024-04-29",
+        "percent_gain": 57.81
+    },
+    {
+        "symbol": "IBRX",
+        "Date": "2024-04-29",
+        "percent_gain": 31.79
+    },
+    {
+        "symbol": "FCUV",
+        "Date": "2024-04-26",
+        "percent_gain": 85.44
+    },
+    {
+        "symbol": "MFI",
+        "Date": "2024-04-26",
+        "percent_gain": 648.5
+    },
+    {
+        "symbol": "ACON",
+        "Date": "2024-04-25",
+        "percent_gain": 104.75
+    },
+    {
+        "symbol": "BRFH",
+        "Date": "2024-04-25",
+        "percent_gain": 55.32
+    },
+    {
+        "symbol": "PCSA",
+        "Date": "2024-04-25",
+        "percent_gain": 24.65
+    },
+    {
+        "symbol": "OPTN",
+        "Date": "2024-04-25",
+        "percent_gain": 45.28
+    },
+    {
+        "symbol": "AIRE",
+        "Date": "2024-04-25",
+        "percent_gain": 54.13
+    },
+    {
+        "symbol": "BOF",
+        "Date": "2024-04-24",
+        "percent_gain": 28.06
+    },
+    {
+        "symbol": "AMST",
+        "Date": "2024-04-24",
+        "percent_gain": 24.0
+    },
+    {
+        "symbol": "TPET",
+        "Date": "2024-04-24",
+        "percent_gain": 31.44
+    },
+    {
+        "symbol": "NIVF",
+        "Date": "2024-04-23",
+        "percent_gain": 90.32
+    },
+    {
+        "symbol": "PALI",
+        "Date": "2024-04-23",
+        "percent_gain": 28.66
+    },
+    {
+        "symbol": "KULR",
+        "Date": "2024-04-23",
+        "percent_gain": 22.32
+    },
+    {
+        "symbol": "ILLR",
+        "Date": "2024-04-23",
+        "percent_gain": 27.74
+    },
+    {
+        "symbol": "IBRX",
+        "Date": "2024-04-23",
+        "percent_gain": 28.42
+    },
+    {
+        "symbol": "MLEC",
+        "Date": "2024-04-22",
+        "percent_gain": 87.86
+    },
+    {
+        "symbol": "TWG",
+        "Date": "2024-04-19",
+        "percent_gain": 52.69
+    },
+    {
+        "symbol": "NVFY",
+        "Date": "2024-04-19",
+        "percent_gain": 51.01
+    },
+    {
+        "symbol": "WISA",
+        "Date": "2024-04-19",
+        "percent_gain": 100.0
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-04-19",
+        "percent_gain": 28.91
+    },
+    {
+        "symbol": "ZCMD",
+        "Date": "2024-04-19",
+        "percent_gain": 72.33
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-04-19",
+        "percent_gain": 24.24
+    },
+    {
+        "symbol": "BPTH",
+        "Date": "2024-04-18",
+        "percent_gain": 78.79
+    },
+    {
+        "symbol": "ILLR",
+        "Date": "2024-04-18",
+        "percent_gain": 32.8
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-04-18",
+        "percent_gain": 36.35
+    },
+    {
+        "symbol": "NAYA",
+        "Date": "2024-04-17",
+        "percent_gain": 130.26
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-04-17",
+        "percent_gain": 71.29
+    },
+    {
+        "symbol": "WISA",
+        "Date": "2024-04-17",
+        "percent_gain": 85.91
+    },
+    {
+        "symbol": "SXTC",
+        "Date": "2024-04-16",
+        "percent_gain": 185.59
+    },
+    {
+        "symbol": "PRSO",
+        "Date": "2024-04-16",
+        "percent_gain": 39.1
+    },
+    {
+        "symbol": "PALI",
+        "Date": "2024-04-16",
+        "percent_gain": 46.21
+    },
+    {
+        "symbol": "TPET",
+        "Date": "2024-04-16",
+        "percent_gain": 66.18
+    },
+    {
+        "symbol": "PACB",
+        "Date": "2024-04-16",
+        "percent_gain": 43.57
+    },
+    {
+        "symbol": "KAVL",
+        "Date": "2024-04-15",
+        "percent_gain": 127.46
+    },
+    {
+        "symbol": "INDO",
+        "Date": "2024-04-15",
+        "percent_gain": 41.79
+    },
+    {
+        "symbol": "TPET",
+        "Date": "2024-04-15",
+        "percent_gain": 47.49
+    },
+    {
+        "symbol": "MRNS",
+        "Date": "2024-04-15",
+        "percent_gain": 62.5
+    },
+    {
+        "symbol": "ONVO",
+        "Date": "2024-04-15",
+        "percent_gain": 51.3
+    },
+    {
+        "symbol": "EZGO",
+        "Date": "2024-04-12",
+        "percent_gain": 105.41
+    },
+    {
+        "symbol": "RENT",
+        "Date": "2024-04-12",
+        "percent_gain": 96.33
+    },
+    {
+        "symbol": "NXPL",
+        "Date": "2024-04-12",
+        "percent_gain": 81.08
+    },
+    {
+        "symbol": "CDE",
+        "Date": "2024-04-12",
+        "percent_gain": 22.1
+    },
+    {
+        "symbol": "RENT",
+        "Date": "2024-04-11",
+        "percent_gain": 25.48
+    },
+    {
+        "symbol": "ADIL",
+        "Date": "2024-04-11",
+        "percent_gain": 32.19
+    },
+    {
+        "symbol": "RLYB",
+        "Date": "2024-04-11",
+        "percent_gain": 57.27
+    },
+    {
+        "symbol": "LAZR",
+        "Date": "2024-04-11",
+        "percent_gain": 36.15
+    },
+    {
+        "symbol": "GL",
+        "Date": "2024-04-11",
+        "percent_gain": 66.84
+    },
+    {
+        "symbol": "MRIN",
+        "Date": "2024-04-10",
+        "percent_gain": 51.14
+    },
+    {
+        "symbol": "IFBD",
+        "Date": "2024-04-10",
+        "percent_gain": 23.45
+    },
+    {
+        "symbol": "WAVE",
+        "Date": "2024-04-10",
+        "percent_gain": 37.22
+    },
+    {
+        "symbol": "BSGM",
+        "Date": "2024-04-09",
+        "percent_gain": 48.26
+    },
+    {
+        "symbol": "MDIA",
+        "Date": "2024-04-09",
+        "percent_gain": 22.3
+    },
+    {
+        "symbol": "RVSN",
+        "Date": "2024-04-09",
+        "percent_gain": 46.5
+    },
+    {
+        "symbol": "LASE",
+        "Date": "2024-04-09",
+        "percent_gain": 78.49
+    },
+    {
+        "symbol": "WAVE",
+        "Date": "2024-04-08",
+        "percent_gain": 41.2
+    },
+    {
+        "symbol": "LGVN",
+        "Date": "2024-04-08",
+        "percent_gain": 155.61
+    },
+    {
+        "symbol": "AUUD",
+        "Date": "2024-04-08",
+        "percent_gain": 102.85
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-04-08",
+        "percent_gain": 35.95
+    },
+    {
+        "symbol": "TLRY",
+        "Date": "2024-04-08",
+        "percent_gain": 34.79
+    },
+    {
+        "symbol": "MDIA",
+        "Date": "2024-04-05",
+        "percent_gain": 127.15
+    },
+    {
+        "symbol": "XXII",
+        "Date": "2024-04-05",
+        "percent_gain": 102.35
+    },
+    {
+        "symbol": "CADL",
+        "Date": "2024-04-05",
+        "percent_gain": 77.29
+    },
+    {
+        "symbol": "HUBC",
+        "Date": "2024-04-05",
+        "percent_gain": 41.04
+    },
+    {
+        "symbol": "GCTS",
+        "Date": "2024-04-05",
+        "percent_gain": 70.0
+    },
+    {
+        "symbol": "ALUR",
+        "Date": "2024-04-04",
+        "percent_gain": 62.55
+    },
+    {
+        "symbol": "ACB",
+        "Date": "2024-04-04",
+        "percent_gain": 33.94
+    },
+    {
+        "symbol": "MSTR",
+        "Date": "2024-04-04",
+        "percent_gain": 20.9
+    },
+    {
+        "symbol": "SNDL",
+        "Date": "2024-04-04",
+        "percent_gain": 21.36
+    },
+    {
+        "symbol": "BROG",
+        "Date": "2024-04-03",
+        "percent_gain": 250.53
+    },
+    {
+        "symbol": "VNDA",
+        "Date": "2024-04-03",
+        "percent_gain": 22.56
+    },
+    {
+        "symbol": "XTIA",
+        "Date": "2024-04-03",
+        "percent_gain": 33.68
+    },
+    {
+        "symbol": "VVPR",
+        "Date": "2024-04-03",
+        "percent_gain": 54.69
+    },
+    {
+        "symbol": "VVPR",
+        "Date": "2024-04-02",
+        "percent_gain": 20.9
+    },
+    {
+        "symbol": "TPET",
+        "Date": "2024-04-02",
+        "percent_gain": 76.92
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-04-01",
+        "percent_gain": 57.81
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-04-01",
+        "percent_gain": 21.81
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-04-01",
+        "percent_gain": 21.61
+    },
+    {
+        "symbol": "CERO",
+        "Date": "2024-03-28",
+        "percent_gain": 20.58
+    },
+    {
+        "symbol": "AVTX",
+        "Date": "2024-03-28",
+        "percent_gain": 92.51
+    },
+    {
+        "symbol": "IBIO",
+        "Date": "2024-03-28",
+        "percent_gain": 48.66
+    },
+    {
+        "symbol": "CGC",
+        "Date": "2024-03-28",
+        "percent_gain": 34.53
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-03-28",
+        "percent_gain": 20.58
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-03-28",
+        "percent_gain": 29.69
+    },
+    {
+        "symbol": "AMC",
+        "Date": "2024-03-28",
+        "percent_gain": 26.11
+    },
+    {
+        "symbol": "MSTR",
+        "Date": "2024-03-28",
+        "percent_gain": 21.53
+    },
+    {
+        "symbol": "XLO",
+        "Date": "2024-03-28",
+        "percent_gain": 26.14
+    },
+    {
+        "symbol": "AKBA",
+        "Date": "2024-03-28",
+        "percent_gain": 52.15
+    },
+    {
+        "symbol": "LIXT",
+        "Date": "2024-03-27",
+        "percent_gain": 30.18
+    },
+    {
+        "symbol": "RDDT",
+        "Date": "2024-03-26",
+        "percent_gain": 29.7
+    },
+    {
+        "symbol": "ABVC",
+        "Date": "2024-03-26",
+        "percent_gain": 20.83
+    },
+    {
+        "symbol": "MNY",
+        "Date": "2024-03-25",
+        "percent_gain": 30.22
+    },
+    {
+        "symbol": "XTLB",
+        "Date": "2024-03-25",
+        "percent_gain": 62.53
+    },
+    {
+        "symbol": "OCGN",
+        "Date": "2024-03-25",
+        "percent_gain": 21.68
+    },
+    {
+        "symbol": "CYTO",
+        "Date": "2024-03-25",
+        "percent_gain": 44.21
+    },
+    {
+        "symbol": "LCID",
+        "Date": "2024-03-25",
+        "percent_gain": 21.38
+    },
+    {
+        "symbol": "VMEO",
+        "Date": "2024-03-25",
+        "percent_gain": 42.93
+    },
+    {
+        "symbol": "MLGO",
+        "Date": "2024-03-25",
+        "percent_gain": 43.7
+    },
+    {
+        "symbol": "BACK",
+        "Date": "2024-03-22",
+        "percent_gain": 62.81
+    },
+    {
+        "symbol": "CGC",
+        "Date": "2024-03-22",
+        "percent_gain": 28.87
+    },
+    {
+        "symbol": "NVFY",
+        "Date": "2024-03-22",
+        "percent_gain": 51.89
+    },
+    {
+        "symbol": "OTLK",
+        "Date": "2024-03-22",
+        "percent_gain": 37.72
+    },
+    {
+        "symbol": "KAVL",
+        "Date": "2024-03-21",
+        "percent_gain": 32.31
+    },
+    {
+        "symbol": "RDDT",
+        "Date": "2024-03-21",
+        "percent_gain": 25.65
+    },
+    {
+        "symbol": "KULR",
+        "Date": "2024-03-21",
+        "percent_gain": 24.26
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-03-21",
+        "percent_gain": 37.13
+    },
+    {
+        "symbol": "WORX",
+        "Date": "2024-03-20",
+        "percent_gain": 36.2
+    },
+    {
+        "symbol": "TGL",
+        "Date": "2024-03-20",
+        "percent_gain": 94.84
+    },
+    {
+        "symbol": "TRUG",
+        "Date": "2024-03-20",
+        "percent_gain": 40.99
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-03-20",
+        "percent_gain": 27.99
+    },
+    {
+        "symbol": "PDD",
+        "Date": "2024-03-20",
+        "percent_gain": 21.26
+    },
+    {
+        "symbol": "NKGN",
+        "Date": "2024-03-19",
+        "percent_gain": 41.09
+    },
+    {
+        "symbol": "ENVB",
+        "Date": "2024-03-19",
+        "percent_gain": 59.83
+    },
+    {
+        "symbol": "GOEV",
+        "Date": "2024-03-18",
+        "percent_gain": 39.57
+    },
+    {
+        "symbol": "STI",
+        "Date": "2024-03-18",
+        "percent_gain": 24.23
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-03-18",
+        "percent_gain": 25.99
+    },
+    {
+        "symbol": "WIMI",
+        "Date": "2024-03-18",
+        "percent_gain": 90.63
+    },
+    {
+        "symbol": "MSTR",
+        "Date": "2024-03-18",
+        "percent_gain": 22.39
+    },
+    {
+        "symbol": "WIMI",
+        "Date": "2024-03-15",
+        "percent_gain": 70.0
+    },
+    {
+        "symbol": "JTAI",
+        "Date": "2024-03-15",
+        "percent_gain": 44.33
+    },
+    {
+        "symbol": "MSTR",
+        "Date": "2024-03-15",
+        "percent_gain": 20.77
+    },
+    {
+        "symbol": "PBM",
+        "Date": "2024-03-14",
+        "percent_gain": 44.96
+    },
+    {
+        "symbol": "APM",
+        "Date": "2024-03-14",
+        "percent_gain": 25.77
+    },
+    {
+        "symbol": "SPRB",
+        "Date": "2024-03-14",
+        "percent_gain": 59.65
+    },
+    {
+        "symbol": "KULR",
+        "Date": "2024-03-14",
+        "percent_gain": 29.45
+    },
+    {
+        "symbol": "GXAI",
+        "Date": "2024-03-13",
+        "percent_gain": 89.19
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-03-13",
+        "percent_gain": 25.42
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-03-13",
+        "percent_gain": 26.98
+    },
+    {
+        "symbol": "X",
+        "Date": "2024-03-13",
+        "percent_gain": 22.25
+    },
+    {
+        "symbol": "RGLS",
+        "Date": "2024-03-12",
+        "percent_gain": 55.97
+    },
+    {
+        "symbol": "SGLY",
+        "Date": "2024-03-12",
+        "percent_gain": 50.83
+    },
+    {
+        "symbol": "CLRO",
+        "Date": "2024-03-12",
+        "percent_gain": 23.99
+    },
+    {
+        "symbol": "GERN",
+        "Date": "2024-03-12",
+        "percent_gain": 28.0
+    },
+    {
+        "symbol": "STI",
+        "Date": "2024-03-11",
+        "percent_gain": 113.89
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-03-11",
+        "percent_gain": 28.21
+    },
+    {
+        "symbol": "DUO",
+        "Date": "2024-03-11",
+        "percent_gain": 77.18
+    },
+    {
+        "symbol": "PIK",
+        "Date": "2024-03-11",
+        "percent_gain": 120.62
+    },
+    {
+        "symbol": "RVSN",
+        "Date": "2024-03-11",
+        "percent_gain": 46.36
+    },
+    {
+        "symbol": "GERN",
+        "Date": "2024-03-11",
+        "percent_gain": 30.05
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-03-11",
+        "percent_gain": 29.35
+    },
+    {
+        "symbol": "MARA",
+        "Date": "2024-03-11",
+        "percent_gain": 23.28
+    },
+    {
+        "symbol": "PBM",
+        "Date": "2024-03-08",
+        "percent_gain": 143.5
+    },
+    {
+        "symbol": "MARA",
+        "Date": "2024-03-08",
+        "percent_gain": 22.48
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-03-08",
+        "percent_gain": 21.17
+    },
+    {
+        "symbol": "AIMD",
+        "Date": "2024-03-08",
+        "percent_gain": 89.02
+    },
+    {
+        "symbol": "BBAI",
+        "Date": "2024-03-08",
+        "percent_gain": 21.9
+    },
+    {
+        "symbol": "LYT",
+        "Date": "2024-03-07",
+        "percent_gain": 132.77
+    },
+    {
+        "symbol": "IMRN",
+        "Date": "2024-03-07",
+        "percent_gain": 56.84
+    },
+    {
+        "symbol": "IPA",
+        "Date": "2024-03-07",
+        "percent_gain": 32.06
+    },
+    {
+        "symbol": "BREA",
+        "Date": "2024-03-07",
+        "percent_gain": 60.53
+    },
+    {
+        "symbol": "BBAI",
+        "Date": "2024-03-07",
+        "percent_gain": 53.31
+    },
+    {
+        "symbol": "APM",
+        "Date": "2024-03-06",
+        "percent_gain": 150.21
+    },
+    {
+        "symbol": "NKGN",
+        "Date": "2024-03-06",
+        "percent_gain": 110.36
+    },
+    {
+        "symbol": "RVSN",
+        "Date": "2024-03-06",
+        "percent_gain": 95.51
+    },
+    {
+        "symbol": "FLG",
+        "Date": "2024-03-06",
+        "percent_gain": 20.31
+    },
+    {
+        "symbol": "AISP",
+        "Date": "2024-03-06",
+        "percent_gain": 69.38
+    },
+    {
+        "symbol": "FL",
+        "Date": "2024-03-06",
+        "percent_gain": 25.06
+    },
+    {
+        "symbol": "SBFM",
+        "Date": "2024-03-05",
+        "percent_gain": 115.91
+    },
+    {
+        "symbol": "OCEA",
+        "Date": "2024-03-05",
+        "percent_gain": 92.82
+    },
+    {
+        "symbol": "PHUN",
+        "Date": "2024-03-05",
+        "percent_gain": 75.17
+    },
+    {
+        "symbol": "MNTS",
+        "Date": "2024-03-05",
+        "percent_gain": 50.93
+    },
+    {
+        "symbol": "BBAI",
+        "Date": "2024-03-05",
+        "percent_gain": 21.2
+    },
+    {
+        "symbol": "BBAI",
+        "Date": "2024-03-04",
+        "percent_gain": 27.87
+    },
+    {
+        "symbol": "MSTR",
+        "Date": "2024-03-04",
+        "percent_gain": 29.39
+    },
+    {
+        "symbol": "NKTR",
+        "Date": "2024-03-04",
+        "percent_gain": 22.16
+    },
+    {
+        "symbol": "MARA",
+        "Date": "2024-03-04",
+        "percent_gain": 32.02
+    },
+    {
+        "symbol": "QNRX",
+        "Date": "2024-03-04",
+        "percent_gain": 312.0
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-03-04",
+        "percent_gain": 26.67
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-03-04",
+        "percent_gain": 25.11
+    },
+    {
+        "symbol": "RIOT",
+        "Date": "2024-03-04",
+        "percent_gain": 22.37
+    },
+    {
+        "symbol": "SOFI",
+        "Date": "2024-03-04",
+        "percent_gain": 25.58
+    },
+    {
+        "symbol": "BITF",
+        "Date": "2024-03-04",
+        "percent_gain": 21.49
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-03-04",
+        "percent_gain": 30.24
+    },
+    {
+        "symbol": "MTC",
+        "Date": "2024-03-01",
+        "percent_gain": 62.29
+    },
+    {
+        "symbol": "ADIL",
+        "Date": "2024-03-01",
+        "percent_gain": 51.63
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-03-01",
+        "percent_gain": 21.24
+    },
+    {
+        "symbol": "FLG",
+        "Date": "2024-03-01",
+        "percent_gain": 42.47
+    },
+    {
+        "symbol": "NXU",
+        "Date": "2024-03-01",
+        "percent_gain": 56.25
+    },
+    {
+        "symbol": "FUBO",
+        "Date": "2024-03-01",
+        "percent_gain": 31.62
+    },
+    {
+        "symbol": "LVTX",
+        "Date": "2024-02-29",
+        "percent_gain": 194.09
+    },
+    {
+        "symbol": "SIDU",
+        "Date": "2024-02-29",
+        "percent_gain": 64.75
+    },
+    {
+        "symbol": "ENVB",
+        "Date": "2024-02-29",
+        "percent_gain": 75.9
+    },
+    {
+        "symbol": "VANI",
+        "Date": "2024-02-29",
+        "percent_gain": 55.34
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-02-29",
+        "percent_gain": 25.6
+    },
+    {
+        "symbol": "IRWD",
+        "Date": "2024-02-29",
+        "percent_gain": 21.35
+    },
+    {
+        "symbol": "GRFS",
+        "Date": "2024-02-29",
+        "percent_gain": 24.5
+    },
+    {
+        "symbol": "ADIL",
+        "Date": "2024-02-28",
+        "percent_gain": 40.69
+    },
+    {
+        "symbol": "VANI",
+        "Date": "2024-02-28",
+        "percent_gain": 84.83
+    },
+    {
+        "symbol": "VKTX",
+        "Date": "2024-02-28",
+        "percent_gain": 29.02
+    },
+    {
+        "symbol": "MARA",
+        "Date": "2024-02-28",
+        "percent_gain": 31.62
+    },
+    {
+        "symbol": "CAN",
+        "Date": "2024-02-28",
+        "percent_gain": 26.11
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-02-28",
+        "percent_gain": 33.85
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-02-28",
+        "percent_gain": 27.47
+    },
+    {
+        "symbol": "RIOT",
+        "Date": "2024-02-28",
+        "percent_gain": 24.58
+    },
+    {
+        "symbol": "BITF",
+        "Date": "2024-02-28",
+        "percent_gain": 32.63
+    },
+    {
+        "symbol": "CXAI",
+        "Date": "2024-02-27",
+        "percent_gain": 45.57
+    },
+    {
+        "symbol": "SOUN",
+        "Date": "2024-02-27",
+        "percent_gain": 24.75
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-02-27",
+        "percent_gain": 65.73
+    },
+    {
+        "symbol": "WULF",
+        "Date": "2024-02-27",
+        "percent_gain": 23.1
+    },
+    {
+        "symbol": "CLSK",
+        "Date": "2024-02-27",
+        "percent_gain": 29.7
+    },
+    {
+        "symbol": "BITF",
+        "Date": "2024-02-27",
+        "percent_gain": 23.73
+    },
+    {
+        "symbol": "OCEA",
+        "Date": "2024-02-26",
+        "percent_gain": 40.31
+    },
+    {
+        "symbol": "LUNR",
+        "Date": "2024-02-23",
+        "percent_gain": 89.0
+    },
+    {
+        "symbol": "NOVA",
+        "Date": "2024-02-23",
+        "percent_gain": 23.95
+    },
+    {
+        "symbol": "VERO",
+        "Date": "2024-02-22",
+        "percent_gain": 70.38
+    },
+    {
+        "symbol": "LRHC",
+        "Date": "2024-02-22",
+        "percent_gain": 115.69
+    },
+    {
+        "symbol": "BZFD",
+        "Date": "2024-02-22",
+        "percent_gain": 47.73
+    },
+    {
+        "symbol": "RIVN",
+        "Date": "2024-02-22",
+        "percent_gain": 21.65
+    },
+    {
+        "symbol": "NOVA",
+        "Date": "2024-02-22",
+        "percent_gain": 55.51
+    },
+    {
+        "symbol": "RUN",
+        "Date": "2024-02-22",
+        "percent_gain": 26.4
+    },
+    {
+        "symbol": "CPOP",
+        "Date": "2024-02-21",
+        "percent_gain": 46.07
+    },
+    {
+        "symbol": "VTYX",
+        "Date": "2024-02-21",
+        "percent_gain": 29.98
+    },
+    {
+        "symbol": "SOGP",
+        "Date": "2024-02-21",
+        "percent_gain": 64.62
+    },
+    {
+        "symbol": "LCID",
+        "Date": "2024-02-21",
+        "percent_gain": 22.4
+    },
+    {
+        "symbol": "LUNR",
+        "Date": "2024-02-21",
+        "percent_gain": 60.02
+    },
+    {
+        "symbol": "RIVN",
+        "Date": "2024-02-21",
+        "percent_gain": 40.57
+    },
+    {
+        "symbol": "CPOP",
+        "Date": "2024-02-20",
+        "percent_gain": 51.13
+    },
+    {
+        "symbol": "BFRI",
+        "Date": "2024-02-20",
+        "percent_gain": 92.43
+    },
+    {
+        "symbol": "LUNR",
+        "Date": "2024-02-20",
+        "percent_gain": 29.29
+    },
+    {
+        "symbol": "AGRI",
+        "Date": "2024-02-20",
+        "percent_gain": 203.13
+    },
+    {
+        "symbol": "MNPR",
+        "Date": "2024-02-20",
+        "percent_gain": 173.68
+    },
+    {
+        "symbol": "CAN",
+        "Date": "2024-02-20",
+        "percent_gain": 28.57
+    },
+    {
+        "symbol": "OCGN",
+        "Date": "2024-02-20",
+        "percent_gain": 20.75
+    },
+    {
+        "symbol": "NNOX",
+        "Date": "2024-02-16",
+        "percent_gain": 38.1
+    },
+    {
+        "symbol": "BMR",
+        "Date": "2024-02-16",
+        "percent_gain": 26.61
+    },
+    {
+        "symbol": "HTOO",
+        "Date": "2024-02-16",
+        "percent_gain": 87.5
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-02-16",
+        "percent_gain": 36.86
+    },
+    {
+        "symbol": "CHNR",
+        "Date": "2024-02-15",
+        "percent_gain": 400.0
+    },
+    {
+        "symbol": "SMCI",
+        "Date": "2024-02-15",
+        "percent_gain": 25.27
+    },
+    {
+        "symbol": "SABR",
+        "Date": "2024-02-15",
+        "percent_gain": 23.99
+    },
+    {
+        "symbol": "JXJT",
+        "Date": "2024-02-15",
+        "percent_gain": 276.55
+    },
+    {
+        "symbol": "CETY",
+        "Date": "2024-02-14",
+        "percent_gain": 226.68
+    },
+    {
+        "symbol": "DTSS",
+        "Date": "2024-02-14",
+        "percent_gain": 106.62
+    },
+    {
+        "symbol": "CNVS",
+        "Date": "2024-02-14",
+        "percent_gain": 138.18
+    },
+    {
+        "symbol": "IINN",
+        "Date": "2024-02-14",
+        "percent_gain": 70.43
+    },
+    {
+        "symbol": "BREA",
+        "Date": "2024-02-14",
+        "percent_gain": 105.48
+    },
+    {
+        "symbol": "BGLC",
+        "Date": "2024-02-13",
+        "percent_gain": 197.37
+    },
+    {
+        "symbol": "GPUS",
+        "Date": "2024-02-13",
+        "percent_gain": 123.02
+    },
+    {
+        "symbol": "DBGI",
+        "Date": "2024-02-13",
+        "percent_gain": 152.47
+    },
+    {
+        "symbol": "BMR",
+        "Date": "2024-02-13",
+        "percent_gain": 34.87
+    },
+    {
+        "symbol": "ARBB",
+        "Date": "2024-02-13",
+        "percent_gain": 95.28
+    },
+    {
+        "symbol": "OMH",
+        "Date": "2024-02-13",
+        "percent_gain": 351.13
+    },
+    {
+        "symbol": "SSRM",
+        "Date": "2024-02-13",
+        "percent_gain": 85.68
+    },
+    {
         "symbol": "RNLX",
         "Date": "2024-02-12",
         "percent_gain": 93.55
@@ -15,11 +5430,6 @@
         "percent_gain": 273.1
     },
     {
-        "symbol": "MLGO",
-        "Date": "2024-02-12",
-        "percent_gain": 28.53
-    },
-    {
         "symbol": "DHAI",
         "Date": "2024-02-12",
         "percent_gain": 123.81
@@ -28,11 +5438,6 @@
         "symbol": "ARM",
         "Date": "2024-02-12",
         "percent_gain": 37.18
-    },
-    {
-        "symbol": "SPCB",
-        "Date": "2024-02-12",
-        "percent_gain": 55.34
     },
     {
         "symbol": "NYCB",
@@ -48,11 +5453,6 @@
         "symbol": "SUNW",
         "Date": "2024-02-12",
         "percent_gain": 28.97
-    },
-    {
-        "symbol": "UCAR",
-        "Date": "2024-02-12",
-        "percent_gain": 35.97
     },
     {
         "symbol": "INBS",
@@ -78,11 +5478,6 @@
         "symbol": "SUNW",
         "Date": "2024-02-09",
         "percent_gain": 97.0
-    },
-    {
-        "symbol": "TCBP",
-        "Date": "2024-02-09",
-        "percent_gain": 59.62
     },
     {
         "symbol": "TOP",
@@ -115,19 +5510,9 @@
         "percent_gain": 186.64
     },
     {
-        "symbol": "MLGO",
-        "Date": "2024-02-08",
-        "percent_gain": 169.92
-    },
-    {
         "symbol": "GGE",
         "Date": "2024-02-08",
         "percent_gain": 40.52
-    },
-    {
-        "symbol": "UCAR",
-        "Date": "2024-02-08",
-        "percent_gain": 39.1
     },
     {
         "symbol": "WIMI",
@@ -140,24 +5525,9 @@
         "percent_gain": 140.0
     },
     {
-        "symbol": "HOLO",
-        "Date": "2024-02-08",
-        "percent_gain": 94.98
-    },
-    {
-        "symbol": "SMX",
-        "Date": "2024-02-07",
-        "percent_gain": 75.03
-    },
-    {
         "symbol": "MRDB",
         "Date": "2024-02-07",
         "percent_gain": 32.18
-    },
-    {
-        "symbol": "PEGY",
-        "Date": "2024-02-07",
-        "percent_gain": 39.45
     },
     {
         "symbol": "GLT",
@@ -170,11 +5540,6 @@
         "percent_gain": 81.25
     },
     {
-        "symbol": "AGFY",
-        "Date": "2024-02-06",
-        "percent_gain": 46.65
-    },
-    {
         "symbol": "NSTG",
         "Date": "2024-02-06",
         "percent_gain": 118.23
@@ -185,14 +5550,9 @@
         "percent_gain": 53.37
     },
     {
-        "symbol": "PHUN",
+        "symbol": "FLG",
         "Date": "2024-02-06",
-        "percent_gain": 28.37
-    },
-    {
-        "symbol": "UCAR",
-        "Date": "2024-02-06",
-        "percent_gain": 36.57
+        "percent_gain": 22.81
     },
     {
         "symbol": "NYCB",
@@ -215,11 +5575,6 @@
         "percent_gain": 42.38
     },
     {
-        "symbol": "ATRA",
-        "Date": "2024-02-02",
-        "percent_gain": 42.34
-    },
-    {
         "symbol": "INBS",
         "Date": "2024-02-02",
         "percent_gain": 92.03
@@ -240,29 +5595,14 @@
         "percent_gain": 31.41
     },
     {
-        "symbol": "GRI",
-        "Date": "2024-02-01",
-        "percent_gain": 239.58
-    },
-    {
         "symbol": "TPET",
         "Date": "2024-02-01",
         "percent_gain": 43.6
     },
     {
-        "symbol": "KPRX",
-        "Date": "2024-02-01",
-        "percent_gain": 25.06
-    },
-    {
         "symbol": "CNXA",
         "Date": "2024-02-01",
         "percent_gain": 25.4
-    },
-    {
-        "symbol": "GOEV",
-        "Date": "2024-02-01",
-        "percent_gain": 30.53
     },
     {
         "symbol": "TELL",
@@ -280,11 +5620,6 @@
         "percent_gain": 25.16
     },
     {
-        "symbol": "SNOA",
-        "Date": "2024-01-31",
-        "percent_gain": 82.75
-    },
-    {
         "symbol": "CNXA",
         "Date": "2024-01-31",
         "percent_gain": 80.5
@@ -295,6 +5630,11 @@
         "percent_gain": 48.21
     },
     {
+        "symbol": "FLG",
+        "Date": "2024-01-31",
+        "percent_gain": 24.9
+    },
+    {
         "symbol": "NYCB",
         "Date": "2024-01-31",
         "percent_gain": 24.87
@@ -303,16 +5643,6 @@
         "symbol": "MARK",
         "Date": "2024-01-31",
         "percent_gain": 65.36
-    },
-    {
-        "symbol": "LYT",
-        "Date": "2024-01-31",
-        "percent_gain": 42.0
-    },
-    {
-        "symbol": "SINT",
-        "Date": "2024-01-31",
-        "percent_gain": 84.6
     },
     {
         "symbol": "TELL",
@@ -330,29 +5660,14 @@
         "percent_gain": 56.85
     },
     {
-        "symbol": "IVP",
-        "Date": "2024-01-30",
-        "percent_gain": 44.84
-    },
-    {
         "symbol": "PXLW",
         "Date": "2024-01-30",
         "percent_gain": 37.85
     },
     {
-        "symbol": "ATPC",
-        "Date": "2024-01-30",
-        "percent_gain": 52.58
-    },
-    {
         "symbol": "SOFI",
         "Date": "2024-01-30",
         "percent_gain": 20.05
-    },
-    {
-        "symbol": "CISS",
-        "Date": "2024-01-30",
-        "percent_gain": 26.06
     },
     {
         "symbol": "ITRM",
@@ -370,16 +5685,6 @@
         "percent_gain": 58.45
     },
     {
-        "symbol": "PALI",
-        "Date": "2024-01-29",
-        "percent_gain": 138.82
-    },
-    {
-        "symbol": "NBY",
-        "Date": "2024-01-29",
-        "percent_gain": 22.09
-    },
-    {
         "symbol": "CRBP",
         "Date": "2024-01-26",
         "percent_gain": 114.61
@@ -388,26 +5693,6 @@
         "symbol": "ACON",
         "Date": "2024-01-26",
         "percent_gain": 54.0
-    },
-    {
-        "symbol": "IVP",
-        "Date": "2024-01-26",
-        "percent_gain": 192.4
-    },
-    {
-        "symbol": "CYN",
-        "Date": "2024-01-26",
-        "percent_gain": 25.96
-    },
-    {
-        "symbol": "PHUN",
-        "Date": "2024-01-26",
-        "percent_gain": 26.63
-    },
-    {
-        "symbol": "JAGX",
-        "Date": "2024-01-26",
-        "percent_gain": 41.15
     },
     {
         "symbol": "PCSA",
@@ -425,16 +5710,6 @@
         "percent_gain": 22.14
     },
     {
-        "symbol": "ONCO",
-        "Date": "2024-01-25",
-        "percent_gain": 101.0
-    },
-    {
-        "symbol": "CISS",
-        "Date": "2024-01-25",
-        "percent_gain": 49.24
-    },
-    {
         "symbol": "CRGE",
         "Date": "2024-01-25",
         "percent_gain": 44.45
@@ -443,11 +5718,6 @@
         "symbol": "LVTX",
         "Date": "2024-01-25",
         "percent_gain": 32.79
-    },
-    {
-        "symbol": "VSME",
-        "Date": "2024-01-24",
-        "percent_gain": 80.64
     },
     {
         "symbol": "EVAX",
@@ -463,11 +5733,6 @@
         "symbol": "FAZE",
         "Date": "2024-01-24",
         "percent_gain": 56.67
-    },
-    {
-        "symbol": "PHUN",
-        "Date": "2024-01-24",
-        "percent_gain": 46.15
     },
     {
         "symbol": "NXU",
@@ -500,24 +5765,19 @@
         "percent_gain": 53.92
     },
     {
+        "symbol": "DJT",
+        "Date": "2024-01-23",
+        "percent_gain": 53.92
+    },
+    {
         "symbol": "RUM",
         "Date": "2024-01-23",
         "percent_gain": 23.59
     },
     {
-        "symbol": "VRM",
-        "Date": "2024-01-23",
-        "percent_gain": 28.14
-    },
-    {
         "symbol": "SAVE",
         "Date": "2024-01-23",
         "percent_gain": 29.72
-    },
-    {
-        "symbol": "PHUN",
-        "Date": "2024-01-23",
-        "percent_gain": 38.83
     },
     {
         "symbol": "FSR",
@@ -535,11 +5795,6 @@
         "percent_gain": 24.52
     },
     {
-        "symbol": "LYT",
-        "Date": "2024-01-22",
-        "percent_gain": 48.81
-    },
-    {
         "symbol": "CHRS",
         "Date": "2024-01-22",
         "percent_gain": 23.75
@@ -555,34 +5810,19 @@
         "percent_gain": 78.95
     },
     {
-        "symbol": "CISS",
-        "Date": "2024-01-19",
-        "percent_gain": 27.16
-    },
-    {
-        "symbol": "TGL",
-        "Date": "2024-01-19",
-        "percent_gain": 29.22
-    },
-    {
         "symbol": "BCEL",
         "Date": "2024-01-18",
         "percent_gain": 31.33
     },
     {
-        "symbol": "AGFY",
-        "Date": "2024-01-18",
-        "percent_gain": 164.15
-    },
-    {
-        "symbol": "LYT",
-        "Date": "2024-01-18",
-        "percent_gain": 117.35
-    },
-    {
         "symbol": "MIMO",
         "Date": "2024-01-17",
         "percent_gain": 149.41
+    },
+    {
+        "symbol": "LQR",
+        "Date": "2024-01-17",
+        "percent_gain": 28.62
     },
     {
         "symbol": "ROI",
@@ -602,17 +5842,12 @@
     {
         "symbol": "PHUN",
         "Date": "2024-01-16",
-        "percent_gain": 201.29
+        "percent_gain": 201.35
     },
     {
         "symbol": "DATS",
         "Date": "2024-01-16",
         "percent_gain": 156.52
-    },
-    {
-        "symbol": "UCAR",
-        "Date": "2024-01-16",
-        "percent_gain": 41.95
     },
     {
         "symbol": "LAES",
@@ -637,7 +5872,7 @@
     {
         "symbol": "SAVE",
         "Date": "2024-01-16",
-        "percent_gain": 152.68
+        "percent_gain": 152.77
     },
     {
         "symbol": "PLUG",
@@ -678,11 +5913,6 @@
         "symbol": "MDAI",
         "Date": "2024-01-12",
         "percent_gain": 46.83
-    },
-    {
-        "symbol": "JAGX",
-        "Date": "2024-01-12",
-        "percent_gain": 32.21
     },
     {
         "symbol": "MARA",
@@ -750,6 +5980,11 @@
         "percent_gain": 45.1
     },
     {
+        "symbol": "MSTR",
+        "Date": "2024-01-11",
+        "percent_gain": 25.85
+    },
+    {
         "symbol": "COIN",
         "Date": "2024-01-11",
         "percent_gain": 23.14
@@ -768,11 +6003,6 @@
         "symbol": "SANA",
         "Date": "2024-01-10",
         "percent_gain": 38.01
-    },
-    {
-        "symbol": "KITT",
-        "Date": "2024-01-10",
-        "percent_gain": 24.1
     },
     {
         "symbol": "BITF",
@@ -820,11 +6050,6 @@
         "percent_gain": 38.03
     },
     {
-        "symbol": "GOEV",
-        "Date": "2024-01-08",
-        "percent_gain": 44.6
-    },
-    {
         "symbol": "DADA",
         "Date": "2024-01-08",
         "percent_gain": 40.61
@@ -840,34 +6065,14 @@
         "percent_gain": 93.41
     },
     {
-        "symbol": "SGD",
-        "Date": "2024-01-05",
-        "percent_gain": 26.09
-    },
-    {
-        "symbol": "BNZI",
-        "Date": "2024-01-05",
-        "percent_gain": 67.45
-    },
-    {
         "symbol": "AIMD",
         "Date": "2024-01-05",
         "percent_gain": 48.95
     },
     {
-        "symbol": "DRMA",
-        "Date": "2024-01-05",
-        "percent_gain": 53.5
-    },
-    {
         "symbol": "FSR",
         "Date": "2024-01-05",
         "percent_gain": 21.25
-    },
-    {
-        "symbol": "ATXI",
-        "Date": "2024-01-04",
-        "percent_gain": 86.23
     },
     {
         "symbol": "OMGA",
@@ -920,24 +6125,9 @@
         "percent_gain": 134.75
     },
     {
-        "symbol": "SNGX",
-        "Date": "2024-01-02",
-        "percent_gain": 30.79
-    },
-    {
         "symbol": "HLTH",
         "Date": "2024-01-02",
         "percent_gain": 27.36
-    },
-    {
-        "symbol": "NKLA",
-        "Date": "2024-01-02",
-        "percent_gain": 22.28
-    },
-    {
-        "symbol": "FFIE",
-        "Date": "2024-01-02",
-        "percent_gain": 39.9
     },
     {
         "symbol": "FSR",
@@ -968,11 +6158,6 @@
         "symbol": "FLJ",
         "Date": "2023-12-29",
         "percent_gain": 43.04
-    },
-    {
-        "symbol": "ADTX",
-        "Date": "2023-12-29",
-        "percent_gain": 76.46
     },
     {
         "symbol": "SXTC",
@@ -1020,11 +6205,6 @@
         "percent_gain": 38.32
     },
     {
-        "symbol": "FFIE",
-        "Date": "2023-12-29",
-        "percent_gain": 32.19
-    },
-    {
         "symbol": "NVFY",
         "Date": "2023-12-28",
         "percent_gain": 69.23
@@ -1033,16 +6213,6 @@
         "symbol": "MBOT",
         "Date": "2023-12-28",
         "percent_gain": 35.98
-    },
-    {
-        "symbol": "SNES",
-        "Date": "2023-12-28",
-        "percent_gain": 68.5
-    },
-    {
-        "symbol": "CING",
-        "Date": "2023-12-28",
-        "percent_gain": 66.01
     },
     {
         "symbol": "LAES",
@@ -1068,16 +6238,6 @@
         "symbol": "CLSK",
         "Date": "2023-12-28",
         "percent_gain": 21.4
-    },
-    {
-        "symbol": "FFIE",
-        "Date": "2023-12-28",
-        "percent_gain": 37.33
-    },
-    {
-        "symbol": "UCAR",
-        "Date": "2023-12-28",
-        "percent_gain": 25.34
     },
     {
         "symbol": "MARA",
@@ -1125,16 +6285,6 @@
         "percent_gain": 28.24
     },
     {
-        "symbol": "FFIE",
-        "Date": "2023-12-26",
-        "percent_gain": 32.66
-    },
-    {
-        "symbol": "SXTP",
-        "Date": "2023-12-26",
-        "percent_gain": 29.66
-    },
-    {
         "symbol": "BLNK",
         "Date": "2023-12-26",
         "percent_gain": 21.74
@@ -1165,11 +6315,6 @@
         "percent_gain": 102.99
     },
     {
-        "symbol": "MULN",
-        "Date": "2023-12-21",
-        "percent_gain": 90.04
-    },
-    {
         "symbol": "SMFL",
         "Date": "2023-12-21",
         "percent_gain": 77.16
@@ -1178,11 +6323,6 @@
         "symbol": "DMK",
         "Date": "2023-12-21",
         "percent_gain": 38.67
-    },
-    {
-        "symbol": "HOOK",
-        "Date": "2023-12-21",
-        "percent_gain": 56.94
     },
     {
         "symbol": "PRZO",
@@ -1203,16 +6343,6 @@
         "symbol": "AUVI",
         "Date": "2023-12-20",
         "percent_gain": 54.64
-    },
-    {
-        "symbol": "RDHL",
-        "Date": "2023-12-20",
-        "percent_gain": 35.94
-    },
-    {
-        "symbol": "NKLA",
-        "Date": "2023-12-20",
-        "percent_gain": 20.48
     },
     {
         "symbol": "TCON",
@@ -1253,11 +6383,6 @@
         "symbol": "ARQT",
         "Date": "2023-12-18",
         "percent_gain": 33.96
-    },
-    {
-        "symbol": "NRXP",
-        "Date": "2023-12-18",
-        "percent_gain": 22.28
     },
     {
         "symbol": "FCEL",
@@ -1325,16 +6450,6 @@
         "percent_gain": 20.44
     },
     {
-        "symbol": "AGEN",
-        "Date": "2023-12-14",
-        "percent_gain": 22.96
-    },
-    {
-        "symbol": "RSLS",
-        "Date": "2023-12-14",
-        "percent_gain": 20.85
-    },
-    {
         "symbol": "CCCC",
         "Date": "2023-12-13",
         "percent_gain": 20.36
@@ -1343,16 +6458,6 @@
         "symbol": "NXTP",
         "Date": "2023-12-13",
         "percent_gain": 45.16
-    },
-    {
-        "symbol": "RSLS",
-        "Date": "2023-12-13",
-        "percent_gain": 63.98
-    },
-    {
-        "symbol": "ADTX",
-        "Date": "2023-12-12",
-        "percent_gain": 51.03
     },
     {
         "symbol": "BRSH",
@@ -1385,11 +6490,6 @@
         "percent_gain": 36.55
     },
     {
-        "symbol": "FFIE",
-        "Date": "2023-12-11",
-        "percent_gain": 30.71
-    },
-    {
         "symbol": "TELL",
         "Date": "2023-12-11",
         "percent_gain": 37.86
@@ -1398,11 +6498,6 @@
         "symbol": "FSR",
         "Date": "2023-12-11",
         "percent_gain": 22.67
-    },
-    {
-        "symbol": "FFIE",
-        "Date": "2023-12-08",
-        "percent_gain": 41.75
     },
     {
         "symbol": "INTS",
@@ -1435,19 +6530,14 @@
         "percent_gain": 42.5
     },
     {
-        "symbol": "MLGO",
-        "Date": "2023-12-08",
-        "percent_gain": 51.93
-    },
-    {
         "symbol": "BLUE",
         "Date": "2023-12-08",
         "percent_gain": 80.13
     },
     {
-        "symbol": "CYN",
-        "Date": "2023-12-08",
-        "percent_gain": 35.21
+        "symbol": "NITO",
+        "Date": "2023-12-07",
+        "percent_gain": 156.8
     },
     {
         "symbol": "SVFD",
@@ -1455,19 +6545,9 @@
         "percent_gain": 156.8
     },
     {
-        "symbol": "CYN",
-        "Date": "2023-12-07",
-        "percent_gain": 180.66
-    },
-    {
         "symbol": "ALT",
         "Date": "2023-12-07",
         "percent_gain": 33.18
-    },
-    {
-        "symbol": "MLGO",
-        "Date": "2023-12-07",
-        "percent_gain": 590.26
     },
     {
         "symbol": "HPCO",
@@ -1475,29 +6555,9 @@
         "percent_gain": 31.25
     },
     {
-        "symbol": "MLGO",
-        "Date": "2023-12-06",
-        "percent_gain": 424.88
-    },
-    {
         "symbol": "SERA",
         "Date": "2023-12-06",
         "percent_gain": 95.25
-    },
-    {
-        "symbol": "PHIO",
-        "Date": "2023-12-06",
-        "percent_gain": 127.17
-    },
-    {
-        "symbol": "NKLA",
-        "Date": "2023-12-06",
-        "percent_gain": 36.86
-    },
-    {
-        "symbol": "SNOA",
-        "Date": "2023-12-05",
-        "percent_gain": 26.27
     },
     {
         "symbol": "NRSN",
@@ -1508,16 +6568,6 @@
         "symbol": "CMND",
         "Date": "2023-12-05",
         "percent_gain": 69.15
-    },
-    {
-        "symbol": "ALLR",
-        "Date": "2023-12-05",
-        "percent_gain": 122.67
-    },
-    {
-        "symbol": "HSCS",
-        "Date": "2023-12-05",
-        "percent_gain": 34.4
     },
     {
         "symbol": "VIEW",
@@ -1533,11 +6583,6 @@
         "symbol": "ATHE",
         "Date": "2023-12-04",
         "percent_gain": 66.98
-    },
-    {
-        "symbol": "WISA",
-        "Date": "2023-12-04",
-        "percent_gain": 71.39
     },
     {
         "symbol": "LSDI",
@@ -1560,19 +6605,9 @@
         "percent_gain": 55.71
     },
     {
-        "symbol": "NLSP",
-        "Date": "2023-12-01",
-        "percent_gain": 29.82
-    },
-    {
         "symbol": "ALT",
         "Date": "2023-12-01",
         "percent_gain": 26.78
-    },
-    {
-        "symbol": "SNGX",
-        "Date": "2023-11-30",
-        "percent_gain": 173.97
     },
     {
         "symbol": "SMFL",
@@ -1600,14 +6635,9 @@
         "percent_gain": 99.14
     },
     {
-        "symbol": "WHLR",
-        "Date": "2023-11-29",
-        "percent_gain": 71.84
-    },
-    {
         "symbol": "CPHI",
         "Date": "2023-11-29",
-        "percent_gain": 104.69
+        "percent_gain": 104.77
     },
     {
         "symbol": "GME",
@@ -1615,24 +6645,14 @@
         "percent_gain": 20.69
     },
     {
-        "symbol": "RDHL",
-        "Date": "2023-11-29",
-        "percent_gain": 64.0
-    },
-    {
-        "symbol": "ATXI",
-        "Date": "2023-11-29",
-        "percent_gain": 53.16
-    },
-    {
         "symbol": "FSR",
         "Date": "2023-11-29",
         "percent_gain": 24.68
     },
     {
-        "symbol": "DNA",
-        "Date": "2023-11-29",
-        "percent_gain": 20.16
+        "symbol": "EONR",
+        "Date": "2023-11-28",
+        "percent_gain": 47.16
     },
     {
         "symbol": "HNRA",
@@ -1643,16 +6663,6 @@
         "symbol": "ICCM",
         "Date": "2023-11-28",
         "percent_gain": 33.04
-    },
-    {
-        "symbol": "ASST",
-        "Date": "2023-11-27",
-        "percent_gain": 32.52
-    },
-    {
-        "symbol": "BDRX",
-        "Date": "2023-11-27",
-        "percent_gain": 112.29
     },
     {
         "symbol": "CAPT",
@@ -1675,19 +6685,14 @@
         "percent_gain": 64.76
     },
     {
-        "symbol": "HSCS",
-        "Date": "2023-11-22",
-        "percent_gain": 21.19
-    },
-    {
         "symbol": "SHOT",
         "Date": "2023-11-22",
         "percent_gain": 66.67
     },
     {
-        "symbol": "SGD",
-        "Date": "2023-11-21",
-        "percent_gain": 33.51
+        "symbol": "CIG",
+        "Date": "2023-11-22",
+        "percent_gain": 20.65
     },
     {
         "symbol": "SHOT",
@@ -1735,19 +6740,9 @@
         "percent_gain": 48.53
     },
     {
-        "symbol": "SGD",
-        "Date": "2023-11-17",
-        "percent_gain": 197.53
-    },
-    {
         "symbol": "FSR",
         "Date": "2023-11-17",
         "percent_gain": 21.7
-    },
-    {
-        "symbol": "SGBX",
-        "Date": "2023-11-16",
-        "percent_gain": 63.1
     },
     {
         "symbol": "MRAI",
@@ -1760,11 +6755,6 @@
         "percent_gain": 24.06
     },
     {
-        "symbol": "CISO",
-        "Date": "2023-11-16",
-        "percent_gain": 64.26
-    },
-    {
         "symbol": "APLM",
         "Date": "2023-11-16",
         "percent_gain": 135.19
@@ -1775,24 +6765,9 @@
         "percent_gain": 36.28
     },
     {
-        "symbol": "CISO",
-        "Date": "2023-11-15",
-        "percent_gain": 62.09
-    },
-    {
         "symbol": "EBIX",
         "Date": "2023-11-15",
         "percent_gain": 57.36
-    },
-    {
-        "symbol": "GOEV",
-        "Date": "2023-11-15",
-        "percent_gain": 25.73
-    },
-    {
-        "symbol": "HSCS",
-        "Date": "2023-11-15",
-        "percent_gain": 45.49
     },
     {
         "symbol": "FSR",
@@ -1805,11 +6780,6 @@
         "percent_gain": 63.64
     },
     {
-        "symbol": "SPCB",
-        "Date": "2023-11-14",
-        "percent_gain": 48.19
-    },
-    {
         "symbol": "AIRE",
         "Date": "2023-11-14",
         "percent_gain": 21.97
@@ -1820,14 +6790,9 @@
         "percent_gain": 33.51
     },
     {
-        "symbol": "BCDA",
+        "symbol": "NAYA",
         "Date": "2023-11-14",
-        "percent_gain": 64.02
-    },
-    {
-        "symbol": "LICY",
-        "Date": "2023-11-14",
-        "percent_gain": 76.11
+        "percent_gain": 33.51
     },
     {
         "symbol": "INVO",
@@ -1848,6 +6813,11 @@
         "symbol": "TCON",
         "Date": "2023-11-10",
         "percent_gain": 54.21
+    },
+    {
+        "symbol": "NVDA",
+        "Date": "2023-11-10",
+        "percent_gain": 897.08
     },
     {
         "symbol": "JAN",
@@ -3500,14 +8470,14 @@
         "percent_gain": 20.57
     },
     {
-        "symbol": "ARAV",
-        "Date": "2023-08-03",
-        "percent_gain": 90.1
-    },
-    {
         "symbol": "CLVT",
         "Date": "2023-08-03",
         "percent_gain": 20.47
+    },
+    {
+        "symbol": "ARAV",
+        "Date": "2023-08-03",
+        "percent_gain": 90.1
     },
     {
         "symbol": "IDAI",
@@ -4845,14 +9815,14 @@
         "percent_gain": 137.38
     },
     {
-        "symbol": "PACW",
-        "Date": "2023-05-02",
-        "percent_gain": 38.96
-    },
-    {
         "symbol": "WAL",
         "Date": "2023-05-02",
         "percent_gain": 22.32
+    },
+    {
+        "symbol": "PACW",
+        "Date": "2023-05-02",
+        "percent_gain": 38.96
     },
     {
         "symbol": "SNTG",
@@ -6015,12 +10985,12 @@
         "percent_gain": 123.99
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2023-02-14",
         "percent_gain": 50.0
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2023-02-14",
         "percent_gain": 50.0
     },
@@ -6455,14 +11425,14 @@
         "percent_gain": 99.71
     },
     {
-        "symbol": "NIO",
-        "Date": "2023-01-24",
-        "percent_gain": 23.47
-    },
-    {
         "symbol": "SATX",
         "Date": "2023-01-24",
         "percent_gain": 131.48
+    },
+    {
+        "symbol": "NIO",
+        "Date": "2023-01-24",
+        "percent_gain": 23.47
     },
     {
         "symbol": "PLTR",
@@ -7115,12 +12085,12 @@
         "percent_gain": 56.61
     },
     {
-        "symbol": "RMED",
+        "symbol": "VTAK",
         "Date": "2022-12-06",
         "percent_gain": 20.25
     },
     {
-        "symbol": "VTAK",
+        "symbol": "RMED",
         "Date": "2022-12-06",
         "percent_gain": 20.25
     },
@@ -8365,12 +13335,12 @@
         "percent_gain": 31.53
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-08-18",
         "percent_gain": 65.7
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-08-18",
         "percent_gain": 65.7
     },
@@ -8400,12 +13370,12 @@
         "percent_gain": 24.14
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-08-17",
         "percent_gain": 86.7
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-08-17",
         "percent_gain": 86.7
     },
@@ -8800,12 +13770,12 @@
         "percent_gain": 38.79
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-07-27",
         "percent_gain": 36.03
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-07-27",
         "percent_gain": 36.03
     },
@@ -9175,12 +14145,12 @@
         "percent_gain": 23.29
     },
     {
-        "symbol": "VEDU",
+        "symbol": "GV",
         "Date": "2022-06-23",
         "percent_gain": 23.97
     },
     {
-        "symbol": "GV",
+        "symbol": "VEDU",
         "Date": "2022-06-23",
         "percent_gain": 23.97
     },
@@ -9760,12 +14730,12 @@
         "percent_gain": 67.85
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-05-12",
         "percent_gain": 26.33
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-05-12",
         "percent_gain": 26.33
     },
@@ -9870,12 +14840,12 @@
         "percent_gain": 24.6
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-05-09",
         "percent_gain": 26.82
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-05-09",
         "percent_gain": 26.82
     },
@@ -9950,11 +14920,6 @@
         "percent_gain": 25.86
     },
     {
-        "symbol": "NILE",
-        "Date": "2022-05-06",
-        "percent_gain": 24.13
-    },
-    {
         "symbol": "DNA",
         "Date": "2022-05-06",
         "percent_gain": 23.95
@@ -9968,6 +14933,11 @@
         "symbol": "OPEN",
         "Date": "2022-05-06",
         "percent_gain": 32.67
+    },
+    {
+        "symbol": "NILE",
+        "Date": "2022-05-06",
+        "percent_gain": 24.13
     },
     {
         "symbol": "CYN",
@@ -10015,12 +14985,12 @@
         "percent_gain": 41.48
     },
     {
-        "symbol": "BWV",
+        "symbol": "ONCO",
         "Date": "2022-05-03",
         "percent_gain": 64.06
     },
     {
-        "symbol": "ONCO",
+        "symbol": "BWV",
         "Date": "2022-05-03",
         "percent_gain": 64.06
     },
@@ -10425,12 +15395,12 @@
         "percent_gain": 27.27
     },
     {
-        "symbol": "TKAT",
+        "symbol": "MI",
         "Date": "2022-04-04",
         "percent_gain": 41.86
     },
     {
-        "symbol": "MI",
+        "symbol": "TKAT",
         "Date": "2022-04-04",
         "percent_gain": 41.86
     },
@@ -10460,12 +15430,12 @@
         "percent_gain": 30.51
     },
     {
-        "symbol": "ISIG",
+        "symbol": "LDWY",
         "Date": "2022-03-30",
         "percent_gain": 27.39
     },
     {
-        "symbol": "LDWY",
+        "symbol": "ISIG",
         "Date": "2022-03-30",
         "percent_gain": 27.39
     },
@@ -10485,12 +15455,12 @@
         "percent_gain": 21.62
     },
     {
-        "symbol": "IVVD",
+        "symbol": "ADGI",
         "Date": "2022-03-30",
         "percent_gain": 34.65
     },
     {
-        "symbol": "ADGI",
+        "symbol": "IVVD",
         "Date": "2022-03-30",
         "percent_gain": 34.65
     },
@@ -10530,12 +15500,12 @@
         "percent_gain": 37.47
     },
     {
-        "symbol": "TKAT",
+        "symbol": "MI",
         "Date": "2022-03-24",
         "percent_gain": 55.51
     },
     {
-        "symbol": "MI",
+        "symbol": "TKAT",
         "Date": "2022-03-24",
         "percent_gain": 55.51
     },
@@ -10810,11 +15780,6 @@
         "percent_gain": 52.47
     },
     {
-        "symbol": "YMM",
-        "Date": "2022-03-11",
-        "percent_gain": 54.84
-    },
-    {
         "symbol": "RLX",
         "Date": "2022-03-11",
         "percent_gain": 63.08
@@ -10823,6 +15788,11 @@
         "symbol": "IQ",
         "Date": "2022-03-11",
         "percent_gain": 55.45
+    },
+    {
+        "symbol": "YMM",
+        "Date": "2022-03-11",
+        "percent_gain": 54.84
     },
     {
         "symbol": "ENSV",
@@ -10845,14 +15815,14 @@
         "percent_gain": 24.13
     },
     {
-        "symbol": "YSG",
-        "Date": "2022-03-10",
-        "percent_gain": 58.17
-    },
-    {
         "symbol": "IQ",
         "Date": "2022-03-10",
         "percent_gain": 40.29
+    },
+    {
+        "symbol": "YSG",
+        "Date": "2022-03-10",
+        "percent_gain": 58.17
     },
     {
         "symbol": "DRCT",
@@ -11290,12 +16260,12 @@
         "percent_gain": 66.67
     },
     {
-        "symbol": "RUM",
+        "symbol": "CFVI",
         "Date": "2022-02-08",
         "percent_gain": 20.65
     },
     {
-        "symbol": "CFVI",
+        "symbol": "RUM",
         "Date": "2022-02-08",
         "percent_gain": 20.65
     },
@@ -11765,22 +16735,22 @@
         "percent_gain": 43.08
     },
     {
-        "symbol": "IVVD",
-        "Date": "2021-12-17",
-        "percent_gain": 71.0
-    },
-    {
         "symbol": "ADGI",
         "Date": "2021-12-17",
         "percent_gain": 71.0
     },
     {
         "symbol": "IVVD",
+        "Date": "2021-12-17",
+        "percent_gain": 71.0
+    },
+    {
+        "symbol": "ADGI",
         "Date": "2021-12-16",
         "percent_gain": 42.94
     },
     {
-        "symbol": "ADGI",
+        "symbol": "IVVD",
         "Date": "2021-12-16",
         "percent_gain": 42.94
     },
@@ -11805,12 +16775,12 @@
         "percent_gain": 21.86
     },
     {
-        "symbol": "NWTN",
+        "symbol": "ESSC",
         "Date": "2021-12-14",
         "percent_gain": 72.38
     },
     {
-        "symbol": "ESSC",
+        "symbol": "NWTN",
         "Date": "2021-12-14",
         "percent_gain": 72.38
     },
@@ -11820,12 +16790,12 @@
         "percent_gain": 46.8
     },
     {
-        "symbol": "IVVD",
+        "symbol": "ADGI",
         "Date": "2021-12-14",
         "percent_gain": 57.48
     },
     {
-        "symbol": "ADGI",
+        "symbol": "IVVD",
         "Date": "2021-12-14",
         "percent_gain": 57.48
     },
@@ -11980,12 +16950,12 @@
         "percent_gain": 26.02
     },
     {
-        "symbol": "RUM",
+        "symbol": "CFVI",
         "Date": "2021-12-02",
         "percent_gain": 20.84
     },
     {
-        "symbol": "CFVI",
+        "symbol": "RUM",
         "Date": "2021-12-02",
         "percent_gain": 20.84
     },
@@ -12490,12 +17460,12 @@
         "percent_gain": 155.65
     },
     {
-        "symbol": "SDOT",
+        "symbol": "GRIL",
         "Date": "2021-11-01",
         "percent_gain": 52.78
     },
     {
-        "symbol": "GRIL",
+        "symbol": "SDOT",
         "Date": "2021-11-01",
         "percent_gain": 52.78
     },
@@ -12940,12 +17910,12 @@
         "percent_gain": 22.87
     },
     {
-        "symbol": "RWLK",
+        "symbol": "LFWD",
         "Date": "2021-09-24",
         "percent_gain": 57.95
     },
     {
-        "symbol": "LFWD",
+        "symbol": "RWLK",
         "Date": "2021-09-24",
         "percent_gain": 57.95
     },
@@ -12965,12 +17935,12 @@
         "percent_gain": 30.58
     },
     {
-        "symbol": "RWLK",
+        "symbol": "LFWD",
         "Date": "2021-09-23",
         "percent_gain": 26.37
     },
     {
-        "symbol": "LFWD",
+        "symbol": "RWLK",
         "Date": "2021-09-23",
         "percent_gain": 26.37
     },
@@ -13020,12 +17990,12 @@
         "percent_gain": 66.67
     },
     {
-        "symbol": "RWLK",
+        "symbol": "LFWD",
         "Date": "2021-09-21",
         "percent_gain": 46.37
     },
     {
-        "symbol": "LFWD",
+        "symbol": "RWLK",
         "Date": "2021-09-21",
         "percent_gain": 46.37
     },
@@ -13280,12 +18250,12 @@
         "percent_gain": 64.03
     },
     {
-        "symbol": "TROO",
+        "symbol": "SGOC",
         "Date": "2021-08-27",
         "percent_gain": 34.87
     },
     {
-        "symbol": "SGOC",
+        "symbol": "TROO",
         "Date": "2021-08-27",
         "percent_gain": 34.87
     },
@@ -13315,12 +18285,12 @@
         "percent_gain": 26.24
     },
     {
-        "symbol": "TKAT",
+        "symbol": "MI",
         "Date": "2021-08-26",
         "percent_gain": 26.53
     },
     {
-        "symbol": "MI",
+        "symbol": "TKAT",
         "Date": "2021-08-26",
         "percent_gain": 26.53
     },
@@ -13370,12 +18340,12 @@
         "percent_gain": 23.56
     },
     {
-        "symbol": "TROO",
+        "symbol": "SGOC",
         "Date": "2021-08-18",
         "percent_gain": 33.39
     },
     {
-        "symbol": "SGOC",
+        "symbol": "TROO",
         "Date": "2021-08-18",
         "percent_gain": 33.39
     },
@@ -13525,12 +18495,12 @@
         "percent_gain": 48.64
     },
     {
-        "symbol": "HJLI",
+        "symbol": "NVNO",
         "Date": "2021-08-03",
         "percent_gain": 43.09
     },
     {
-        "symbol": "NVNO",
+        "symbol": "HJLI",
         "Date": "2021-08-03",
         "percent_gain": 43.09
     },
@@ -13790,12 +18760,12 @@
         "percent_gain": 71.84
     },
     {
-        "symbol": "TROO",
+        "symbol": "SGOC",
         "Date": "2021-07-15",
         "percent_gain": 32.85
     },
     {
-        "symbol": "SGOC",
+        "symbol": "TROO",
         "Date": "2021-07-15",
         "percent_gain": 32.85
     },
@@ -13815,12 +18785,12 @@
         "percent_gain": 80.19
     },
     {
-        "symbol": "TROO",
+        "symbol": "SGOC",
         "Date": "2021-07-14",
         "percent_gain": 70.65
     },
     {
-        "symbol": "SGOC",
+        "symbol": "TROO",
         "Date": "2021-07-14",
         "percent_gain": 70.65
     },
@@ -13880,12 +18850,12 @@
         "percent_gain": 129.74
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-07-13",
         "percent_gain": 24.12
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-07-13",
         "percent_gain": 24.12
     },
@@ -13900,12 +18870,12 @@
         "percent_gain": 60.87
     },
     {
-        "symbol": "TROO",
+        "symbol": "SGOC",
         "Date": "2021-07-12",
         "percent_gain": 202.4
     },
     {
-        "symbol": "SGOC",
+        "symbol": "TROO",
         "Date": "2021-07-12",
         "percent_gain": 202.4
     },
@@ -14230,12 +19200,12 @@
         "percent_gain": 30.6
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-06-15",
         "percent_gain": 30.28
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-06-15",
         "percent_gain": 30.28
     },
@@ -14285,12 +19255,12 @@
         "percent_gain": 42.02
     },
     {
-        "symbol": "NHWK",
+        "symbol": "HTBX",
         "Date": "2021-06-10",
         "percent_gain": 42.02
     },
     {
-        "symbol": "HTBX",
+        "symbol": "NHWK",
         "Date": "2021-06-10",
         "percent_gain": 42.02
     },
@@ -14750,12 +19720,12 @@
         "percent_gain": 52.01
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-05-05",
         "percent_gain": 38.47
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-05-05",
         "percent_gain": 38.47
     },
@@ -15185,12 +20155,12 @@
         "percent_gain": 21.47
     },
     {
-        "symbol": "GOTU",
+        "symbol": "GSX",
         "Date": "2021-03-26",
         "percent_gain": 98.51
     },
     {
-        "symbol": "GSX",
+        "symbol": "GOTU",
         "Date": "2021-03-26",
         "percent_gain": 98.51
     },
@@ -15295,12 +20265,12 @@
         "percent_gain": 74.42
     },
     {
-        "symbol": "TKAT",
+        "symbol": "MI",
         "Date": "2021-03-23",
         "percent_gain": 101.61
     },
     {
-        "symbol": "MI",
+        "symbol": "TKAT",
         "Date": "2021-03-23",
         "percent_gain": 101.61
     },
@@ -15415,12 +20385,12 @@
         "percent_gain": 42.89
     },
     {
-        "symbol": "TKAT",
+        "symbol": "MI",
         "Date": "2021-03-18",
         "percent_gain": 36.59
     },
     {
-        "symbol": "MI",
+        "symbol": "TKAT",
         "Date": "2021-03-18",
         "percent_gain": 36.59
     },
@@ -15625,12 +20595,12 @@
         "percent_gain": 40.77
     },
     {
-        "symbol": "EYES",
+        "symbol": "VANI",
         "Date": "2021-03-09",
         "percent_gain": 71.97
     },
     {
-        "symbol": "VANI",
+        "symbol": "EYES",
         "Date": "2021-03-09",
         "percent_gain": 71.97
     },
@@ -15655,12 +20625,12 @@
         "percent_gain": 46.15
     },
     {
-        "symbol": "AESE",
+        "symbol": "AGAE",
         "Date": "2021-03-04",
         "percent_gain": 45.49
     },
     {
-        "symbol": "AGAE",
+        "symbol": "AESE",
         "Date": "2021-03-04",
         "percent_gain": 45.49
     },
@@ -15880,12 +20850,12 @@
         "percent_gain": 21.32
     },
     {
-        "symbol": "CCIV",
+        "symbol": "LCID",
         "Date": "2021-03-02",
         "percent_gain": 25.58
     },
     {
-        "symbol": "LCID",
+        "symbol": "CCIV",
         "Date": "2021-03-02",
         "percent_gain": 25.58
     },
@@ -16040,22 +21010,22 @@
         "percent_gain": 22.62
     },
     {
-        "symbol": "CCIV",
-        "Date": "2021-02-24",
-        "percent_gain": 28.4
-    },
-    {
         "symbol": "LCID",
         "Date": "2021-02-24",
         "percent_gain": 28.4
     },
     {
         "symbol": "CCIV",
+        "Date": "2021-02-24",
+        "percent_gain": 28.4
+    },
+    {
+        "symbol": "LCID",
         "Date": "2021-02-23",
         "percent_gain": 53.1
     },
     {
-        "symbol": "LCID",
+        "symbol": "CCIV",
         "Date": "2021-02-23",
         "percent_gain": 53.1
     },
@@ -16160,12 +21130,12 @@
         "percent_gain": 22.16
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-02-22",
         "percent_gain": 39.16
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-02-22",
         "percent_gain": 39.16
     },
@@ -16200,12 +21170,12 @@
         "percent_gain": 21.4
     },
     {
-        "symbol": "CCIV",
+        "symbol": "LCID",
         "Date": "2021-02-22",
         "percent_gain": 79.49
     },
     {
-        "symbol": "LCID",
+        "symbol": "CCIV",
         "Date": "2021-02-22",
         "percent_gain": 79.49
     },
@@ -16255,12 +21225,12 @@
         "percent_gain": 21.52
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-02-19",
         "percent_gain": 30.5
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-02-19",
         "percent_gain": 30.5
     },
@@ -16285,12 +21255,12 @@
         "percent_gain": 53.82
     },
     {
-        "symbol": "CAPA",
+        "symbol": "QSI",
         "Date": "2021-02-18",
         "percent_gain": 22.01
     },
     {
-        "symbol": "QSI",
+        "symbol": "CAPA",
         "Date": "2021-02-18",
         "percent_gain": 22.01
     },
@@ -16300,12 +21270,12 @@
         "percent_gain": 104.17
     },
     {
-        "symbol": "CCIV",
+        "symbol": "LCID",
         "Date": "2021-02-18",
         "percent_gain": 22.52
     },
     {
-        "symbol": "LCID",
+        "symbol": "CCIV",
         "Date": "2021-02-18",
         "percent_gain": 22.52
     },
@@ -16545,16 +21515,6 @@
         "percent_gain": 25.51
     },
     {
-        "symbol": "OGI",
-        "Date": "2021-02-11",
-        "percent_gain": 72.0
-    },
-    {
-        "symbol": "SNDL",
-        "Date": "2021-02-11",
-        "percent_gain": 90.38
-    },
-    {
         "symbol": "TLRY",
         "Date": "2021-02-11",
         "percent_gain": 89.69
@@ -16563,6 +21523,16 @@
         "symbol": "APHA",
         "Date": "2021-02-11",
         "percent_gain": 44.63
+    },
+    {
+        "symbol": "SNDL",
+        "Date": "2021-02-11",
+        "percent_gain": 90.38
+    },
+    {
+        "symbol": "OGI",
+        "Date": "2021-02-11",
+        "percent_gain": 72.0
     },
     {
         "symbol": "TRCH",
@@ -16695,12 +21665,12 @@
         "percent_gain": 54.41
     },
     {
-        "symbol": "NHWK",
+        "symbol": "HTBX",
         "Date": "2021-02-09",
         "percent_gain": 54.41
     },
     {
-        "symbol": "HTBX",
+        "symbol": "NHWK",
         "Date": "2021-02-09",
         "percent_gain": 54.41
     },
@@ -16955,12 +21925,12 @@
         "percent_gain": 114.73
     },
     {
-        "symbol": "CATB",
+        "symbol": "ATXS",
         "Date": "2021-01-29",
         "percent_gain": 118.96
     },
     {
-        "symbol": "ATXS",
+        "symbol": "CATB",
         "Date": "2021-01-29",
         "percent_gain": 118.96
     },
@@ -17015,12 +21985,12 @@
         "percent_gain": 65.88
     },
     {
-        "symbol": "LLIT",
+        "symbol": "NEGG",
         "Date": "2021-01-28",
         "percent_gain": 108.3
     },
     {
-        "symbol": "NEGG",
+        "symbol": "LLIT",
         "Date": "2021-01-28",
         "percent_gain": 108.3
     },
@@ -17300,12 +22270,12 @@
         "percent_gain": 96.28
     },
     {
-        "symbol": "GOTU",
+        "symbol": "GSX",
         "Date": "2021-01-27",
         "percent_gain": 42.28
     },
     {
-        "symbol": "GSX",
+        "symbol": "GOTU",
         "Date": "2021-01-27",
         "percent_gain": 42.28
     },
@@ -17370,11 +22340,6 @@
         "percent_gain": 22.29
     },
     {
-        "symbol": "GSAT",
-        "Date": "2021-01-26",
-        "percent_gain": 22.55
-    },
-    {
         "symbol": "RLX",
         "Date": "2021-01-26",
         "percent_gain": 23.18
@@ -17383,6 +22348,11 @@
         "symbol": "SENS",
         "Date": "2021-01-26",
         "percent_gain": 25.3
+    },
+    {
+        "symbol": "GSAT",
+        "Date": "2021-01-26",
+        "percent_gain": 22.55
     },
     {
         "symbol": "AMTX",
@@ -17580,12 +22550,12 @@
         "percent_gain": 25.23
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2021-01-14",
         "percent_gain": 21.99
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2021-01-14",
         "percent_gain": 21.99
     },
@@ -17725,12 +22695,12 @@
         "percent_gain": 20.16
     },
     {
-        "symbol": "ISR",
+        "symbol": "CATX",
         "Date": "2021-01-06",
         "percent_gain": 48.15
     },
     {
-        "symbol": "CATX",
+        "symbol": "ISR",
         "Date": "2021-01-06",
         "percent_gain": 48.15
     },
@@ -18275,12 +23245,12 @@
         "percent_gain": 26.09
     },
     {
-        "symbol": "CATB",
+        "symbol": "ATXS",
         "Date": "2020-12-02",
         "percent_gain": 68.39
     },
     {
-        "symbol": "ATXS",
+        "symbol": "CATB",
         "Date": "2020-12-02",
         "percent_gain": 68.39
     },
@@ -18295,12 +23265,12 @@
         "percent_gain": 88.57
     },
     {
-        "symbol": "EYES",
+        "symbol": "VANI",
         "Date": "2020-12-01",
         "percent_gain": 66.9
     },
     {
-        "symbol": "VANI",
+        "symbol": "EYES",
         "Date": "2020-12-01",
         "percent_gain": 66.9
     },
@@ -18385,12 +23355,12 @@
         "percent_gain": 20.44
     },
     {
-        "symbol": "APXT",
+        "symbol": "AVPT",
         "Date": "2020-11-30",
         "percent_gain": 23.39
     },
     {
-        "symbol": "AVPT",
+        "symbol": "APXT",
         "Date": "2020-11-30",
         "percent_gain": 23.39
     },
@@ -18445,12 +23415,12 @@
         "percent_gain": 26.26
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-11-25",
         "percent_gain": 21.78
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-11-25",
         "percent_gain": 21.78
     },
@@ -18495,12 +23465,12 @@
         "percent_gain": 30.37
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-11-24",
         "percent_gain": 63.53
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-11-24",
         "percent_gain": 63.53
     },
@@ -18510,12 +23480,12 @@
         "percent_gain": 27.94
     },
     {
-        "symbol": "SBE",
+        "symbol": "CHPT",
         "Date": "2020-11-24",
         "percent_gain": 21.06
     },
     {
-        "symbol": "CHPT",
+        "symbol": "SBE",
         "Date": "2020-11-24",
         "percent_gain": 21.06
     },
@@ -18540,12 +23510,12 @@
         "percent_gain": 29.09
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-11-23",
         "percent_gain": 25.67
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-11-23",
         "percent_gain": 25.67
     },
@@ -18635,12 +23605,12 @@
         "percent_gain": 108.2
     },
     {
-        "symbol": "MYMD",
+        "symbol": "AKER",
         "Date": "2020-11-12",
         "percent_gain": 46.27
     },
     {
-        "symbol": "AKER",
+        "symbol": "MYMD",
         "Date": "2020-11-12",
         "percent_gain": 46.27
     },
@@ -18825,12 +23795,12 @@
         "percent_gain": 28.38
     },
     {
-        "symbol": "SDOT",
+        "symbol": "GRIL",
         "Date": "2020-10-26",
         "percent_gain": 52.84
     },
     {
-        "symbol": "GRIL",
+        "symbol": "SDOT",
         "Date": "2020-10-26",
         "percent_gain": 52.84
     },
@@ -18840,12 +23810,12 @@
         "percent_gain": 21.75
     },
     {
-        "symbol": "LLIT",
+        "symbol": "NEGG",
         "Date": "2020-10-26",
         "percent_gain": 26.18
     },
     {
-        "symbol": "NEGG",
+        "symbol": "LLIT",
         "Date": "2020-10-26",
         "percent_gain": 26.18
     },
@@ -18915,12 +23885,12 @@
         "percent_gain": 20.49
     },
     {
-        "symbol": "STAB",
+        "symbol": "CBLI",
         "Date": "2020-10-20",
         "percent_gain": 71.84
     },
     {
-        "symbol": "CBLI",
+        "symbol": "STAB",
         "Date": "2020-10-20",
         "percent_gain": 71.84
     },
@@ -19075,12 +24045,12 @@
         "percent_gain": 40.63
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-10-08",
         "percent_gain": 28.94
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-10-08",
         "percent_gain": 28.94
     },
@@ -19470,12 +24440,12 @@
         "percent_gain": 35.51
     },
     {
-        "symbol": "QS",
+        "symbol": "KCAC",
         "Date": "2020-09-04",
         "percent_gain": 27.92
     },
     {
-        "symbol": "KCAC",
+        "symbol": "QS",
         "Date": "2020-09-04",
         "percent_gain": 27.92
     },
@@ -19620,12 +24590,12 @@
         "percent_gain": 48.66
     },
     {
-        "symbol": "FLDM",
+        "symbol": "LAB",
         "Date": "2020-08-26",
         "percent_gain": 48.21
     },
     {
-        "symbol": "LAB",
+        "symbol": "FLDM",
         "Date": "2020-08-26",
         "percent_gain": 48.21
     },
@@ -19700,12 +24670,12 @@
         "percent_gain": 44.65
     },
     {
-        "symbol": "AESE",
+        "symbol": "AGAE",
         "Date": "2020-08-20",
         "percent_gain": 29.21
     },
     {
-        "symbol": "AGAE",
+        "symbol": "AESE",
         "Date": "2020-08-20",
         "percent_gain": 29.21
     },
@@ -19735,12 +24705,12 @@
         "percent_gain": 62.05
     },
     {
-        "symbol": "AESE",
+        "symbol": "AGAE",
         "Date": "2020-08-19",
         "percent_gain": 54.01
     },
     {
-        "symbol": "AGAE",
+        "symbol": "AESE",
         "Date": "2020-08-19",
         "percent_gain": 54.01
     },
@@ -19915,12 +24885,12 @@
         "percent_gain": 33.67
     },
     {
-        "symbol": "GOTU",
+        "symbol": "GSX",
         "Date": "2020-08-07",
         "percent_gain": 46.83
     },
     {
-        "symbol": "GSX",
+        "symbol": "GOTU",
         "Date": "2020-08-07",
         "percent_gain": 46.83
     },
@@ -20020,12 +24990,12 @@
         "percent_gain": 122.08
     },
     {
-        "symbol": "FLDM",
+        "symbol": "LAB",
         "Date": "2020-07-31",
         "percent_gain": 32.1
     },
     {
-        "symbol": "LAB",
+        "symbol": "FLDM",
         "Date": "2020-07-31",
         "percent_gain": 32.1
     },
@@ -20325,12 +25295,12 @@
         "percent_gain": 32.12
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-07-20",
         "percent_gain": 72.37
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-07-20",
         "percent_gain": 72.37
     },
@@ -20710,12 +25680,12 @@
         "percent_gain": 78.57
     },
     {
-        "symbol": "STAB",
+        "symbol": "CBLI",
         "Date": "2020-06-26",
         "percent_gain": 80.82
     },
     {
-        "symbol": "CBLI",
+        "symbol": "STAB",
         "Date": "2020-06-26",
         "percent_gain": 80.82
     },
@@ -20740,12 +25710,12 @@
         "percent_gain": 25.45
     },
     {
-        "symbol": "MDCA",
+        "symbol": "STGW",
         "Date": "2020-06-26",
         "percent_gain": 32.41
     },
     {
-        "symbol": "STGW",
+        "symbol": "MDCA",
         "Date": "2020-06-26",
         "percent_gain": 32.41
     },
@@ -20800,12 +25770,12 @@
         "percent_gain": 95.75
     },
     {
-        "symbol": "RTC",
+        "symbol": "FFHL",
         "Date": "2020-06-23",
         "percent_gain": 58.46
     },
     {
-        "symbol": "FFHL",
+        "symbol": "RTC",
         "Date": "2020-06-23",
         "percent_gain": 58.46
     },
@@ -20905,14 +25875,14 @@
         "percent_gain": 22.09
     },
     {
-        "symbol": "CDEV",
-        "Date": "2020-06-19",
-        "percent_gain": 24.53
-    },
-    {
         "symbol": "PR",
         "Date": "2020-06-19",
         "percent_gain": 24.52
+    },
+    {
+        "symbol": "CDEV",
+        "Date": "2020-06-19",
+        "percent_gain": 24.53
     },
     {
         "symbol": "GSAT",
@@ -21035,12 +26005,12 @@
         "percent_gain": 27.17
     },
     {
-        "symbol": "SELB",
+        "symbol": "RNAC",
         "Date": "2020-06-12",
         "percent_gain": 53.39
     },
     {
-        "symbol": "RNAC",
+        "symbol": "SELB",
         "Date": "2020-06-12",
         "percent_gain": 53.39
     },
@@ -21080,12 +26050,12 @@
         "percent_gain": 35.37
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-06-10",
         "percent_gain": 147.17
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-06-10",
         "percent_gain": 147.17
     },
@@ -21570,12 +26540,12 @@
         "percent_gain": 73.88
     },
     {
-        "symbol": "AESE",
+        "symbol": "AGAE",
         "Date": "2020-06-01",
         "percent_gain": 60.98
     },
     {
-        "symbol": "AGAE",
+        "symbol": "AESE",
         "Date": "2020-06-01",
         "percent_gain": 60.98
     },
@@ -21650,12 +26620,12 @@
         "percent_gain": 23.69
     },
     {
-        "symbol": "NK",
+        "symbol": "IBRX",
         "Date": "2020-05-27",
         "percent_gain": 26.17
     },
     {
-        "symbol": "IBRX",
+        "symbol": "NK",
         "Date": "2020-05-27",
         "percent_gain": 26.17
     },
@@ -21875,12 +26845,12 @@
         "percent_gain": 54.02
     },
     {
-        "symbol": "ERI",
+        "symbol": "CZR",
         "Date": "2020-05-12",
         "percent_gain": 25.74
     },
     {
-        "symbol": "CZR",
+        "symbol": "ERI",
         "Date": "2020-05-12",
         "percent_gain": 25.74
     },
@@ -22515,12 +27485,12 @@
         "percent_gain": 44.21
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2020-04-07",
         "percent_gain": 57.26
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2020-04-07",
         "percent_gain": 57.26
     },
@@ -23645,14 +28615,14 @@
         "percent_gain": 23.36
     },
     {
-        "symbol": "TTD",
-        "Date": "2020-03-13",
-        "percent_gain": 30.22
-    },
-    {
         "symbol": "RIG",
         "Date": "2020-03-13",
         "percent_gain": 25.38
+    },
+    {
+        "symbol": "TTD",
+        "Date": "2020-03-13",
+        "percent_gain": 30.22
     },
     {
         "symbol": "ITUB",
@@ -23910,11 +28880,6 @@
         "percent_gain": 30.29
     },
     {
-        "symbol": "JBLU",
-        "Date": "2020-03-11",
-        "percent_gain": 21.85
-    },
-    {
         "symbol": "MGM",
         "Date": "2020-03-11",
         "percent_gain": 31.67
@@ -23923,6 +28888,11 @@
         "symbol": "NBL",
         "Date": "2020-03-11",
         "percent_gain": 40.35
+    },
+    {
+        "symbol": "JBLU",
+        "Date": "2020-03-11",
+        "percent_gain": 21.85
     },
     {
         "symbol": "AUY",
@@ -24010,14 +28980,14 @@
         "percent_gain": 21.11
     },
     {
-        "symbol": "NCLH",
-        "Date": "2020-03-10",
-        "percent_gain": 48.04
-    },
-    {
         "symbol": "OVV",
         "Date": "2020-03-10",
         "percent_gain": 33.13
+    },
+    {
+        "symbol": "NCLH",
+        "Date": "2020-03-10",
+        "percent_gain": 48.04
     },
     {
         "symbol": "CVE",
@@ -24085,14 +29055,14 @@
         "percent_gain": 59.15
     },
     {
-        "symbol": "OPK",
-        "Date": "2020-03-09",
-        "percent_gain": 69.59
-    },
-    {
         "symbol": "VAL",
         "Date": "2020-03-09",
         "percent_gain": 31.82
+    },
+    {
+        "symbol": "OPK",
+        "Date": "2020-03-09",
+        "percent_gain": 69.59
     },
     {
         "symbol": "APA",
@@ -24600,12 +29570,12 @@
         "percent_gain": 21.57
     },
     {
-        "symbol": "NK",
+        "symbol": "IBRX",
         "Date": "2020-01-16",
         "percent_gain": 34.69
     },
     {
-        "symbol": "IBRX",
+        "symbol": "NK",
         "Date": "2020-01-16",
         "percent_gain": 34.69
     },
@@ -24960,12 +29930,12 @@
         "percent_gain": 34.35
     },
     {
-        "symbol": "TROV",
+        "symbol": "CRDF",
         "Date": "2019-10-22",
         "percent_gain": 43.53
     },
     {
-        "symbol": "CRDF",
+        "symbol": "TROV",
         "Date": "2019-10-22",
         "percent_gain": 43.53
     },
@@ -25325,12 +30295,12 @@
         "percent_gain": 34.75
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2019-06-28",
         "percent_gain": 28.97
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2019-06-28",
         "percent_gain": 28.97
     },
@@ -25340,12 +30310,12 @@
         "percent_gain": 26.42
     },
     {
-        "symbol": "NILE",
+        "symbol": "DPW",
         "Date": "2019-06-26",
         "percent_gain": 64.78
     },
     {
-        "symbol": "DPW",
+        "symbol": "NILE",
         "Date": "2019-06-26",
         "percent_gain": 64.78
     },
@@ -25715,12 +30685,12 @@
         "percent_gain": 110.54
     },
     {
-        "symbol": "TROV",
+        "symbol": "CRDF",
         "Date": "2019-03-08",
         "percent_gain": 98.97
     },
     {
-        "symbol": "CRDF",
+        "symbol": "TROV",
         "Date": "2019-03-08",
         "percent_gain": 98.97
     },
@@ -25955,12 +30925,12 @@
         "percent_gain": 31.38
     },
     {
-        "symbol": "ALQA",
+        "symbol": "ADYX",
         "Date": "2018-12-14",
         "percent_gain": 38.43
     },
     {
-        "symbol": "ADYX",
+        "symbol": "ALQA",
         "Date": "2018-12-14",
         "percent_gain": 38.43
     },
@@ -25995,12 +30965,12 @@
         "percent_gain": 53.22
     },
     {
-        "symbol": "ALQA",
+        "symbol": "ADYX",
         "Date": "2018-11-28",
         "percent_gain": 72.37
     },
     {
-        "symbol": "ADYX",
+        "symbol": "ALQA",
         "Date": "2018-11-28",
         "percent_gain": 72.37
     },

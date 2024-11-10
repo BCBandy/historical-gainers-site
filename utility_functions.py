@@ -87,6 +87,8 @@ ORDER BY daily.[date] DESC
     results_json_clean = json.loads(results_json)
     with open("static\\top_gainers.json", "w") as f:
         json.dump(results_json_clean, f, indent=4)
+    with open("docs\\top_gainers.json", "w") as f:
+        json.dump(results_json_clean, f, indent=4)
 
 if __name__ == '__main__':
     top_gainers()
