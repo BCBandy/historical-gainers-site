@@ -71,7 +71,7 @@ SELECT daily.symbol as symbol
 FROM dbo.daily_temp AS daily
 join dbo.daily_temp as daily2
 	on daily2.symbol = daily.symbol
-	and daily2.symbol_count-1 = daily.symbol_count
+	and daily2.symbol_count = daily.symbol_count-1
 WHERE  daily.[open] > 0 
 	and daily.volume > 20*1000000
 	--and daily.[open] >= .20											-- open price

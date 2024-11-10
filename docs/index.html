@@ -120,7 +120,7 @@
             stocksToShow.forEach(stock => {
                 const tableBody = document.getElementById('gainers-table').querySelector('tbody');
                 const row = document.createElement('tr');
-                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td><td>${stock.High}</td><td>${stock.Volume}</td>`;
+                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td><td>${stock.High}</td><td>${stock.Volume.toLocaleString()}</td>`;
                 tableBody.appendChild(row);
                 
             });
@@ -157,7 +157,7 @@
         }
 
         function applyFilter(){
-            const symbol = document.getElementById('symbol-filter').value;
+            const symbol = document.getElementById('symbol-filter').value.toUpperCase();
             const minPctGain = parseFloat(document.getElementById('pct-gain-filter').value) || 0;
             const minDate = document.getElementById('min-date-filter').value;
             const maxDate = document.getElementById('max-date-filter').value;
@@ -207,7 +207,7 @@
             updatePaginationControls(); // Update pagination controls
         });
 
-        // Filter by percentage gain
+        // Filter
         document.getElementById('apply-filter').addEventListener('click', () => {
             applyFilter()
         });
@@ -231,6 +231,15 @@
 
             // Display the unfiltered stock list
             applyFilter()
+        });
+
+        // Enter hotkey
+        document.addEventListener('keypress', function(event) {
+            // Check if the key pressed is Enter (key code 13)
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Prevent default form submission
+                applyFilter();
+            }
         });
 
     </script>
