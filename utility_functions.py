@@ -63,9 +63,9 @@ def top_gainers():
 SELECT daily.symbol as symbol
 	, daily.[date] as [Date]
 	, round((daily.[high] - daily2.[close])/daily2.[close]*100, 2) as percent_gain
-	--, daily.volume as Volume
+	, daily.volume/1000000 as Volume
 	--, daily.[open] as [Open]
-	--, daily.[high] as [High]
+	, daily.[high] as [High]
 	--, daily.[low] as [Low]
 	--, daily.[close] as [Close]
 FROM dbo.daily_temp AS daily

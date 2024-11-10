@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Stock Gainers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <header>
         <h1>Top Stock Gainers</h1>
     </header>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <main>
         <div class="gainers-container">
             <!-- Sidebar for filters -->
@@ -17,11 +18,19 @@
                 <h2>Filters</h2>
                 <div class="form-group">
                     <label for="symbol-filter">Symbol:</label>
-                    <input type="text" id="symbol-filter" placeholder="e.g., GME" />
+                    <input type="text" id="symbol-filter" placeholder="GME" />
                 </div>
                 <div class="form-group">
                     <label for="pct-gain-filter">Min %:</label>
-                    <input type="number" id="pct-gain-filter" placeholder="e.g., 50" />
+                    <input type="number" id="pct-gain-filter" placeholder="20" />
+                </div>
+                <div class="form-group">
+                    <label for="high-filter">Min High:</label>
+                    <input type="number" id="high-filter" placeholder=".2" />
+                </div>
+                <div class="form-group">
+                    <label for="volume-filter">Min VolM:</label>
+                    <input type="number" id="volume-filter" placeholder="20" />
                 </div>
                 <div class="form-group">
                     <label for="min-date-filter">Min Date:</label>
@@ -45,6 +54,8 @@
                             <th>Date</th>
                             <th>Symbol</th>
                             <th>Percent Gain</th>
+                            <th>High</th>
+                            <th>Volume Mil</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -83,7 +94,7 @@
 
         // Fetch all stocks initially
         function fetchStocks() {
-            fetch('top_gainers.json') // Data source
+            fetch('docs/top_gainers.json') // Data source
                 .then(response => response.json())
                 .then(data => {
                     allStocks = data; // Store all stocks
@@ -92,7 +103,7 @@
                     updatePaginationControls(); // Update pagination controls
                 })
                 .catch(error => console.error('Error fetching data:', error));
-                console.log(allStocks)
+                // console.log(allStocks)
         }
 
         // Function to display the stocks for the current page
@@ -109,7 +120,7 @@
             stocksToShow.forEach(stock => {
                 const tableBody = document.getElementById('gainers-table').querySelector('tbody');
                 const row = document.createElement('tr');
-                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td>`;
+                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td><td>${stock.High}</td><td>${stock.Volume}</td>`;
                 tableBody.appendChild(row);
                 
             });
@@ -152,6 +163,8 @@
             const maxDate = document.getElementById('max-date-filter').value;
             const minDateDate = minDate ? new Date(minDate) : null;
             const maxDateDate = maxDate ? new Date(maxDate) : null;
+            const high = parseFloat(document.getElementById('high-filter').value) || 0;
+            const volume = parseFloat(document.getElementById('volume-filter').value) || 0;
  
             filteredStocks = allStocks.filter(stock => {
                 // Check each filter condition only if the input has a value
@@ -159,11 +172,13 @@
                 const pctGainCondition = minPctGain ? stock.percent_gain >= minPctGain : true;
                 const minDateCondition = minDateDate ? new Date(stock.Date) >= minDateDate : true;
                 const maxDateCondition = maxDateDate ? new Date(stock.Date) <= maxDateDate : true;
+                const highCondition = high ? stock.High >= high : true;
+                const volumeCondition = volume ? stock.Volume >= volume : true;
 
                 // Only stocks meeting all active conditions are included
-                return symbolCondition && pctGainCondition && minDateCondition && maxDateCondition;
+                return symbolCondition && pctGainCondition && minDateCondition && maxDateCondition && highCondition && volumeCondition;
             });
-            console.log(maxDate)
+            // console.log(high)
             currentPage = 1; // Reset to the first page after applying filter
             displayPage(currentPage); 
             updatePaginationControls(); 
@@ -203,12 +218,16 @@
             const pctGainFilter = document.getElementById('pct-gain-filter');
             const minDateFilter = document.getElementById('min-date-filter');
             const maxDateFilter = document.getElementById('max-date-filter');
+            const highFilter = document.getElementById('high-filter');
+            const volumeFilter = document.getElementById('volume-filter');
 
             // Reset all filter input fields
             symbolFilter.value = null;
             pctGainFilter.value = null;
             minDateFilter.value = null;
             maxDateFilter.value = null;
+            highFilter.value = null;
+            volumeFilter.value = null;
 
             // Display the unfiltered stock list
             applyFilter()
