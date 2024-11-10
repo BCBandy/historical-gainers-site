@@ -39,6 +39,9 @@ def top_gainers():
 
 @app.route('/')
 def index():
+    '''
+    http://127.0.0.1:5000/
+    '''
     return render_template('index.html')
 
 if __name__ == '__main__':
