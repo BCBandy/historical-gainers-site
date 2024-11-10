@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+label {
+    margin: 0px 0 8px;
+}
+
+input {
+    margin: 0 0 8px 8px;
+    text-align: center;
+    width: 100px;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* overflow:auto;  */
+}
+
+.sidebar .form-group { 
+    display: flex;
+    justify-content: flex-end;
+ }
+
+.pagination-container {
+    display: flex;
+    align-items: right;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+
+.container {
+    display:flex;
+}
+
+.gainers-container {
+    display:flex;
+    width: 60%;
+    align-items: center;
+}
+
+.gainers-table-group{
+    align-items: center;
+    width: 60%;
+    flex-grow: 1;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.filter-buttons button {
+    padding: 3px 16px; /* Adjusts padding for button size */
+}
+
+#rows-per-page-div {
+    border-radius: 5px;
+    margin-right: 50px; 
+    margin-right: auto;
+}
+
+#pagination-controls {
+    display: flex; /* Use flexbox to align items side by side */
+    align-items: center; /* Center items vertically */
+}
+
+#pagination-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#pagination-controls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Style for the Jump to Top button */
+#jump-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+#jump-to-top:hover {
+    background-color: #0056b3;
+}
