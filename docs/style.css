@@ -62,7 +62,11 @@ main {
     width: 100%;
 }
 
-/* Sidebar styling */
+aside {
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+}
 .sidebar {
     width: 200px;
     padding: 10px;
@@ -73,6 +77,21 @@ main {
     margin-top: 20px;
     margin-right: 20px;
     align-self: flex-start;
+}
+
+.promo {
+    width: 200px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .container {

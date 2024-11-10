@@ -14,38 +14,45 @@
     <main>
         <div class="gainers-container">
             <!-- Sidebar for filters -->
-            <aside class="sidebar">
-                <h2>Filters</h2>
-                <div class="form-group">
-                    <label for="symbol-filter">Symbol:</label>
-                    <input type="text" id="symbol-filter" placeholder="GME" />
+            <aside>
+                <div class="sidebar">
+                    <h2>Filters</h2>
+                    <div class="form-group">
+                        <label for="symbol-filter">Symbol:</label>
+                        <input type="text" id="symbol-filter" placeholder="GME" />
+                    </div>
+                    <div class="form-group">
+                        <label for="pct-gain-filter">Min %:</label>
+                        <input type="number" id="pct-gain-filter" placeholder="20" />
+                    </div>
+                    <div class="form-group">
+                        <label for="high-filter">Min High:</label>
+                        <input type="number" id="high-filter" placeholder=".2" />
+                    </div>
+                    <div class="form-group">
+                        <label for="volume-filter">Min VolM:</label>
+                        <input type="number" id="volume-filter" placeholder="20" />
+                    </div>
+                    <div class="form-group">
+                        <label for="min-date-filter">Min Date:</label>
+                        <input type="date" id="min-date-filter" placeholder="e.g., 1-1-2020" />
+                    </div>
+                    <div class="form-group">
+                        <label for="max-date-filter">Max Date:</label>
+                        <input type="date" id="max-date-filter" placeholder="e.g., 1-1-2021" />
+                    </div>
+                    <div class="filter-buttons">
+                        <button id="clear-filter">X</button>
+                        <button id="apply-filter">Apply Filter</button>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="pct-gain-filter">Min %:</label>
-                    <input type="number" id="pct-gain-filter" placeholder="20" />
-                </div>
-                <div class="form-group">
-                    <label for="high-filter">Min High:</label>
-                    <input type="number" id="high-filter" placeholder=".2" />
-                </div>
-                <div class="form-group">
-                    <label for="volume-filter">Min VolM:</label>
-                    <input type="number" id="volume-filter" placeholder="20" />
-                </div>
-                <div class="form-group">
-                    <label for="min-date-filter">Min Date:</label>
-                    <input type="date" id="min-date-filter" placeholder="e.g., 1-1-2020" />
-                </div>
-                <div class="form-group">
-                    <label for="max-date-filter">Max Date:</label>
-                    <input type="date" id="max-date-filter" placeholder="e.g., 1-1-2021" />
-                </div>
-                <div class="filter-buttons">
-                    <button id="clear-filter">X</button>
-                    <button id="apply-filter">Apply Filter</button>
+                <div class="promo">
+                    <p>Follow on Twitter/X <a href="https://x.com/BlakeBandit" target="_blank">https://x.com/BlakeBandit</a></p>
                 </div>
                 
             </aside>
+
+            
 
             <div class="gainers-table-group">
                 <table id="gainers-table">
