@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Stock Gainers</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
 </head>
 <body>
     <header>
@@ -84,7 +84,7 @@
 
         // Fetch all stocks initially
         function fetchStocks() {
-            fetch('static/top_gainers.json') // Data source
+            fetch('top_gainers.json') // Data source
                 .then(response => response.json())
                 .then(data => {
                     allStocks = data; // Store all stocks
