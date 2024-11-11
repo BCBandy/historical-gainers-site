@@ -73,10 +73,10 @@ join dbo.daily_temp as daily2
 	on daily2.symbol = daily.symbol
 	and daily2.symbol_count = daily.symbol_count-1
 WHERE  daily.[open] > 0 
-	and daily.volume > 20*1000000
-	--and daily.[open] >= .20											-- open price
-	and ((daily.[high] + daily.[low]) / 2) * daily.volume >= 5000000	-- dollar volume
-	and (daily.[high] - daily2.[close])/daily2.[close] >= .2				-- pct gain to hod from open
+	--and daily.volume > 20*1000000
+	and daily.[high] >= .50													-- open price
+	and ((daily.[high] + daily.[low]) / 2) * daily.volume >= 20 *1000000	-- dollar volume
+	and (daily.[high] - daily2.[close])/daily2.[close] >= .4				-- pct gain to hod from open
 
 
 ORDER BY daily.[date] DESC
