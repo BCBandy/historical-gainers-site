@@ -158,3 +158,24 @@ aside {
 #jump-to-top:hover {
     background-color: #0056b3;
 }
+
+.tabs ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.tabs li {
+    margin: 0 10px;
+}
+.tabs a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.tabs a.active {
+    background: #007bff;
+    color: white;
+}

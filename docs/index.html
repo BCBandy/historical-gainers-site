@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Stock Gainers</title>
+    <title>Top Stock Gainer s</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <header>
-        <h1>Top Stock Gainers</h1>
+        <h1>Top Stock Gainer s</h1>
+        <nav class="tabs">
+            <ul>
+                <li><a href="#gainers" class="active">Top Gainers</a></li>
+                <li><a href="#losers">Top Losers</a></li>
+                <li><a href="#volatile">Most Volatile</a></li>
+            </ul>
+        </nav>
     </header>
     <link rel="stylesheet" href="style.css">
     <main>

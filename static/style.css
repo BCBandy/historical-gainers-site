@@ -100,13 +100,13 @@ aside {
 
 .gainers-container {
     display:flex;
-    width: 60%;
+    width: 100%;
     align-items: center;
 }
 
 .gainers-table-group{
     align-items: center;
-    width: 60%;
+    width: 100%;
     flex-grow: 1;
 }
 
@@ -157,4 +157,85 @@ aside {
 }
 #jump-to-top:hover {
     background-color: #0056b3;
+}
+
+/* Tabs */
+.modern-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin: 2rem 0;
+    padding: 1.4rem 2rem !important;
+    max-width: 1400px;            /* prevents it from getting too wide */
+    padding: 1rem 0;
+    background: #0f172a; /* Deep dark blue */
+    border-radius: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.modern-tabs a {
+    color: #94a3b8; /* Cool gray */
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.modern-tabs a:hover {
+    color: #e2e8f0; /* Light gray on hover */
+}
+
+.modern-tabs a.tab-active {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* Underline indicator for active tab */
+.modern-tabs a.tab-active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #3b82f6; /* Bright blue accent */
+    border-radius: 2px;
+}
+
+/* Optional: subtle hover underline */
+.modern-tabs a::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: #64748b;
+    transition: all 0.3s ease;
+    border-radius: 1px;
+}
+
+.modern-tabs a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+/* Tab switching*/
+.tab-content { display: none; padding: 2rem 0; }
+.tab-content.active { display: block; }
+
+.placeholder {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: #94a3b8;
+    font-size: 1.4rem;
+}
+.placeholder h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: white;
 }
