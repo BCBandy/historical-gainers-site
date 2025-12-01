@@ -47,7 +47,6 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    /* overflow:auto;  */
 }
 
 .sidebar .form-group { 
@@ -110,6 +109,11 @@ aside {
     flex-grow: 1;
 }
 
+#gainers {
+    padding-top: 0.5rem !important;   /* kills any remaining gap on the home tab */
+}
+
+/* pagination*/
 .filter-buttons {
     display: flex;
     justify-content: center;
@@ -165,8 +169,8 @@ aside {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2.5rem;
-    margin: 2rem 0;
-    padding: 1.4rem 2rem !important;
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem 2rem !important;
     max-width: 1400px;            /* prevents it from getting too wide */
     padding: 1rem 0;
     background: #0f172a; /* Deep dark blue */
@@ -225,8 +229,13 @@ aside {
 }
 
 /* Tab switching*/
-.tab-content { display: none; padding: 2rem 0; }
-.tab-content.active { display: block; }
+.tab-content { 
+    display: none; 
+    padding: 1.5rem 0 2rem;
+}
+.tab-content.active { 
+    display: block; 
+}
 
 .placeholder {
     text-align: center;
