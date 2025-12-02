@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Stock Gainers</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
         <nav class="tabs">
             <nav class="modern-tabs">
                 <a href="#" class="tab-active" data-tab="gainers">Top Gainers</a>
-                <a href="#" data-tab="stats">Gainer Stats</a>
+                <a href="#" data-tab="stats">Stats</a>
                 <a href="#" data-tab="about">About</a>
                 <a href="#" data-tab="request-features">Request Features</a>
             </nav>
@@ -98,17 +99,63 @@
             </div>
         </section>
         <!-- ========== EMPTY PLACEHOLDERS FOR OTHER TABS ========== -->
-        <section id="stats" class="tab-content">
+        <!-- <section id="stats" class="tab-content">
             <div class="placeholder">
                 <h2>Gainer Stats</h2>
                 <p>Coming soon – stats of big gainers</p>
+            </div>
+        </section> -->
+        <section id="stats" class="tab-content">
+            <div style="padding: 3rem 1rem; width: 100%; text-align: center;">
+                <h2 style="color:white; margin-bottom:1rem; font-size:2.2rem;">Gainers Per Month</h2>
+                <p style="color:#94a3b8; margin-bottom:1rem;">
+                    Total number of stocks with +20% gain each month
+                </p>
+
+                <!-- Year Filter -->
+                <div style="margin-bottom: 2.5rem;">
+                    <label for="yearFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Select Year:</label>
+                    <select id="yearFilter" style="
+                        padding:0.6rem 1rem; 
+                        background:#1e293b; 
+                        color:white; 
+                        border:2px solid #3b82f6; 
+                        border-radius:8px; 
+                        font-size:1rem;
+                    "></select>
+                </div>
+
+                <!-- Chart Container -->
+                <div style="width: 100%; max-width: 100%; padding: 0 2rem; box-sizing: border-box;">
+                    <div style="
+                        width: 100%;
+                        max-width: 900px;
+                        min-height: 500px;
+                        margin: 0 auto;
+                        background:#0f172a;
+                        border-radius:16px;
+                        padding:2rem;
+                        box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+                    ">
+                        <canvas id="gainersPerMonthChart"></canvas>
+                    </div>
+                </div>
+
+                <p style="margin-top:2rem; color:#64748b; font-size:0.95rem;">
+                    Data from top_gainers.json • Updated automatically
+                </p>
             </div>
         </section>
 
         <section id="about" class="tab-content">
             <div class="placeholder">
                 <h2>About</h2>
-                <p>Coming soon – info about this site</p>
+                <p>
+                    We want small traders to succeed and think everyone should have access to data free of charge. This equals the playing field and gives everyone a better chance to find success. We are providing data primarily for small cap historical gainers. We feel these stocks provide big opportunities for small accounts and can be a good option for account growth.
+                </p>
+                <p>
+                    Creator of this site is <a href="https://x.com/BlakeBandit" target="_blank">@BlakeBandit</a> on X. Please reach out there for request of new features/improvements (money back guarentee).
+                </p>
             </div>
         </section>
 
@@ -116,6 +163,8 @@
             <div class="placeholder">
                 <h2>Request features here</h2>
                 <p>Tell me what you want next</p>
+                <p>(Coming soon)</p>
+                <p>For now please reachout to <a href="https://x.com/BlakeBandit" target="_blank">@BlakeBandit</a> on X.</p>
             </div>
         </section>
     </main>
@@ -294,6 +343,100 @@
             }
         });
 
+        let gainersChart = null; // We'll store the chart instance
+
+        function createGainersPerMonthChart(selectedYear = null) {
+            // Destroy previous chart if exists
+            if (gainersChart) gainersChart.destroy();
+
+            const monthlyCount = {};
+
+            allStocks.forEach(stock => {
+                const date = new Date(stock.Date);
+                const year = date.getFullYear();
+                const month = String(date.getMonth() + 1).padStart(2, '0');
+                const yearMonth = `${year}-${month}`;
+
+                if (selectedYear === null || year === parseInt(selectedYear)) {
+                    monthlyCount[yearMonth] = (monthlyCount[yearMonth] || 0) + 1;
+                }
+            });
+
+            // Get unique years and populate dropdown
+            const years = [...new Set(allStocks.map(s => new Date(s.Date).getFullYear()))].sort().reverse();
+            const yearSelect = document.getElementById('yearFilter');
+            yearSelect.innerHTML = '<option value="">All Years</option>' + 
+                years.map(y => `<option value="${y}" ${y == selectedYear ? 'selected' : ''}>${y}</option>`).join('');
+
+            // Filter to only 12 months of selected year (or all if none selected)
+            let monthsToShow = Object.keys(monthlyCount);
+            if (selectedYear) {
+                monthsToShow = monthsToShow.filter(m => m.startsWith(selectedYear));
+            }
+            monthsToShow.sort();
+
+            const labels = monthsToShow.map(m => {
+                const [y, month] = m.split('-');
+                return new Date(y, month - 1).toLocaleString('en-US', { month: 'short' });
+            });
+
+            const data = monthsToShow.map(m => monthlyCount[m] || 0);
+
+            gainersChart = new Chart(document.getElementById('gainersPerMonthChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Big Gainers (+20%)',
+                        data: data,
+                        backgroundColor: '#3b82f6',
+                        borderColor: '#60a5fa',
+                        borderWidth: 2,
+                        borderRadius: 8,
+                        borderSkipped: false,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { callbacks: { label: ctx => `${ctx.parsed.y} stocks` } }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } },
+                        x: { ticks: { color: '#94a3b8' }, grid: { display: false } }
+                    }
+                }
+            });
+        }
+
+        // Update chart when year changes
+        document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+            const year = e.target.value;
+            createGainersPerMonthChart(year === '' ? null : year);
+        });
+
+        // ————— Called after data loads —————
+        function fetchStocks() {
+            fetch('static/top_gainers.json')
+                .then(r => r.json())
+                .then(data => {
+                    allStocks = data;
+                    filteredStocks = data;
+                    displayPage(currentPage);
+                    updatePaginationControls();
+
+                    // Add this line:
+                    createGainersPerMonthChart(); // First load: show all years or latest
+                    filteredStocks = data;
+                    displayPage(currentPage);
+                    updatePaginationControls();
+
+                    // Create the chart once data is ready
+                    createGainersPerMonthChart();
+                });
+        }
     </script>
  
 </body>
