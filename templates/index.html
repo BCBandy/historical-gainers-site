@@ -98,52 +98,64 @@
                 </div>
             </div>
         </section>
-        <!-- ========== EMPTY PLACEHOLDERS FOR OTHER TABS ========== -->
-        <!-- <section id="stats" class="tab-content">
-            <div class="placeholder">
-                <h2>Gainer Stats</h2>
-                <p>Coming soon – stats of big gainers</p>
-            </div>
-        </section> -->
+        <!-- stats tab -->
         <section id="stats" class="tab-content">
-            <div style="padding: 3rem 1rem; width: 100%; text-align: center;">
+            <div style="width: 100%; text-align: center;">
                 <h2 style="color:white; margin-bottom:1rem; font-size:2.2rem;">Gainers Per Month</h2>
-                <p style="color:#94a3b8; margin-bottom:1rem;">
-                    Total number of stocks with +20% gain each month
+                
+                <!-- This text updates automatically -->
+                <p id="chartDescription" style="color:#94a3b8; margin-bottom:1rem;">
+                    Total number of stocks with +50% gain each month
                 </p>
 
-                <!-- Year Filter -->
-                <div style="margin-bottom: 2.5rem;">
+                <!-- Year filter -->
+                <div style="margin-bottom: 1rem;">
                     <label for="yearFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Select Year:</label>
-                    <select id="yearFilter" style="
+                    <select id="yearFilter" style="padding:0.6rem 1rem; background:#1e293b; color:white; border:2px solid #3b82f6; border-radius:8px;"></select>
+                </div>
+
+                <!-- Percent filter (default 50) -->
+                <div style="margin-bottom: 1rem;">
+                    <label for="minPctFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Min % Gain:</label>
+                    <input type="number" id="minPctFilter" value="50" min="10" step="5" 
+                        style="padding:0.6rem 1rem; width:90px; background:#1e293b; color:white; border:2px solid #3b82f6; border-radius:8px;">
+                </div>
+
+                <!-- Month filter -->
+                <div style="margin-bottom: 2.5rem;">
+                    <label for="monthFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Show Month:</label>
+                    <select id="monthFilter" style="
                         padding:0.6rem 1rem; 
                         background:#1e293b; 
                         color:white; 
                         border:2px solid #3b82f6; 
                         border-radius:8px; 
                         font-size:1rem;
-                    "></select>
+                    ">
+                        <option value="">All Months</option>
+                        <option value="0">January</option>
+                        <option value="1">February</option>
+                        <option value="2">March</option>
+                        <option value="3">April</option>
+                        <option value="4">May</option>
+                        <option value="5">June</option>
+                        <option value="6">July</option>
+                        <option value="7">August</option>
+                        <option value="8">September</option>
+                        <option value="9">October</option>
+                        <option value="10">November</option>
+                        <option value="11">December</option>
+                    </select>
                 </div>
 
-                <!-- Chart Container -->
+                <!-- Chart container -->
                 <div style="width: 100%; max-width: 100%; padding: 0 2rem; box-sizing: border-box;">
-                    <div style="
-                        width: 100%;
-                        max-width: 900px;
-                        min-height: 500px;
-                        margin: 0 auto;
-                        background:#0f172a;
-                        border-radius:16px;
-                        padding:2rem;
-                        box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-                    ">
+                    <div style="width: 100%; max-width: 900px; min-height: 500px; margin: 0 auto; background:#0f172a; border-radius:16px; padding:2rem; box-shadow: 0 10px 40px rgba(0,0,0,0.6);">
                         <canvas id="gainersPerMonthChart"></canvas>
                     </div>
                 </div>
 
-                <p style="margin-top:2rem; color:#64748b; font-size:0.95rem;">
-                    Data from top_gainers.json • Updated automatically
-                </p>
+                <p style="margin-top:2rem; color:#64748b; font-size:0.95rem;">Data updated daily</p>
             </div>
         </section>
 
@@ -343,43 +355,50 @@
             }
         });
 
-        let gainersChart = null; // We'll store the chart instance
+        let gainersChart = null;
 
         function createGainersPerMonthChart(selectedYear = null) {
-            // Destroy previous chart if exists
             if (gainersChart) gainersChart.destroy();
+
+            // Read the % filter (default 50 if empty)
+            const minPct = parseFloat(document.getElementById('minPctFilter').value) || 50;
+            const selectedMonth = document.getElementById('monthFilter').value;
+
+            // Update the description text above the chart
+            document.getElementById('chartDescription').textContent = 
+                `Total number of stocks with +${minPct}% gain each month`;
 
             const monthlyCount = {};
 
             allStocks.forEach(stock => {
+                if (stock.percent_gain < minPct) return; // skip stocks below threshold
+
                 const date = new Date(stock.Date);
                 const year = date.getFullYear();
-                const month = String(date.getMonth() + 1).padStart(2, '0');
-                const yearMonth = `${year}-${month}`;
+                const month = date.getMonth();
+                const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
 
+                if (selectedMonth !== '' && month !== parseInt(selectedMonth)) return;
                 if (selectedYear === null || year === parseInt(selectedYear)) {
                     monthlyCount[yearMonth] = (monthlyCount[yearMonth] || 0) + 1;
                 }
             });
 
-            // Get unique years and populate dropdown
+            // Populate year dropdown
             const years = [...new Set(allStocks.map(s => new Date(s.Date).getFullYear()))].sort().reverse();
             const yearSelect = document.getElementById('yearFilter');
-            yearSelect.innerHTML = '<option value="">All Years</option>' + 
+            yearSelect.innerHTML = '<option value="">All Years</option>' +
                 years.map(y => `<option value="${y}" ${y == selectedYear ? 'selected' : ''}>${y}</option>`).join('');
 
-            // Filter to only 12 months of selected year (or all if none selected)
+            // Build labels/data
             let monthsToShow = Object.keys(monthlyCount);
-            if (selectedYear) {
-                monthsToShow = monthsToShow.filter(m => m.startsWith(selectedYear));
-            }
+            if (selectedYear) monthsToShow = monthsToShow.filter(m => m.startsWith(selectedYear));
             monthsToShow.sort();
 
             const labels = monthsToShow.map(m => {
                 const [y, month] = m.split('-');
-                return new Date(y, month - 1).toLocaleString('en-US', { month: 'short' });
+                return `${new Date(y, month - 1).toLocaleString('en-US', { month: 'short' })} ${y}`;
             });
-
             const data = monthsToShow.map(m => monthlyCount[m] || 0);
 
             gainersChart = new Chart(document.getElementById('gainersPerMonthChart'), {
@@ -387,13 +406,12 @@
                 data: {
                     labels: labels,
                     datasets: [{
-                        label: 'Big Gainers (+20%)',
+                        label: `+${minPct}% Gainers`,
                         data: data,
                         backgroundColor: '#3b82f6',
                         borderColor: '#60a5fa',
                         borderWidth: 2,
                         borderRadius: 8,
-                        borderSkipped: false,
                     }]
                 },
                 options: {
@@ -413,8 +431,25 @@
 
         // Update chart when year changes
         document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+            createGainersPerMonthChart(e.target.value || null);
+        });
+
+        // INSTANT update while typing (no need to click away)
+        document.getElementById('minPctFilter')?.addEventListener('input', () => {
+            const year = document.getElementById('yearFilter').value || null;
+            createGainersPerMonthChart(year);
+        });
+
+        // Update chart when year changes
+        document.getElementById('yearFilter')?.addEventListener('change', (e) => {
             const year = e.target.value;
             createGainersPerMonthChart(year === '' ? null : year);
+        });
+
+        // Month filter — instant update
+        document.getElementById('monthFilter')?.addEventListener('change', () => {
+            const year = document.getElementById('yearFilter').value || null;
+            createGainersPerMonthChart(year);
         });
 
         // ————— Called after data loads —————
@@ -427,7 +462,6 @@
                     displayPage(currentPage);
                     updatePaginationControls();
 
-                    // Add this line:
                     createGainersPerMonthChart(); // First load: show all years or latest
                     filteredStocks = data;
                     displayPage(currentPage);
