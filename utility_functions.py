@@ -58,8 +58,9 @@ def get_results_df(sql, values=None):
              data = pd.read_sql(sql,con=cnxn) 
         return data
 
-def top_gainers():
+def update_top_gainers():
     sql = '''
+-- get historical from daily through march then use scanner data
 SELECT daily.symbol as symbol
 	, daily.[date] as [Date]
 	, round((daily.[high] - daily2.[close])/daily2.[close]*100, 2) as percent_gain
@@ -77,10 +78,22 @@ WHERE  daily.[open] > 0
 	and daily.[high] >= .50													-- open price
 	and ((daily.[high] + daily.[low]) / 2) * daily.volume >= 20 *1000000	-- dollar volume
 	and (daily.[high] - daily2.[close])/daily2.[close] >= .4				-- pct gain to hod from open
+	and daily.date < '2025-03-01'
 
+union
 
-ORDER BY daily.[date] DESC
-, (daily.[high] - daily.[open])/daily.[open] DESC
+select symbol
+	, date
+	, pctChange
+	, volume/1000000
+	, price as high
+
+from ServiceGainers
+where date >= '2025-03-01'
+and price >= .5
+and price * volume > 20 * 1000000
+and pctChange >= 40
+order by 2 desc, 3 desc
 '''
     results_df = get_results_df(sql)
     results_json = results_df.to_json(orient="records", lines=False)
@@ -91,4 +104,4 @@ ORDER BY daily.[date] DESC
         json.dump(results_json_clean, f, indent=4)
 
 if __name__ == '__main__':
-    top_gainers()
+    update_top_gainers()
