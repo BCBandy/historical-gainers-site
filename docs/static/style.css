@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #121212;
+    color: #fff;
 }
 
 h1 {
@@ -70,8 +71,8 @@ aside {
 .sidebar {
     width: 200px;
     padding: 10px;
-    background-color: #f7f7f7;
-    border-right: 1px solid #ddd;
+    background-color: #212121;
+    /* border-right: 1px solid #212121; */
     position: sticky;
     top: 0;
     margin-top: 20px;
@@ -82,8 +83,8 @@ aside {
 .promo {
     width: 200px;
     padding: 10px;
-    background-color: #f7f7f7;
-    border-right: 1px solid #ddd;
+    background-color: #212121;
+    /* border-right: 1px solid #ddd; */
     position: sticky;
     top: 0;
     margin-top: 20px;
@@ -124,6 +125,8 @@ aside {
 
 .filter-buttons button {
     padding: 3px 16px; /* Adjusts padding for button size */
+    color: #6B6B6B;
+    /* border-color: #d61b1b; */
 }
 
 #rows-per-page-div {
