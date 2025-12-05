@@ -8,6 +8,24 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <!-- Dark Mode Tester -->
+    <div style="position:fixed; top:10px; right:10px; z-index:9999; background:#000; color:#fff; padding:10px; border-radius:8px; font-family:Arial; font-size:14px;">
+        <label>
+            <input type="checkbox" id="forceDark" onchange="
+            if(this.checked){
+                document.body.style.background='#0d1117';
+                document.body.style.color='#c9d1d9';
+                document.querySelectorAll('input, select, textarea, button').forEach(e=>{
+                e.style.background='#161b22'; e.style.color='#c9d1d9'; e.style.borderColor='#30363d';
+                });
+            } else {
+                document.body.style.background=''; document.body.style.color='';
+                document.querySelectorAll('input, select, textarea, button').forEach(e=>{e.style=''});
+            }
+            ">
+            Dark Mode
+        </label>
+    </div>
     <header>
         <nav class="tabs">
             <nav class="modern-tabs">
