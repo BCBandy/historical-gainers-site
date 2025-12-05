@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Stock Gainers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="tabs">
+            <nav class="modern-tabs">
+                <a href="#" class="tab-active" data-tab="gainers">Top Gainers</a>
+                <a href="#" data-tab="stats">Stats</a>
+                <a href="#" data-tab="about">About</a>
+                <a href="#" data-tab="request-features">Request Features</a>
+            </nav>
+    </nav>
+    </header>
+    <link rel="stylesheet" href="style.css">
+    <main>
+        <!-- ========== TOP GAINERS (Home) ========== -->
+        <section id="gainers" class="tab-content active">
+            <div class="gainers-container">
+                <!-- Sidebar for filters -->
+                <aside>
+                    <div class="sidebar">
+                        <h2>Filters</h2>
+                        <div class="form-group">
+                            <label for="symbol-filter">Symbol:</label>
+                            <input type="text" id="symbol-filter" placeholder="GME" />
+                        </div>
+                        <div class="form-group">
+                            <label for="pct-gain-filter">Min %:</label>
+                            <input type="number" id="pct-gain-filter" placeholder="20" />
+                        </div>
+                        <div class="form-group">
+                            <label for="high-filter">Min High:</label>
+                            <input type="number" id="high-filter" placeholder=".2" />
+                        </div>
+                        <div class="form-group">
+                            <label for="volume-filter">Min VolM:</label>
+                            <input type="number" id="volume-filter" placeholder="20" />
+                        </div>
+                        <div class="form-group">
+                            <label for="min-date-filter">Min Date:</label>
+                            <input type="date" id="min-date-filter" placeholder="e.g., 1-1-2020" />
+                        </div>
+                        <div class="form-group">
+                            <label for="max-date-filter">Max Date:</label>
+                            <input type="date" id="max-date-filter" placeholder="e.g., 1-1-2021" />
+                        </div>
+                        <div class="filter-buttons">
+                            <button id="clear-filter">X</button>
+                            <button id="apply-filter">Apply Filter</button>
+                        </div>
+                    </div>
+                    <div class="promo">
+                        <p>Follow on Twitter/X <a href="https://x.com/BlakeBandit" target="_blank">https://x.com/BlakeBandit</a></p>
+                    </div>
+                    
+                </aside>
+
+                <div class="gainers-table-group">
+                    <table id="gainers-table">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Symbol</th>
+                                <th>Percent Gain</th>
+                                <th>High</th>
+                                <th>Volume Mil</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                    <div class="pagination-container">
+                        <div id="rows-per-page-div">
+                            <label for="rows-per-page">Rows per page:</label>
+                                <select id="rows-per-page">
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                    <option value="20" selected>20</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                </select>
+                        </div>
+
+                        <!-- Pagination Controls -->
+                        <div id="pagination-controls">
+                            <button onclick="prevPage()" id="prev-btn" disabled>Previous</button>
+                            <span id="page-info"></span>
+                            <button onclick="nextPage()" id="next-btn">Next</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- stats tab -->
+        <section id="stats" class="tab-content">
+            <div style="width: 100%; text-align: center;">
+                <h2 style="color:white; margin-bottom:1rem; font-size:2.2rem;">Gainers Per Month</h2>
+                
+                <!-- This text updates automatically -->
+                <p id="chartDescription" style="color:#94a3b8; margin-bottom:1rem;">
+                    Total number of stocks with +50% gain each month
+                </p>
+
+                <!-- Year filter -->
+                <div style="margin-bottom: 1rem;">
+                    <label for="yearFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Select Year:</label>
+                    <select id="yearFilter" style="padding:0.6rem 1rem; background:#1e293b; color:white; border:2px solid #3b82f6; border-radius:8px;"></select>
+                </div>
+
+                <!-- Percent filter (default 50) -->
+                <div style="margin-bottom: 1rem;">
+                    <label for="minPctFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Min % Gain:</label>
+                    <input type="number" id="minPctFilter" value="50" min="10" step="5" 
+                        style="padding:0.6rem 1rem; width:90px; background:#1e293b; color:white; border:2px solid #3b82f6; border-radius:8px;">
+                </div>
+
+                <!-- Month filter -->
+                <div style="margin-bottom: 2.5rem;">
+                    <label for="monthFilter" style="color:#e2e8f0; margin-right:1rem; font-weight:600;">Show Month:</label>
+                    <select id="monthFilter" style="
+                        padding:0.6rem 1rem; 
+                        background:#1e293b; 
+                        color:white; 
+                        border:2px solid #3b82f6; 
+                        border-radius:8px; 
+                        font-size:1rem;
+                    ">
+                        <option value="">All Months</option>
+                        <option value="0">January</option>
+                        <option value="1">February</option>
+                        <option value="2">March</option>
+                        <option value="3">April</option>
+                        <option value="4">May</option>
+                        <option value="5">June</option>
+                        <option value="6">July</option>
+                        <option value="7">August</option>
+                        <option value="8">September</option>
+                        <option value="9">October</option>
+                        <option value="10">November</option>
+                        <option value="11">December</option>
+                    </select>
+                </div>
+
+                <!-- Chart container -->
+                <div style="width: 100%; max-width: 100%; padding: 0 2rem; box-sizing: border-box;">
+                    <div style="width: 100%; max-width: 900px; min-height: 500px; margin: 0 auto; background:#0f172a; border-radius:16px; padding:2rem; box-shadow: 0 10px 40px rgba(0,0,0,0.6);">
+                        <canvas id="gainersPerMonthChart"></canvas>
+                    </div>
+                </div>
+
+                <p style="margin-top:2rem; color:#64748b; font-size:0.95rem;">Data updated daily</p>
+            </div>
+        </section>
+
+        <section id="about" class="tab-content">
+            <div class="placeholder">
+                <h2>About</h2>
+                <p>
+                    We want small traders to succeed and think everyone should have access to data free of charge. This equals the playing field and gives everyone a better chance to find success. We are providing data primarily for small cap historical gainers. We feel these stocks provide big opportunities for small accounts and can be a good option for account growth.
+                </p>
+                <p>
+                    Creator of this site is <a href="https://x.com/BlakeBandit" target="_blank">@BlakeBandit</a> on X. Please reach out there for request of new features/improvements (money back guarentee).
+                </p>
+            </div>
+        </section>
+
+        <section id="request-features" class="tab-content">
+            <div class="placeholder">
+                <h2>Request features here</h2>
+                <p>Tell me what you want next</p>
+                <p>(Coming soon)</p>
+                <p>For now please reachout to <a href="https://x.com/BlakeBandit" target="_blank">@BlakeBandit</a> on X.</p>
+            </div>
+        </section>
+    </main>
+
+    <button id="jump-to-top">Jump to Top</button>
+
+    <script>
+        // ────────────────────── TAB SWITCHING ──────────────────────
+        document.querySelectorAll('.modern-tabs a').forEach(tab => {
+            tab.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Remove active class from all tabs and sections
+                document.querySelectorAll('.modern-tabs a').forEach(t => t.classList.remove('tab-active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+                // Add active to clicked tab and corresponding section
+                this.classList.add('tab-active');
+                const target = this.getAttribute('data-tab');
+                document.getElementById(target).classList.add('active');
+            });
+        });
+        
+        let rowsPerPage = 20; // Number of rows per page
+        let allStocks = []; // Array to hold all stock data
+        let filteredStocks = []; // Array to hold all filtered stock data
+        let currentPage = 1; // Current page number
+
+        // Fetch all stocks initially
+        function fetchStocks() {
+            fetch('static/top_gainers.json') // Data source
+                .then(response => response.json())
+                .then(data => {
+                    allStocks = data; // Store all stocks
+                    filteredStocks = data;
+                    displayPage(currentPage); // Display the first page
+                    updatePaginationControls(); // Update pagination controls
+                })
+                .catch(error => console.error('Error fetching data:', error));
+                // console.log(allStocks)
+        }
+
+        // Function to display the stocks for the current page
+        function displayPage(page) {
+            const container = document.getElementById('gainers-table').querySelector('tbody');
+            container.innerHTML = ''; // Clear previous stocks
+
+            // Calculate start and end index based on page and rows per page
+            const start = (page - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            const stocksToShow = filteredStocks.slice(start, end);
+
+            // Display the stocks for the current page
+            stocksToShow.forEach(stock => {
+                const tableBody = document.getElementById('gainers-table').querySelector('tbody');
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${stock.Date}</td><td>${stock.symbol}</td><td>${stock.percent_gain.toFixed(2)}%</td><td>${stock.High}</td><td>${stock.Volume.toLocaleString()}</td>`;
+                tableBody.appendChild(row);
+                
+            });
+
+            // Update page info
+            document.getElementById('page-info').textContent = `Page ${page} of ${Math.ceil(filteredStocks.length / rowsPerPage)}`;
+        }
+
+        // Fetch data on page load
+        fetchStocks();
+
+        // Function to update pagination controls
+        function updatePaginationControls() {
+            document.getElementById('prev-btn').disabled = currentPage === 1;
+            document.getElementById('next-btn').disabled = currentPage === Math.ceil(filteredStocks.length / rowsPerPage);
+        }
+
+        // Go to the previous page
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                displayPage(currentPage);
+                updatePaginationControls();
+            }
+        }
+
+        // Go to the next page
+        function nextPage() {
+            if (currentPage < Math.ceil(filteredStocks.length / rowsPerPage)) {
+                currentPage++;
+                displayPage(currentPage);
+                updatePaginationControls();
+            }
+        }
+
+        function applyFilter(){
+            const symbol = document.getElementById('symbol-filter').value.toUpperCase();
+            const minPctGain = parseFloat(document.getElementById('pct-gain-filter').value) || 0;
+            const minDate = document.getElementById('min-date-filter').value;
+            const maxDate = document.getElementById('max-date-filter').value;
+            const minDateDate = minDate ? new Date(minDate) : null;
+            const maxDateDate = maxDate ? new Date(maxDate) : null;
+            const high = parseFloat(document.getElementById('high-filter').value) || 0;
+            const volume = parseFloat(document.getElementById('volume-filter').value) || 0;
+ 
+            filteredStocks = allStocks.filter(stock => {
+                // Check each filter condition only if the input has a value
+                const symbolCondition = symbol ? stock.symbol == symbol : true;
+                const pctGainCondition = minPctGain ? stock.percent_gain >= minPctGain : true;
+                const minDateCondition = minDateDate ? new Date(stock.Date) >= minDateDate : true;
+                const maxDateCondition = maxDateDate ? new Date(stock.Date) <= maxDateDate : true;
+                const highCondition = high ? stock.High >= high : true;
+                const volumeCondition = volume ? stock.Volume >= volume : true;
+
+                // Only stocks meeting all active conditions are included
+                return symbolCondition && pctGainCondition && minDateCondition && maxDateCondition && highCondition && volumeCondition;
+            });
+            // console.log(high)
+            currentPage = 1; // Reset to the first page after applying filter
+            displayPage(currentPage); 
+            updatePaginationControls(); 
+        }
+
+        // Jump to Top button functionality
+        const jumpToTopButton = document.getElementById('jump-to-top');
+        jumpToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+        });
+
+        // Show/Hide Jump to Top button based on scroll position
+        window.addEventListener('scroll', () => {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                jumpToTopButton.style.display = 'block'; // Show button
+            } else {
+                jumpToTopButton.style.display = 'none'; // Hide button
+            }
+        });
+
+        // Event listener for rows per page selection
+        document.getElementById('rows-per-page').addEventListener('change', (event) => {
+            rowsPerPage = parseInt(event.target.value); // Update items per page
+            currentPage = 1; // Reset to first page
+            displayPage(currentPage); // Display the first page
+            updatePaginationControls(); // Update pagination controls
+        });
+
+        // Filter
+        document.getElementById('apply-filter').addEventListener('click', () => {
+            applyFilter()
+        });
+
+        // Filter by percentage gain
+        document.getElementById('clear-filter').addEventListener('click', () => {
+            const symbolFilter = document.getElementById('symbol-filter');
+            const pctGainFilter = document.getElementById('pct-gain-filter');
+            const minDateFilter = document.getElementById('min-date-filter');
+            const maxDateFilter = document.getElementById('max-date-filter');
+            const highFilter = document.getElementById('high-filter');
+            const volumeFilter = document.getElementById('volume-filter');
+
+            // Reset all filter input fields
+            symbolFilter.value = null;
+            pctGainFilter.value = null;
+            minDateFilter.value = null;
+            maxDateFilter.value = null;
+            highFilter.value = null;
+            volumeFilter.value = null;
+
+            // Display the unfiltered stock list
+            applyFilter()
+        });
+
+        // Enter hotkey
+        document.addEventListener('keypress', function(event) {
+            // Check if the key pressed is Enter (key code 13)
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Prevent default form submission
+                applyFilter();
+            }
+        });
+
+        let gainersChart = null;
+
+        function createGainersPerMonthChart(selectedYear = null) {
+            if (gainersChart) gainersChart.destroy();
+
+            // Read the % filter (default 50 if empty)
+            const minPct = parseFloat(document.getElementById('minPctFilter').value) || 50;
+            const selectedMonth = document.getElementById('monthFilter').value;
+
+            // Update the description text above the chart
+            document.getElementById('chartDescription').textContent = 
+                `Total number of stocks with +${minPct}% gain each month`;
+
+            const monthlyCount = {};
+
+            allStocks.forEach(stock => {
+                if (stock.percent_gain < minPct) return; // skip stocks below threshold
+
+                const date = new Date(stock.Date);
+                const year = date.getFullYear();
+                const month = date.getMonth();
+                const yearMonth = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+
+                if (selectedMonth !== '' && month !== parseInt(selectedMonth)) return;
+                if (selectedYear === null || year === parseInt(selectedYear)) {
+                    monthlyCount[yearMonth] = (monthlyCount[yearMonth] || 0) + 1;
+                }
+            });
+
+            // Populate year dropdown
+            const years = [...new Set(allStocks.map(s => new Date(s.Date).getFullYear()))].sort().reverse();
+            const yearSelect = document.getElementById('yearFilter');
+            yearSelect.innerHTML = '<option value="">All Years</option>' +
+                years.map(y => `<option value="${y}" ${y == selectedYear ? 'selected' : ''}>${y}</option>`).join('');
+
+            // Build labels/data
+            let monthsToShow = Object.keys(monthlyCount);
+            if (selectedYear) monthsToShow = monthsToShow.filter(m => m.startsWith(selectedYear));
+            monthsToShow.sort();
+
+            const labels = monthsToShow.map(m => {
+                const [y, month] = m.split('-');
+                return `${new Date(y, month - 1).toLocaleString('en-US', { month: 'short' })} ${y}`;
+            });
+            const data = monthsToShow.map(m => monthlyCount[m] || 0);
+
+            gainersChart = new Chart(document.getElementById('gainersPerMonthChart'), {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: `+${minPct}% Gainers`,
+                        data: data,
+                        backgroundColor: '#3b82f6',
+                        borderColor: '#60a5fa',
+                        borderWidth: 2,
+                        borderRadius: 8,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { callbacks: { label: ctx => `${ctx.parsed.y} stocks` } }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } },
+                        x: { ticks: { color: '#94a3b8' }, grid: { display: false } }
+                    }
+                }
+            });
+        }
+
+        // Update chart when year changes
+        document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+            createGainersPerMonthChart(e.target.value || null);
+        });
+
+        // INSTANT update while typing (no need to click away)
+        document.getElementById('minPctFilter')?.addEventListener('input', () => {
+            const year = document.getElementById('yearFilter').value || null;
+            createGainersPerMonthChart(year);
+        });
+
+        // Update chart when year changes
+        document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+            const year = e.target.value;
+            createGainersPerMonthChart(year === '' ? null : year);
+        });
+
+        // Month filter — instant update
+        document.getElementById('monthFilter')?.addEventListener('change', () => {
+            const year = document.getElementById('yearFilter').value || null;
+            createGainersPerMonthChart(year);
+        });
+
+        // ————— Called after data loads —————
+        function fetchStocks() {
+            fetch('static/top_gainers.json')
+                .then(r => r.json())
+                .then(data => {
+                    allStocks = data;
+                    filteredStocks = data;
+                    displayPage(currentPage);
+                    updatePaginationControls();
+
+                    createGainersPerMonthChart(); // First load: show all years or latest
+                    filteredStocks = data;
+                    displayPage(currentPage);
+                    updatePaginationControls();
+
+                    // Create the chart once data is ready
+                    createGainersPerMonthChart();
+                });
+        }
+    </script>
+ 
+</body>
+</html>
