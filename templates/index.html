@@ -207,7 +207,7 @@
 
         // Fetch all stocks initially
         function fetchStocks() {
-            fetch('static/top_gainers.json') // Data source
+            fetch('./static/top_gainers.json') // Data source
                 .then(response => response.json())
                 .then(data => {
                     allStocks = data; // Store all stocks
@@ -454,7 +454,7 @@
 
         // ————— Called after data loads —————
         function fetchStocks() {
-            fetch('static/top_gainers.json')
+            fetch('./static/top_gainers.json')
                 .then(r => r.json())
                 .then(data => {
                     allStocks = data;
