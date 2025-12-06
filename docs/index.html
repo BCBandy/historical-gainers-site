@@ -6,6 +6,11 @@
     <title>Top Stock Gainers</title>
     <link rel="stylesheet" href="./static/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Icon -->
+    <link rel="icon" href="./static/art/green-rocket-128px.png" type="image/png">
+    <!-- <link rel="apple-touch-icon" href="./art/green-rocket-400px.png"> -->
+
 </head>
 <body>
     <!-- Dark Mode Tester -->
@@ -36,14 +41,25 @@
         </nav>
     </nav> -->
     <nav class="sidebar-nav">
-        <h1>Gainers</h1>
+        <!-- Logo sits outside the padding zone - drop shadow: drop-shadow-[0_0_30px_rgba(57,255,20,1)] -->
+        <div class="logo">
+        <a href="/">
+            <img src="/static/art/green-rocket-400px.png"
+                alt="HPG"
+                class="w-52 h-auto object-contain
+                        forced-color-adjust-none
+                        select-none pointer-events-none"
+                loading="eager">
+        </a>
+        </div>
+
+        <!-- Your existing menu items (keep all your padding/margin) -->
         <a href="#" data-tab="gainers" class="active"><span>Top Gainers</span></a>
         <a href="#" data-tab="stats"><span>Stats</span></a>
         <a href="#" data-tab="about"><span>About</span></a>
         <a href="#" data-tab="request-features"><span>Request Features</span></a>
     </nav>
     </header>
-    <link rel="stylesheet" href="style.css">
     <main>
         <!-- ========== TOP GAINERS (Home) ========== -->
         <section id="gainers" class="tab-content active">
