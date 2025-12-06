@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- Dark Mode Tester -->
-    <div style="position:fixed; top:10px; right:10px; z-index:9999; background:#000; color:#fff; padding:10px; border-radius:8px; font-family:Arial; font-size:14px;">
+    <!-- <div style="position:fixed; top:10px; right:10px; z-index:9999; background:#000; color:#fff; padding:10px; border-radius:8px; font-family:Arial; font-size:14px;">
         <label>
             <input type="checkbox" id="forceDark" onchange="
             if(this.checked){
@@ -25,15 +25,22 @@
             ">
             Dark Mode
         </label>
-    </div>
+    </div> -->
     <header>
-        <nav class="tabs">
-            <nav class="modern-tabs">
-                <a href="#" class="tab-active" data-tab="gainers">Top Gainers</a>
-                <a href="#" data-tab="stats">Stats</a>
-                <a href="#" data-tab="about">About</a>
-                <a href="#" data-tab="request-features">Request Features</a>
-            </nav>
+    <!-- <nav class="tabs">
+        <nav class="modern-tabs">
+            <a href="#" class="tab-active" data-tab="gainers">Top Gainers</a>
+            <a href="#" data-tab="stats">Stats</a>
+            <a href="#" data-tab="about">About</a>
+            <a href="#" data-tab="request-features">Request Features</a>
+        </nav>
+    </nav> -->
+    <nav class="sidebar-nav">
+        <h1>Gainers</h1>
+        <a href="#" data-tab="gainers" class="active"><span>Top Gainers</span></a>
+        <a href="#" data-tab="stats"><span>Stats</span></a>
+        <a href="#" data-tab="about"><span>About</span></a>
+        <a href="#" data-tab="request-features"><span>Request Features</span></a>
     </nav>
     </header>
     <link rel="stylesheet" href="style.css">
@@ -197,22 +204,21 @@
                 <p>For now please reachout to <a href="https://x.com/BlakeBandit" target="_blank">@BlakeBandit</a> on X.</p>
             </div>
         </section>
+        
     </main>
-
-    <button id="jump-to-top">Jump to Top</button>
-
-    <script>
+    
+    <script>        
         // ────────────────────── TAB SWITCHING ──────────────────────
-        document.querySelectorAll('.modern-tabs a').forEach(tab => {
+        document.querySelectorAll('.sidebar-nav a').forEach(tab => {
             tab.addEventListener('click', function(e) {
                 e.preventDefault();
 
                 // Remove active class from all tabs and sections
-                document.querySelectorAll('.modern-tabs a').forEach(t => t.classList.remove('tab-active'));
+                document.querySelectorAll('.sidebar-nav a').forEach(t => t.classList.remove('active'));
                 document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
 
                 // Add active to clicked tab and corresponding section
-                this.classList.add('tab-active');
+                this.classList.add('active');
                 const target = this.getAttribute('data-tab');
                 document.getElementById(target).classList.add('active');
             });
@@ -314,21 +320,6 @@
             displayPage(currentPage); 
             updatePaginationControls(); 
         }
-
-        // Jump to Top button functionality
-        const jumpToTopButton = document.getElementById('jump-to-top');
-        jumpToTopButton.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
-        });
-
-        // Show/Hide Jump to Top button based on scroll position
-        window.addEventListener('scroll', () => {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                jumpToTopButton.style.display = 'block'; // Show button
-            } else {
-                jumpToTopButton.style.display = 'none'; // Hide button
-            }
-        });
 
         // Event listener for rows per page selection
         document.getElementById('rows-per-page').addEventListener('change', (event) => {
@@ -489,6 +480,7 @@
                     createGainersPerMonthChart();
                 });
         }
+        
     </script>
  
 </body>
