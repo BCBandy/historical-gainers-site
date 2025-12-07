@@ -268,9 +268,9 @@ nav.sidebar-nav a.active {
 }
 
 nav.sidebar-nav > .logo img {
-    /* This works perfectly on Flask AND GitHub Pages */
+    /* This works on Flask AND GitHub Pages */
     width: 100%;
-    max-width: 220px;     /* ← your desired max size */
+    max-width: 220px;     /* desired max size */
     height: auto;
     object-fit: contain;
     
