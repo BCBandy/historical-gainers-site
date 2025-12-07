@@ -104,4 +104,5 @@ order by 2 desc, 3 desc
         json.dump(results_json_clean, f, indent=4)
 
 if __name__ == '__main__':
+    # needed for daily gainers udpate, should be moved to another file and update the task scheduler/bat
     update_top_gainers()
