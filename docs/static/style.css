@@ -268,9 +268,21 @@ nav.sidebar-nav a.active {
 }
 
 nav.sidebar-nav > .logo img {
-    max-width: none !important; 
-    width: 180px !important;     
-    height: auto !important;
+    /* This works perfectly on Flask AND GitHub Pages */
+    width: 100%;
+    max-width: 220px;     /* ← your desired max size */
+    height: auto;
+    object-fit: contain;
+    
+    /* Kill any conflicting rules from GitHub Pages or browsers */
+    max-width: 220px !important;
+    min-width: 0 !important;
+    
+    /* Keep your glow and fixes */
+    forced-color-adjust: none;
+    user-select: none;
+    pointer-events: none;
+    /* filter: drop-shadow(0 0 30px rgba(57, 255, 20, 1)); */
 }
 
 /* Push main content right */
