@@ -100,7 +100,7 @@ order by 2 desc, 3 desc
     results_json_clean = json.loads(results_json)
     with open("static\\top_gainers.json", "w") as f:
         json.dump(results_json_clean, f, indent=4)
-    with open("docs\\top_gainers.json", "w") as f:
+    with open("docs\\static\\top_gainers.json", "w") as f:
         json.dump(results_json_clean, f, indent=4)
 
 if __name__ == '__main__':
